@@ -1,0 +1,49 @@
+.project {
+  position: relative;
+  width: 30vw;
+  height: 250px;
+  transform-style: preserve-3d;
+  perspective: 600px;
+  transition: 0.8s;
+  padding: 15px;
+  
+}
+
+.project .front {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  border: solid rgba(255, 244, 244, 0.8) 3px;
+  border-radius: 5%;
+  background-color: rgba(49, 72, 104, 0.9);
+  backface-visibility: hidden;
+  transform:rotateX(0deg);
+  transition: 0.8s;
+  box-shadow: -5px 5px 10px rgba(0,0,0,0.3);
+}
+
+.project:hover .front {
+  transform:rotateX(-180deg);
+}
+
+.project .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  border: solid rgb(255, 244, 244) 3px;
+  border-radius: 5%;
+  background-color: rgb(255, 244, 244);
+  backface-visibility: hidden;
+  transform:rotateX(180deg);
+  transition: 0.8s;
+  box-shadow: -5px 5px 10px rgba(0,0,0,0.3);
+}
+.project:hover .back {
+  transform:rotateX(0deg);
+}

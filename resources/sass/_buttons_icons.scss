@@ -1,0 +1,72 @@
+.button {
+  display: block;
+  position: relative;
+  left: 50%;
+  top: 40%;
+  height: auto;
+  padding: 0.5rem;
+  width: 15rem;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+  border: #fff solid 0.2rem;
+  background-color: $button;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  transform: translateX(-50%);
+  box-shadow: -3px 3px 10px rgba(0,0,0,0.3) !important;
+  font-family: 'Cairo', sans-serif;
+  &:hover{
+    border-color: $button;
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+.btn {
+  background-color: $button;
+  color: #fff;
+  border: solid #fff 2px;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.5rem 2rem !important;
+  font-size: 1.1rem;
+  font-family: 'Cairo', sans-serif;
+  &:hover {
+    color: #fff;
+    border: solid $button 2px;
+    border-radius: 5px;
+  }
+}
+
+
+/******* GO TO TOP BUTTON ********/
+.gotop {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: $strong-pink;
+  bottom: 40px;
+  right: 40px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  overflow: hidden;
+  z-index: 999;
+  display: none;
+  cursor: pointer;
+  text-align: center;
+  &:hover {
+    color: #fff;
+  }
+}
+
+@media all and (max-width:992px){
+  .btn {
+    padding: 0.4rem 1.8rem !important;
+  }
+}
