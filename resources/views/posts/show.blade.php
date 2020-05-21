@@ -5,7 +5,7 @@
 
   <section>
     <div class="blog-link text-center bg-light pt-4">
-      <a href="/posts" class="text-dark">Blog Home</a> &rarr; <a href="" class="text-dark">Blog Category</a>
+      <a href="{{ route('posts.index') }}" class="text-dark">Blog Home</a> &rarr; <a href="" class="text-dark">Blog Category</a>
     </div>
   </section>
 
@@ -39,10 +39,10 @@
               
             <div class="cards">
               <div class="inner">
-                <a href="/posts/{{$post->id}}"><img src="/storage/cover_images/{{$post->cover_image}}" alt=""></a>
+                <a href="{{ route('posts.show', ['post' => $post]) }}"><img src="/storage/cover_images/{{$post->cover_image}}" alt=""></a>
               </div>
               <div class="card-body blog-text">
-                <h3 class="pt-3"><a href="/posts/{{$post->id}}" class="text-dark">{{$post->title}}</a></h3>
+                <h3 class="pt-3"><a href="{{ route('posts.show', ['post' => $post]) }}" class="text-dark">{{$post->title}}</a></h3>
                 <p class="card-text">{!! $post->body !!}</p>
               </div>
             </div>

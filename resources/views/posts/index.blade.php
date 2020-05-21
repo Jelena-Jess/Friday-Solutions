@@ -99,7 +99,7 @@
         @foreach($posts as $post)
           <div class="blog">
             <div class="blog-image inner">
-              <a href="/posts/{{$post->id}}"><img src="/storage/cover_images/{{$post->cover_image}}" alt=""></a>
+              <a href="{{ route('posts.show', ['post' => $post]) }}"><img src="/storage/cover_images/{{$post->cover_image}}" alt=""></a>
             </div>
             <div class="blog-text p-3">
             <h3 class="pt-3"><a href="/posts/{{$post->id}}" class="text-dark">{{$post->title}}</a></h3>

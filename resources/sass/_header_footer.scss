@@ -186,6 +186,10 @@
   color: #fff !important;
   text-align: start;
   font-size: 1rem;
+  &:hover {
+    text-decoration:none;
+    color: $strong-pink !important;
+  }
 }
 .footer-bottom p {
   color: #fff !important;

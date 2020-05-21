@@ -20,7 +20,7 @@
             </button>
           </div>
         </div>
-          <a class="logo align-self-start d-lg-none d-xl-none pt-4 pl-5" href="/">FRIDAY SOLUTIONS
+          <a class="logo align-self-start d-lg-none d-xl-none pt-4 pl-5" href="{{ route('home') }}">FRIDAY SOLUTIONS
           </a>
       </div>
       <div class="header-title mt-auto mx-auto">

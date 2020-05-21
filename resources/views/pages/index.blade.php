@@ -34,7 +34,7 @@
           <p class="p-big text-center font-weight-bold pb-2 text-dark">One of a kind web design solutions. Each line of code is not just pure code, but art.</p>
           <p>What we offer is cutting-edge web design and branding solutions. We strive to go an extra mile in order to provide our clients with a perfect digital experiences.</p>
           <div class="text-center">
-            <a href="/website" class="btn">Learn more</a>
+            <a href="{{ route('website') }}" class="btn">Learn more</a>
           </div>
         </div>
       </div>
@@ -47,7 +47,7 @@
            <p class="p-big text-center font-weight-bold pb-2 text-dark">We see logo as your personal stamp.</p>
            <p>We see logo as your personal stamp. By using appropriate and effective colors, we define your brand identity and create inspiring narratives which transmit the message and arouse emotions.</p>
            <div class="text-center">
-             <a href="/logo" class="btn">Learn more</a>
+             <a href="{{ route('logo') }}" class="btn">Learn more</a>
            </div>
         </div>
       </div>
@@ -60,7 +60,7 @@
           <p class="p-big text-center font-weight-bold pb-2 text-dark">A good story is the beginning of everything.</p>
           <p>Copywriting goes hand in hand with your website’s SEO (search engine optimisation), which enables Google to find your website when potential customers search for your products or services.</p>
           <div class="text-center">
-            <a href="/content" class="btn">Learn more</a>
+            <a href="{{ route('content') }}" class="btn">Learn more</a>
           </div>
         </div>
       </div>
@@ -72,7 +72,7 @@
           <h1 class="text-light text-center">ABOUT US</h1>
           <h4 class="text-light  text-center mt-4 mb-5">Grow your business online is the driving force behind Atilus. We’ve been in business for 13 years and have worked on thousands of projects. We’re passionate, hard-working, and most of all, we love helping our clients do great things on the web.</h4>
           <div class="text-center">
-            <a href="" class="btn">Learn more</a>
+            <a href="{{ route('about') }}" class="btn">Learn more</a>
           </div>
         </div>
       </div>
@@ -108,7 +108,7 @@
             </div>
           </div>
           <div class="text-center mt-5">
-            <a href="/contact" class="btn">Schedule a call today</a>
+            <a href="{{ route('contact.create') }}" class="btn">Schedule a call today</a>
           </div>
         </div>
       </div>
@@ -125,7 +125,7 @@
           </div>
           <h4 class="text-dark text-center mt-4 mb-5">Our engineers are ready to help you. Contact us now and we will answer you today.</h4>
           <div class="text-center">
-            <a href="" class="btn">GET IN TOUCH</a>
+            <a href="{{ route('contact.create') }}" class="btn">GET IN TOUCH</a>
           </div>
         </div>
       </div>
@@ -146,10 +146,10 @@
               
             <div class="cards">
               <div class="inner">
-                <a href="/posts/{{$post->id}}"><img src="/storage/cover_images/{{$post->cover_image}}" alt=""></a>
+                <a href="{{ route('posts.show', ['post' => $post]) }}"><img src="/storage/cover_images/{{$post->cover_image}}" alt=""></a>
               </div>
               <div class="card-body blog-text">
-                <h3 class="pt-3"><a href="/posts/{{$post->id}}" class="text-dark">{{$post->title}}</a></h3>
+                <h3 class="pt-3"><a href="{{ route('posts.show', ['post' => $post]) }}" class="text-dark">{{$post->title}}</a></h3>
                 <p class="card-text">{!! $post->body !!}</p>
               </div>
             </div>

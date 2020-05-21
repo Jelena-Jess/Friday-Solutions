@@ -24,7 +24,7 @@
     <section class="bg-grey">
         <div class="">
             <div class="mx-5 py-5">
-            <h1 class="text-center">LATEST POSTS</h1>
+            <h1 class="text-center">YOUR LATEST POSTS</h1>
             
             <div class="separator mb-4">
                 <div class="line line-left"></div>
@@ -56,9 +56,9 @@
                     </div>
                   </div>
                 </div>
-              {{-- {{$posts->links()}} --}}
             @endforeach
             </div> 
+              {{$posts->links()}}
             @else
               <p>No posts to show</p>
             @endif

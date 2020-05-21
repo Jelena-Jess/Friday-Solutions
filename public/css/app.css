@@ -12157,6 +12157,11 @@ img {
   font-size: 1rem;
 }
 
+.footer-bottom a:hover {
+  text-decoration: none;
+  color: #FE4365 !important;
+}
+
 .footer-bottom p {
   color: #fff !important;
   text-align: start;

@@ -145,7 +145,7 @@
         </div>
         <p class="p-big text-dark text-center mt-4 mb-5">Our engineers are ready to help you. Contact us now and we will answer you today.</p>
         <div class="text-center">
-          <a href="" class="btn">GET IN TOUCH</a>
+          <a href="{{ route('contact.create') }}" class="btn">GET IN TOUCH</a>
         </div>
       </div>
     </div>

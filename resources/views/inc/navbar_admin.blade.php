@@ -1,7 +1,7 @@
 <nav class="mb-1 navbar navbar-expand-lg bg-blue d-none d-sm-none d-md-none d-lg-block">
   <div class="main d-flex justify-content-between">
     <div class="my-auto">
-      <a class="logo" href="/">FRIDAY SOLUTIONS
+      <a class="logo" href="{{ route('home') }}">FRIDAY SOLUTIONS
       </a>
     </div>
     <div>
