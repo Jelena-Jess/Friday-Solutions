@@ -149,6 +149,7 @@
                 <a href="{{ route('posts.show', ['post' => $post]) }}"><img src="/storage/cover_images/{{$post->cover_image}}" alt=""></a>
               </div>
               <div class="card-body blog-text">
+                <p>{{ $post->category->name }}</p>
                 <h3 class="pt-3"><a href="{{ route('posts.show', ['post' => $post]) }}" class="text-dark">{{$post->title}}</a></h3>
                 <p class="card-text">{!! $post->body !!}</p>
               </div>

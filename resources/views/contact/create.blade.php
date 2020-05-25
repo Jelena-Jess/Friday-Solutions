@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('title', 'Contact us')
+
 @section('content')
   <main role="main" class="m-auto">
 
@@ -23,7 +25,7 @@
       
     @if(session()->has('message'))
       <div class="alert alert-secondary" role="alert">
-        <strong>Success!</strong> {{ session()->get('message') }}
+        <h1 class="pink-text">Thank you!</h1> <h4 class="text-dark">{{ session()->get('message') }}</h4>
       </div>
     @endif
 
@@ -35,22 +37,25 @@
         <div class="form-group">
           <label for="name" class="col-form-label">Name</label>
           <div class="">
-          <input name="name" type="text" class="form-control{{$errors->has('name') ? ' is-invalid' : ''}}" value="{{old('name')}}" placeholder="Required field" data-parsley-required-message="Name is required" required autofocus>
+          <input name="name" type="text" class="form-control" value="{{old('name')}}" placeholder="Required field" data-parsley-required-message="Name is required" required autofocus>
           </div>
+          <div>{{$errors->first('name')}}</div>
         </div>
     
         <div class="form-group">
           <label for="email" class="col-form-label">Email</label>
           <div class="">
-          <input name="email" type="text" class="form-control{{$errors->has('email') ? ' is-invalid' : ''}}" value="{{old('email')}}" placeholder="Required field" data-parsley-required-message="Email is required" required autofocus>
+          <input name="email" type="text" class="form-control{{$errors->has('email')}}" value="{{old('email')}}" placeholder="Required field" data-parsley-required-message="Email is required" required autofocus>
           </div>
+          <div>{{$errors->first('email')}}</div>
         </div>
     
         <div class="form-group">
           <label for="phone" class="col-form-label">Phone number</label>
           <div class="">
-          <input name="phone" type="text" class="form-control{{$errors->has('phone') ? ' is-invalid' : ''}}" value="{{old('phone')}}" placeholder="Required field" data-parsley-required-message="Phone number is required" required autofocus>
+          <input name="phone" type="text" class="form-control{{$errors->has('phone')}}" value="{{old('phone')}}" placeholder="Required field" data-parsley-required-message="Phone number is required" required autofocus>
           </div>
+          <div>{{$errors->first('phone')}}</div>
         </div>
     
         <div class="form-group">

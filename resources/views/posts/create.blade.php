@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('title', 'Create post')
+
 @section('content')
 <main role="main" class="m-auto">
 
@@ -14,6 +16,14 @@
       </div>
 
       {!! Form::open(['action' => 'PostsController@store', 'method' => 'POST', 'enctype' => 'multipart/form-data']) !!}
+        <div class="form-group">
+          <label for="category_id">Category</label>
+          <select name="category_id" id="category_id" class="form-control">
+            @foreach($categories as $category)
+              <option value="{{ $category->id }}">{{ $category->name }}</option>
+            @endforeach
+          </select>
+        </div>
         <div class="form-group">
           {{Form::label('title', 'Title')}}
           {{Form::text('title', '', ['class' => 'form-control', 'placeholder' => 'Title'])}}

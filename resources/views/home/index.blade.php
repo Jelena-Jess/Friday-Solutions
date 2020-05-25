@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('title', 'Dashboard')
+
 @section('content')
 <main role="main" class="m-auto">
 
@@ -43,22 +45,22 @@
                     <a href="/posts/{{$post->id}}"><img src="/storage/cover_images/{{$post->cover_image}}" alt=""></a>
                   </div>
                   <div class="blog-text p-3">
-                  <h3 class="pt-3"><a href="/posts/{{$post->id}}" class="text-dark">{{$post->title}}</a></h3>
+                    <p>{{$post->category->name}}</p>
+                  <h3 class=""><a href="/posts/{{$post->id}}" class="text-dark">{{$post->title}}</a></h3>
                     <p>{!!$post->body!!}</p>
                     <p class="small">{{$post->created_at}}</p>
                     <div class="d-flex row ml-0">
                         <a href="/posts/{{$post->id}}/edit" class="btn mr-3">Edit</a>
                         
                         {!!Form::open(['action' => ['PostsController@destroy', $post->id], 'method' => 'POST'])!!}
-                            {{Form::hidden('_method', 'DELETE')}}
-                            {{Form::submit('Delete', ['class' => 'btn'])}}
+                          {{Form::hidden('_method', 'DELETE')}}
+                          {{Form::submit('Delete', ['class' => 'btn'])}}
                         {!!Form::close()!!}
                     </div>
                   </div>
                 </div>
             @endforeach
             </div> 
-              {{$posts->links()}}
             @else
               <p>No posts to show</p>
             @endif

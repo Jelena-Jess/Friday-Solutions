@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use App\Post;
+use App\Category;
 
 class PostsController extends Controller
 {
@@ -26,7 +27,8 @@ class PostsController extends Controller
     public function index()
     {
         $posts = Post::orderBy('created_at', 'desc')->paginate(3);
-        return view('posts.index')->with('posts', $posts);
+        $categories = Category::all();
+        return view('posts.index', compact('posts', 'categories'));
     }
 
     /**
@@ -36,7 +38,8 @@ class PostsController extends Controller
      */
     public function create()
     {
-        return view('posts.create');
+        $categories = Category::all();
+        return view('posts.create', compact('categories'));
     }
 
     /**
@@ -50,7 +53,8 @@ class PostsController extends Controller
         $this->validate($request, [
             'title' => 'required',
             'body' => 'required',
-            'cover_image' => 'image|nullable|max:1999'
+            'cover_image' => 'image|nullable|max:1999',
+            'category_id' => 'required',
         ]);
 
         //Handle file upload
@@ -74,6 +78,7 @@ class PostsController extends Controller
         $post->body = $request->input('body');
         $post->user_id = auth()->user()->id;
         $post->cover_image = $fileNameToStore;
+        $post->category_id = $request->input('category_id');
         $post->save();
 
         return redirect('/admin')->with('success', 'Post created');
@@ -85,11 +90,13 @@ class PostsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Post $post)
     {
-        $post =  Post::find($id);
+        //Route model binding
+        // $post =  Post::find($post);
         $posts = Post::orderBy('created_at', 'desc')->take(2)->get();
-        return view('posts.show')->with('post', $post) -> with('posts', $posts);
+        
+        return view('posts.show', compact('post', 'posts'));
     }
 
     /**
@@ -98,16 +105,17 @@ class PostsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Post $post)
     {
-        $post =  Post::find($id);
+        // $post =  Post::find($id);
+        $categories = Category::all();
 
         // Check for correct user
         if(auth()->user()->id !== $post->user_id) {
             return redirect('/admin')->with('error', 'Unauthorised page');
         }
 
-        return view('posts.edit')->with('post', $post);
+        return view('posts.edit', compact('post', 'categories'));
     }
 
     /**
@@ -121,7 +129,9 @@ class PostsController extends Controller
     {
         $this->validate($request, [
             'title' => 'required',
-            'body' => 'required'
+            'body' => 'required',
+            'cover_image' => 'image|nullable|max:1999',
+            'category_id' => 'required',
         ]);
 
         //Handle file upload
@@ -141,6 +151,7 @@ class PostsController extends Controller
         $post = Post::find($id);
         $post->title = $request->input('title');
         $post->body = $request->input('body');
+        $post->category_id = $request->input('category_id');
         $post->user_id = auth()->user()->id;
         if($request->hasFile('cover_image')) {
             $post->cover_image = $fileNameToStore;
@@ -156,10 +167,8 @@ class PostsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Post $post)
     {
-        $post = Post::find($id);
-
          // Check for correct user
          if(auth()->user()->id !== $post->user_id) {
             return redirect('/admin')->with('error', 'Unauthorised page');

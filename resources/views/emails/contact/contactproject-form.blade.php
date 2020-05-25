@@ -5,8 +5,5 @@
 <strong>Name</strong> {{ $data['name'] }}
 <strong>Email</strong> {{ $data['email'] }}
 <strong>Phone</strong> {{ $data['phone'] }}
-
-<strong>Message</strong>
-
-{{ $data['message'] }}
+{{ $data['company_name'] }}
 @endcomponent

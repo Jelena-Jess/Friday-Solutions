@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('title', 'Edit: '.$post->title)
+
 @section('content')
 <main role="main" class="m-auto">
 
@@ -14,6 +16,14 @@
       </div>
 
       {!! Form::open(['action' => ['PostsController@update', $post->id], 'method' => 'POST', 'enctype' => 'multipart/form-data']) !!}
+      <div class="form-group">
+        <label for="category_id">Category</label>
+        <select name="category_id" id="category_id" class="form-control">
+          @foreach($categories as $category)
+            <option value="{{ $category->id }}" {{ $category->id == $post->category_id ? 'selected' : '' }}>{{ $category->name }}</option>
+          @endforeach
+        </select>
+      </div>
         <div class="form-group">
           {{Form::label('title', 'Title')}}
           {{Form::text('title', $post->title, ['class' => 'form-control', 'placeholder' => 'Title'])}}
@@ -25,7 +35,7 @@
         <div class="form-group">
           {{Form::file('cover_image')}}
         </div>
-        {{Form::hidden('_method', 'PUT')}}
+        {{Form::hidden('_method', 'PATCH')}}
         {{Form::submit('Submit', ['class' => 'btn'])}}
       {!! Form::close() !!}
 

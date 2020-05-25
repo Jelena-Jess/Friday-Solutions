@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('title', 'Blog-Inspiration')
+
 @section('content')
 <main role="main" class="m-auto">
 
@@ -29,54 +31,26 @@
   <section class="bg-grey">
     <div class="mx-5 py-5">
 
-      <div class="pt-4 d-flex flex-wrap text-align-center justify-content-center"> 
-        <div class="blog">
-          <div class="blog-image inner">
-            <a href="/blog/post"><img src="/images/choco_big.png" alt=""></a>
+      <div class="pt-4 d-flex flex-wrap text-align-center justify-content-center">
+        @if(count($posts) > 0)
+        @foreach($posts as $post)
+          <div class="blog">
+            <div class="blog-image inner">
+              <a href="{{ route('posts.show', ['post' => $post]) }}"><img src="/storage/cover_images/{{$post->cover_image}}" alt=""></a>
+            </div>
+            <div class="blog-text p-3">
+              <p>{{$post->category->name}}</p>
+            <h3 class="pt-3"><a href="/posts/{{$post->id}}" class="text-dark">{{$post->title}}</a></h3>
+              <p>{!!$post->body!!}</p>
+              <p class="small">Author: {{$post->user->name}}</p>
+              <p class="small">{{$post->created_at}}</p>
+            </div>
           </div>
-          <div class="blog-text p-3">
-            <h3 class="pt-3"><a href="/blog/post" class="text-dark">Is My Website Targeting The Best Prospects?</a></h3>
-            <p>Building an effective website that targets the best prospects for your business takes time and resources.</p>
-            <p class="small">Jelena Petkov</p>
-            <p class="small">13/05/2020</p>
-          </div>
-        </div>
-        <div class="blog">
-          <div class="blog-image inner">
-            <a href="/blog/post"><img src="/images/choco_big.png" alt=""></a>
-          </div>
-          <div class="blog-text p-3">
-            <h3 class="pt-3"><a href="/blog/post" class="text-dark">Is My Website Targeting The Best Prospects?</a></h3>
-            <p>Building an effective website that targets the best prospects for your business takes time and resources.</p>
-            <p class="small">Jelena Petkov</p>
-            <p class="small">13/05/2020</p>
-          </div>
-        </div>
-        <div class="blog">
-          <div class="blog-image inner">
-            <a href="/blog/post"><img src="/images/choco_big.png" alt=""></a>
-          </div>
-          <div class="blog-text p-3">
-            <h3 class="pt-3"><a href="/blog/post" class="text-dark">Is My Website Targeting The Best Prospects?</a></h3>
-            <p>Building an effective website that targets the best prospects for your business takes time and resources.</p>
-            <p class="small">Jelena Petkov</p>
-            <p class="small">13/05/2020</p>
-          </div>
-        </div>
-        <div class="blog">
-          <div class="blog-image inner">
-            <a href="/blog/post"><img src="/images/choco_big.png" alt=""></a>
-          </div>
-          <div class="blog-text p-3">
-            <h3 class="pt-3"><a href="/blog/post" class="text-dark">Is My Website Targeting The Best Prospects?</a></h3>
-            <p>Building an effective website that targets the best prospects for your business takes time and resources.</p>
-            <p class="small">Jelena Petkov</p>
-            <p class="small">13/05/2020</p>
-          </div>
-        </div>
-
-      </div>
-
+        @endforeach
+        </div> 
+        @else
+          <p>No posts to show</p>
+        @endif
     </div>
   </section>
   

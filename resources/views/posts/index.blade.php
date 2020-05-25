@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('title', 'Blog Home | Friday Solutions Blog')
+
 @section('content')
 <main role="main" class="m-auto">
 
@@ -102,6 +104,7 @@
               <a href="{{ route('posts.show', ['post' => $post]) }}"><img src="/storage/cover_images/{{$post->cover_image}}" alt=""></a>
             </div>
             <div class="blog-text p-3">
+              <p>{{$post->category->name}}</p>
             <h3 class="pt-3"><a href="/posts/{{$post->id}}" class="text-dark">{{$post->title}}</a></h3>
               <p>{!!$post->body!!}</p>
               <p class="small">Author: {{$post->user->name}}</p>

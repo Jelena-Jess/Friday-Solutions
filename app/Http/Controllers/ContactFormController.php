@@ -15,9 +15,9 @@ class ContactFormController extends Controller
 
     public function store() {
         $data = request()->validate([
-            'name' => 'required',
-            'email' => 'required',
-            'phone' => 'required',
+            'name' => 'required|min:3',
+            'email' => 'required|email',
+            'phone' => 'required|numeric',
             'message' => 'required',
         ]);
         
@@ -26,6 +26,6 @@ class ContactFormController extends Controller
 
         //Display a thank you message
 
-        return redirect('contact')->with('message', 'Thank you for your message. We\'ll be in touch.');
+        return redirect('contact')->with('message', 'Your message has been successfully sent. Thank you for your interest in Friday Solutions. Someone will get back to you soon.');
     }
 }

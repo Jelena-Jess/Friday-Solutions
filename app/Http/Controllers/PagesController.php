@@ -9,60 +9,63 @@ class PagesController extends Controller
 {
     public function index(){
         $posts = Post::orderBy('created_at', 'desc')->take(3)->get();
-        return view('pages.index')->with('posts', $posts);
+        return view('pages.index', compact('posts'));
         }
 
      public function projects(){
         $title='Projects';
-        return view('pages.projects')->with('title', $title);
+        return view('pages.projects', compact('title'));
         }
 
     public function project1(){
         $title='Electronic diary for schools';
-        return view('pages.project1')->with('title', $title);
+        return view('pages.project1', compact('title'));
         }
 
     public function project2(){
         $title='ChocoTale';
-        return view('pages.project2')->with('title', $title);
+        return view('pages.project2', compact('title'));
         }
 
     public function project3(){
         $title="Sonya's Kitchen";
-        return view('pages.project3')->with('title', $title);
+        return view('pages.project3', compact('title'));
         }
     
     public function website(){
         $title='Web design & dev';
-        return view('pages.website')->with('title', $title);
+        return view('pages.website', compact('title'));
         }
 
     public function logo(){
         $title='Logo Design';
-        return view('pages.logo')->with('title', $title);
+        return view('pages.logo', compact('title'));
         }
 
     public function content(){
         $title='Content management';
-        return view('pages.content')->with('title', $title);
+        return view('pages.content', compact('title'));
         }
 
     public function about(){
         $title='About us';
-        return view('pages.about')->with('title', $title);
+        return view('pages.about', compact('title'));
         }
 
     public function blog_coding(){
         $title='Posts on coding';
-        return view('pages.blog_coding')->with('title', $title);
+        $posts = Post::coding()->paginate(3);
+        return view('pages.blog_coding', compact('title', 'posts'));
         }
     public function blog_design(){
         $title='Posts on web design';
-        return view('pages.blog_design')->with('title', $title);
+        $posts = Post::design()->paginate(3);
+        return view('pages.blog_design', compact('title', 'posts'));
         }
     public function blog_inspiration(){
         $title='Posts to insire you';
-        return view('pages.blog_inspiration')->with('title', $title);
+        $posts = Post::inspiration()->paginate(3);
+        return view('pages.blog_inspiration', compact('title', 'posts'));
         }
         
 }

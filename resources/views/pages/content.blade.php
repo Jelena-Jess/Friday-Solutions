@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('title', 'Content management')
+
 @section('content')
 <main role="main" class="m-auto">
 

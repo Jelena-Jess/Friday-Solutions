@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('title', 'Web design&dev')
+
 @section('content')
 <main id="main" role="main" class="m-auto">
 
