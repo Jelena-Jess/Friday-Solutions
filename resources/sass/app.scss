@@ -1,16 +1,28 @@
 // Fonts
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
-// Variables
-@import 'variables';
-
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-@import 'custom';
-@import 'header_footer';
-@import 'split';
-@import 'slider';
-@import 'buttons_icons';
-@import 'rotate';
-@import 'effects_library';
+
+@import 'abstracts/variables';
+
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/navigation';
+
+
+@import 'components/split';
+@import 'components/slider';
+@import 'components/buttons';
+@import 'components/rotate';
+@import 'components/effects';
+@import 'components/form';
+
+@import 'pages/custom';
+@import 'pages/index';
+@import 'pages/about';
+@import 'pages/blog';
+@import 'pages/contact';
+@import 'pages/services';
+@import 'pages/portfolio';

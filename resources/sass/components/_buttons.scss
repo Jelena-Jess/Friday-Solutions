@@ -22,6 +22,10 @@
     text-decoration: none;
     color: #fff;
   }
+  &:focus {
+    outline:none;
+    box-shadow: none;
+  }
 }
 
 .btn {
@@ -40,6 +44,10 @@
     border: solid $button 2px;
     border-radius: 5px;
   }
+}
+
+.contact-form .btn {
+  padding: 0.5rem 5rem !important;
 }
 
 

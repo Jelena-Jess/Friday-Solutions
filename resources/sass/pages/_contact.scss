@@ -1,0 +1,13 @@
+/***** CONTACT PAGE *****/
+#triangle {
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-top: 60px solid $bg-grey;
+  margin: 0 auto;
+}
+.contact-form {
+  background-color: $light-pink;
+  width: 50%;
+}

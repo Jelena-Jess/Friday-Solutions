@@ -7,11 +7,11 @@
 
   <section>
     <div class="blog-link text-center bg-light pt-4">
-      <a href="/blog" class="text-dark">Blog Home</a>
+      <a href="/posts" class="text-dark">Blog Home</a>
     </div>
   </section>
 
-  <section class="py-5 text-justify bg-pink">
+  <section class="py-5 text-justify bg-very-light-pink">
     <div class="main my-5">
       <div class="d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column align-items-center">
         <div class="center-split px-lg-5 px-md-4">

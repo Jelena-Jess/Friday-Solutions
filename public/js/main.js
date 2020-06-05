@@ -131,7 +131,7 @@ function closeNav() {
 const left = document.querySelector('.left');
 const right = document.querySelector('.right');
 const center = document.querySelector('.center');
-const footerupper = document.querySelector('.footer-upper');
+const footerupper = document.querySelector('.split-screen');
 
 left.addEventListener('mouseenter', () => {
   footerupper.classList.add('hover-left');

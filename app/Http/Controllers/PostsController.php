@@ -94,7 +94,7 @@ class PostsController extends Controller
     {
         //Route model binding
         // $post =  Post::find($post);
-        $posts = Post::orderBy('created_at', 'desc')->take(2)->get();
+        $posts = Post::orderBy('created_at', 'desc')->take(3)->get();
         
         return view('posts.show', compact('post', 'posts'));
     }

@@ -18,49 +18,56 @@
     </div>
   </section>
 
-   <section id="services" class="py-5 text-left back-dark">
-      <div class="main py-5">
+   <section id="services" class="p-5 text-left back-dark">
+      <div class="main py-5"> 
+        
+        <h1 class="text-center text-light">BLOG CATEGORIES</h1>
+        <div class="separator pb-4">
+          <div class="line line-left"></div>
+          <div class="asterisk"><i class="fas fa-circle"></i></div>
+          <div class="line line-right"></div>
+        </div>
 
-        <div class="d-flex flex-lg-row flex-md-row flex-sm-column flex-column justify-content-center">
+        <div class="pt-4 d-flex flex-lg-row flex-md-row flex-sm-column flex-column justify-content-center">
 
           <div class="project align-self-center">
-            <div class="front">
+            <div class="front bg-light-pink">
               <p class="text-center"><i class="fas fa-palette fa-5x text-light pb-4"></i></p>
-              <h2 class="text-center text-light py-4">Web Design & Development</h2>
+              <h2 class="text-center pink-text py-4">Coding</h2>
             </div>
 
             <div class="back">
               <p class="text-center font-italic pb-2 text-dark">One of a kind web design solutions. Each line of code is not just pure code, but art.</p>
               <div class="text-center">
-                <a href="" class="btn">Learn more</a>
+                <a href="/blog/coding" class="btn">Learn more</a>
               </div>
             </div>
           </div>
 
           <div class="project align-self-center">
-            <div class="front">
+            <div class="front bg-very-light-pink">
               <p class="text-center"><i class="fas fa-palette fa-5x text-light pb-4"></i></p>
-              <h2 class="text-center text-light py-4">Web Design & Development</h2>
+              <h2 class="text-center pink-text py-4">Design</h2>
             </div>
 
             <div class="back">
               <p class="text-center font-italic pb-2 text-dark">One of a kind web design solutions. Each line of code is not just pure code, but art.</p>
               <div class="text-center">
-                <a href="" class="btn">Learn more</a>
+                <a href="/blog/design" class="btn">Learn more</a>
               </div>
             </div>
           </div>
 
           <div class="project align-self-center">
-            <div class="front">
+            <div class="front grey">
               <p class="text-center"><i class="fas fa-palette fa-5x text-light pb-4"></i></p>
-              <h2 class="text-center text-light py-4">Web Design & Development</h2>
+              <h2 class="text-center pink-text py-4">Inspiration</h2>
             </div>
 
             <div class="back">
               <p class="text-center font-italic pb-2 text-dark">One of a kind web design solutions. Each line of code is not just pure code, but art.</p>
               <div class="text-center">
-                <a href="" class="btn">Learn more</a>
+                <a href="/blog/inspiration" class="btn">Learn more</a>
               </div>
             </div>
           </div>
@@ -69,24 +76,7 @@
       </div>
     </section>
 
-  <section id="plans" class="py-5 back-dark">
-    <div class="main my-5">
-      <div class="d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column text-align-center justify-content-center">
-
-        <div class="blog-card m-3 mx-auto bg-very-light-pink">
-          <a href="/blog/coding"><img src="/images/blog.png" alt=""></a>
-        </div>
-        <div class="blog-card m-3 mx-auto bg-pink">
-          <a href="/blog/design"><img src="/images/blog.png" alt=""></a>
-        </div>
-        <div class="blog-card m-3 mx-auto bg-light-pink">
-          <a href="/blog/inspiration"><img src="/images/blog.png" alt=""></a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="bg-light">
+  <section class="bg-light py-5">
     <div class="mx-5 py-5">
       <h1 class="text-center">LATEST POSTS</h1>
       

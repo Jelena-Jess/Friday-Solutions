@@ -3,14 +3,14 @@
 @section('title', 'Contact us')
 
 @section('content')
-  <main role="main" class="m-auto">
+  <main role="main" class="bg-light mx-auto pb-5">
 
     <section class="mb-5 text-justify">
-      <div class="back-light">
-        <div class="main contact-form d-flex flex-column align-items-center justify-content-center mx-auto">
-          <div class="animate-top">
+      <div class="bg-very-light-pink">
+        <div class="main d-flex flex-column align-items-center justify-content-center mx-auto">
+          {{-- <div class="animate-top">
             <img src="/images/contact.png" alt="">
-          </div>
+          </div> --}}
           <div class="px-lg-5 px-md-4">
           </div>
         </div>
@@ -20,7 +20,7 @@
 
    
 
-    <section class="contact-form project_plan py-5 text-justify m-auto">
+    <section class="contact-form project_plan py-4 text-justify mx-auto">
 
       
     @if(session()->has('message'))
@@ -29,7 +29,7 @@
       </div>
     @endif
 
-    <h3 class="text-center pb-4">Have a question?</h3>
+    <h3 class="text-center pt-4">Have a question?</h3>
   
     <div class="p-3 m-3">
       <form method="POST" action="{{ route('contact.store') }}">
@@ -67,7 +67,7 @@
     
         @csrf
 
-        <div class="pb-3 mb-3 text-center">
+        <div class="text-center pt-4">
           <button type="submit" class="btn">Submit</button>
         </div>
   

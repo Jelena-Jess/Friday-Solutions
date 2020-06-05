@@ -21,7 +21,7 @@
 
   <section class="py-5 bg-dark">
     <div class="main">
-      <div class="contact-form d-flex flex-column align-items-center justify-content-center m-auto">
+      <div class="d-flex flex-column align-items-start justify-content-center px-5 m-auto">
         <div class="d-flex flex-row py-5 border-bottom">
           <div>
             <svg class="text-light bi bi-house-fill" width="6em" height="6em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">

@@ -1,0 +1,40 @@
+.footer{
+  flex-shrink: 0;
+  color: #fff;
+  bottom: 0px;
+  box-shadow: 0 -3px 5px #fe436580;
+}
+
+.footer-bottom a {
+  color: #fff !important;
+  text-align: start;
+  font-size: 1rem;
+  &:hover {
+    text-decoration:none;
+    color: $strong-pink !important;
+  }
+}
+.footer-bottom p {
+  color: #fff !important;
+  text-align: start;
+  font-size: 1rem;
+}
+
+@media screen and (min-width:601px) and (max-width:770px){ 
+  .footer-bottom div {
+    width: 40%;
+    margin-left: 5% !important;
+  }
+}
+@media screen and (max-width:600px){
+  .footer-bottom div {
+    width: 40%;
+    margin-left: 5% !important;
+  }
+}
+@media all and (max-width:400px){
+  .footer-bottom div {
+    width: 40%;
+    margin-left: 5% !important;
+  }
+}

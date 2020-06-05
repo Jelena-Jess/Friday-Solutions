@@ -1,4 +1,4 @@
-<footer class="footer pb-4">
+<footer class="footer bg-dark">
     <div class="main">
       
       <div class="footer-bottom d-flex flex-wrap justify-content-around pt-5 mt-5">
@@ -29,7 +29,7 @@
         </div>
       </div>
     </div>
-    <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-center bg-footer py-4">
       <small>All rights reserved 	&copy; 2019-2020 Friday Solutions</small>
     </div>
 </footer>

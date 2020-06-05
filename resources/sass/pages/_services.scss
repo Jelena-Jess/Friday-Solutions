@@ -1,0 +1,169 @@
+/******* BOXES ********/
+.monthly-plans
+{
+  width: 95%;
+  margin: 0 auto;
+}
+.bg {
+  width: 21vw;
+  height: auto;
+  margin: 0 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid rgba(49, 72, 104, 0.9);
+  box-shadow: -3px 3px 10px rgba(0,0,0,0.3);
+}
+.bg1 {
+  background-image: url("/images/plan1.png");
+}
+.bg2 {
+  background-image: url("/images/plan2.png");
+}
+.bg3 {
+  background-image: url("/images/plan3.png");
+}
+.bg4 {
+  background-image: url("/images/plan4.png");
+}
+
+.plan-box {
+  width: 30%;
+  border: 2px solid $bg-light !important;
+  position: relative;
+  &::before {
+  position: relative;
+  Content: "";
+  overflow: hidden;
+  }
+}
+.icon {
+  position: absolute;
+  z-index: 2;
+  top: -12px;
+  right: 45%;
+  color: $bg-light;
+  background-color: $bg-dark;
+  padding: 0 5px;
+}
+
+/******* BALLS  ********/
+.help div {
+  @include flexCenter(row);
+  margin: 10px;
+  width: 83px;
+  height: 83px;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 50%;
+  background-image: -moz-linear-gradient(45px 45px 45deg, circle cover, $bg-dark 0%, 
+  rgb(102, 153, 197)  10%, rgba(228, 131, 149, 0.5) 100%, rgb(228, 131, 149) 95%);
+  background-image: -webkit-radial-gradient(45px 45px, circle cover,
+  $bg-dark, rgb(228, 131, 149));
+  background-image: linear-gradient(45px 45px 45deg, circle cover, 
+  $bg-dark 0%, rgb(102, 153, 197)  10%, rgb(228, 131, 149) 100%, 
+  rgba(228, 131, 149) 95%);
+  background-color: rgb(228, 131, 149);
+  font-size: 17px;
+  color: #fff;
+  box-shadow: -5px 5px 10px rgba(0,0,0,0.3);
+  &:hover{
+    background-image: -moz-linear-gradient(45px 45px 45deg, circle cover, rgb(228, 131, 149) 0%, $bg-dark 100%, $bg-dark 95%);
+    background-image: -webkit-radial-gradient(45px 45px, circle cover, rgb(228, 131, 149), $bg-dark);
+    background-image: linear-gradient(45px 45px 45deg, circle cover, rgb(228, 131, 149) 0%, $bg-dark 100%, $bg-dark 95%);
+    background-color: rgb(228, 131, 149);
+    color: #fff;
+  }
+}
+
+.center-split {
+  width: 50%;
+}
+
+@media screen and (min-width:1201px) and (max-width:1350px){
+  .plan-boxes {
+    justify-content: center !important;
+  }
+  .bg {
+    width: 40vw;
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width:1200px){
+  .monthly-plans
+  {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .plan-boxes {
+    justify-content: center !important;
+  }
+  .bg {
+    width: 35vw;
+    margin: 15px;
+  }
+  .card {
+    width: 30%;
+  }
+}
+
+@media all and (max-width:992px){
+  .monthly-plans {
+    width: 90%;
+  }
+  .bg {
+    width: 60%;
+    margin: 1.5rem auto;
+  }
+  .plan-box {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width:770px){
+  .monthly-plans {
+    width: 90%;
+  }
+  .bg {
+    width: 70%;
+    margin: 1.5rem auto;
+  }
+  .card {
+    width: 60%;
+  }
+  .center-split {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width:600px){
+  .help div {
+    width: 65px;
+    height: 65px;
+    font-size: 13px;
+  }
+  .monthly-plans {
+      width: 90%;
+  }
+  .bg {
+    width: 80%;
+    margin: 1.5rem auto;
+  }
+}
+
+@media all and (max-width:400px){
+  .help div{
+    width: 60px;
+    height: 60px;
+    font-size: 12px;
+  }
+  .monthly-plans
+    {
+      width: 90%;
+    }
+  .bg {
+    width: 80%;
+    margin: 1.5rem auto;
+  }
+}

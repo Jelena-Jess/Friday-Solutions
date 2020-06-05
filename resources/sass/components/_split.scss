@@ -1,4 +1,4 @@
-.footer-upper{
+.split-screen{
   position: relative;
   padding: 0px;
   object-fit: cover;
@@ -9,7 +9,7 @@
   filter: blur(0.5px); */
 }
 
-.footer-upper h1 {
+.split-screen h1 {
   font-size: 3rem;
   color: #fff;
   position:absolute;
@@ -36,7 +36,7 @@
   height: 100%;
   overflow: hidden;
   left: 0;
-  background-color: $bg-light;
+  background-color: $very-light-pink;
   transition: 1000ms all ease-in-out;
   z-index: 2;
 }
@@ -73,9 +73,21 @@
   width: 30%;
 }
 
+.back-light {
+  background-color: $bg-light;
+  z-index: -1;
+ }
+ .back-dark {
+   background-color: $bg-dark;
+ }
+ .back-pink {
+   background-color: $bg-grey;
+   z-index: -1;
+ }
+
 @media all and (max-width:900px){
 
-  .footer-upper{
+  .split-screen{
     width: 100%;
     height: auto;
     background-color: $bg-light;
@@ -109,6 +121,17 @@
     height: auto;
     left: 0;
     margin: 20px auto 0 auto;
+  }
+}
+
+@media screen and (max-width:600px){
+  .split-screen h1 {
+    font-size: 2.5rem;
+  } 
+  .split-screen .button {
+    padding: 0.4rem;
+    width: 10rem;
+    font-size: 0.9rem;
   }
 }
 

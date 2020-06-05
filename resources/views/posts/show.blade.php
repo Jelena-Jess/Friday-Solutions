@@ -23,7 +23,7 @@
           <img src="/storage/cover_images/{{$post->cover_image}}" alt="">
         </div>
 
-        <div class="px-xl-5 px-lg-4 px-md-3 px-sm-3 px-3">
+        <div class="px-xl-5 px-lg-4 px-md-3 px-sm-3 px-3 align-self-start">
           <p class="p-big">{!!$post->body!!}</p>
         </div>
 
@@ -43,10 +43,10 @@
               <div class="inner">
                 <a href="{{ route('posts.show', ['post' => $post]) }}"><img src="/storage/cover_images/{{$post->cover_image}}" alt=""></a>
               </div>
-              <div class="card-body blog-text">
-                <p class="card-text">{{ $post->category->name }}</p>
-                <h3 class="pt-3"><a href="{{ route('posts.show', ['post' => $post]) }}" class="text-dark">{{$post->title}}</a></h3>
-                <p class="card-text">{!! $post->body !!}</p>
+              <div class="blog-text p-2">
+                <p class="mb-auto">{{ $post->category->name }}</p>
+                <h3 class="mb-auto"><a href="{{ route('posts.show', ['post' => $post]) }}" class="text-dark">{{$post->title}}</a></h3>
+                <p class="small">Created: {{$post->created_at}}</p>
               </div>
             </div>
             @endforeach
