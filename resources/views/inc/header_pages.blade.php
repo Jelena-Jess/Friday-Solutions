@@ -20,8 +20,10 @@
             </button>
           </div>
         </div>
-          <a class="logo align-self-start d-lg-none d-xl-none pt-4 pl-5" href="{{ route('home') }}">FRIDAY SOLUTIONS
-          </a>
+        <div class="logo">
+          <a class="align-self-start d-lg-none d-xl-none pt-4 pl-5" href="{{ route('home') }}">FRIDAY SOLUTIONS</a>
+        </div>
+         
       </div>
       <div class="header-title mt-auto mx-auto">
         <h1 class="animate-top title-pages">{{$title ?? ''}}</h1> 

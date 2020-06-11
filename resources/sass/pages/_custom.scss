@@ -16,8 +16,6 @@ html, body {
   width: 100%;
   background-position: 0px 0px;
   top: 0;
-}
-body {
   overflow-x: hidden;
 }
 .container {
@@ -34,37 +32,39 @@ body {
 
 /***** COLORS *****/
 .bg-light {
-  background-color: $bg-light !important;
+  @include background-color($bg-light);
+  //background-color: $bg-light !important;
 }
 
 .bg-dark {
-  background-color: $bg-dark !important;
+  @include background-color($bg-dark);
+  //background-color: $bg-dark !important;
 }
 .bg-footer {
-  background-color: $bg-footer !important;
+   @include background-color($bg-footer);
 }
 .bg-grey {
-  background-color: $bg-grey !important;
+  @include background-color($bg-grey);
 }
 .bg-pink {
-  background-color: $button !important;
+  @include background-color($button);
 }
 .bg-light-pink {
-  background-color: $light-pink !important;
+  @include background-color($light-pink);
 }
 .bg-very-light-pink {
-  background-color: $very-light-pink !important;
+  @include background-color($very-light-pink);
 }
 .pink-text {
   color: $strong-pink;
 }
 .grey {
-  background-color: $grey !important;
+  @include background-color($grey);
 }
 
 /***** FONTS *****/
 h1, h2, h3, h4, h5, h6{
-  color: $bg-dark;
+  //color: $bg-dark;
   font-family: $font-title;
 } 
 p {

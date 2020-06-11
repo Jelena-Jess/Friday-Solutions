@@ -1,4 +1,4 @@
-/******* BOXES ********/
+/******* DESIGN ********/
 .monthly-plans
 {
   width: 95%;
@@ -13,6 +13,9 @@
   background-size: cover;
   border: 2px solid rgba(49, 72, 104, 0.9);
   box-shadow: -3px 3px 10px rgba(0,0,0,0.3);
+  p {
+    color: #0d0d0d;
+  }
 }
 .bg1 {
   background-image: url("/images/plan1.png");
@@ -80,6 +83,43 @@
   width: 50%;
 }
 
+/***** LOGO *****/
+.logo-text {
+  div {
+    padding: 3rem 0;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    &::after {
+      color: #ccc;
+      content: attr(data-bg-text);
+      display: block;
+      font-size: 150px;
+      position: absolute;
+      bottom: 10%;
+      right: 0;
+      z-index: -1;
+    }
+  }
+}
+
+/***** CONTENT *****/
+.content {
+  width: 60%;
+  margin: 0 auto;
+  div {
+    padding: 1rem;
+    h1, h3 {
+      text-align: center;
+    }
+    h1 {
+      padding-top: 2rem;
+      padding-bottom: 1rem;
+      color: $strong-pink;
+    }
+  }
+}
+
 @media screen and (min-width:1201px) and (max-width:1350px){
   .plan-boxes {
     justify-content: center !important;
@@ -109,9 +149,6 @@
 }
 
 @media all and (max-width:992px){
-  .monthly-plans {
-    width: 90%;
-  }
   .bg {
     width: 60%;
     margin: 1.5rem auto;
@@ -119,15 +156,14 @@
   .plan-box {
     width: 80%;
   }
+  .content {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width:770px){
-  .monthly-plans {
-    width: 90%;
-  }
   .bg {
     width: 70%;
-    margin: 1.5rem auto;
   }
   .card {
     width: 60%;
@@ -143,12 +179,13 @@
     height: 65px;
     font-size: 13px;
   }
-  .monthly-plans {
-      width: 90%;
-  }
   .bg {
     width: 80%;
-    margin: 1.5rem auto;
+  }
+  .logo-text {
+    div {
+      width: 90%;
+    }
   }
 }
 
@@ -157,13 +194,5 @@
     width: 60px;
     height: 60px;
     font-size: 12px;
-  }
-  .monthly-plans
-    {
-      width: 90%;
-    }
-  .bg {
-    width: 80%;
-    margin: 1.5rem auto;
   }
 }

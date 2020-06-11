@@ -31,7 +31,7 @@
   <section class="bg-grey">
     <div class="mx-5 py-5">
 
-      <div class="pt-4 d-flex flex-wrap text-align-center justify-content-center">
+      <div class="pt-4 d-flex flex-wrap justify-content-center">
         @if(count($posts) > 0)
         @foreach($posts as $post)
           <div class="blog">
@@ -39,10 +39,8 @@
               <a href="{{ route('posts.show', ['post' => $post]) }}"><img src="/storage/cover_images/{{$post->cover_image}}" alt=""></a>
             </div>
             <div class="blog-text p-3">
-              <p>{{$post->category->name}}</p>
-            <h3 class="pt-3"><a href="/posts/{{$post->id}}" class="text-dark">{{$post->title}}</a></h3>
-              <p>{!!$post->body!!}</p>
-              <p class="small">Author: {{$post->user->name}}</p>
+              <p class="mb-auto"><a href="" class="text-dark">{{$post->category->name}}</a></p>
+              <h3 class="mb-auto"><a href="{{ route('posts.show', ['post' => $post]) }}" class="text-dark">{{$post->title}}</a></h3>
               <p class="small">{{$post->created_at}}</p>
             </div>
           </div>

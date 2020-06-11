@@ -10,7 +10,7 @@
           <div class="text-center">
             <img src="/images/computer.png" alt="" class="w-50">
           </div>
-          <p class="animate-left p-big text-light text-center">Looking for a super-slick way to present yourself? Would you like to make your business stand out in the crowd? How about a professional-looking website that works on all devices?</p>
+          <p class="animate-left p-big text-center">Looking for a super-slick way to present yourself? Would you like to make your business stand out in the crowd? How about a professional-looking website that works on all devices?</p>
         </div>
       </div>
     </section>
@@ -28,40 +28,42 @@
     
     <section id="services" class="split-screen">
       <div class="split left">
-        <div class="px-3 align-self-center">
-          <p class="text-center"><i class="pt-4 fas fa-code fa-4x text-dark"></i></p>
-          <h2 class="text-center font-weight-bold text-dark py-4 border-bottom">Web Design & Development</h2>
-          
-          <p class="p-big text-center font-weight-bold pb-2 text-dark">One of a kind web design solutions.</p>
-          <p>What we offer is cutting-edge web design and branding solutions. We strive to go an extra mile in order to provide our clients with a perfect digital experiences.</p>
-          <div class="text-center">
-            <a href="{{ route('website') }}" class="btn">Learn more</a>
+        <div class="p-5 align-self-center">
+          <p class="text-center"><i class="fas fa-code fa-4x"></i></p>
+          <h2 class="text-center font-weight-bold py-4 border-bottom">Web Design & Development</h2>
+          <div class="d-flex flex-column">
+            <p class="p-big text-center font-weight-bold pb-2">One of a kind web design solutions.</p>
+            <p class="text-justify">What we offer is cutting-edge web design and branding solutions. We strive to go an extra mile in order to provide our clients with a perfect digital experiences.</p>
+            <div class="text-center pt-3">
+              <a href="{{ route('website') }}" class="btn">FIND OUT MORE</a>
+            </div>
           </div>
         </div>
       </div>
 
       <div class="split center">
-        <div class="px-3 align-self-center">
-          <p class="text-center"><i class="pt-4 fab fa-pied-piper fa-4x text-dark"></i></p>
-           <h2 class="text-center font-weight-bold text-dark py-4 border-bottom">Logo Design</h2>
-          
-           <p class="p-big text-center font-weight-bold pb-2 text-dark">We see logo as your personal stamp.</p>
-           <p>We see logo as your personal stamp. By using appropriate and effective colors, we define your brand identity and create inspiring narratives which transmit the message and arouse emotions.</p>
-           <div class="text-center">
-             <a href="{{ route('logo') }}" class="btn">Learn more</a>
-           </div>
+        <div class="p-5 align-self-center">
+          <p class="text-center"><i class="fab fa-pied-piper fa-4x"></i></p>
+           <h2 class="text-center font-weight-bold py-4 border-bottom">Logo Design</h2>
+          <div class="d-flex flex-column">
+            <p class="p-big text-center font-weight-bold pb-2">We see logo as your personal stamp.</p>
+            <p class="text-justify">We see logo as your personal stamp. By using appropriate and effective colors, we define your brand identity and create inspiring narratives which transmit the message and arouse emotions.</p>
+            <div class="text-center pt-3">
+              <a href="{{ route('logo') }}" class="btn">FIND OUT MORE</a>
+            </div>
+          </div>
         </div>
       </div>
 
       <div class="split right">
-        <div class="px-3 align-self-center">
-          <p class="text-center"><i class="pt-4 fas fa-pencil-alt fa-4x text-dark"></i></p>
-          <h2 class="text-center font-weight-bold text-dark py-4 border-bottom">SEO & Content Management</h2>
+        <div class="p-5 align-self-center">
+          <p class="text-center"><i class="fas fa-pencil-alt fa-4x"></i></p>
+          <h2 class="text-center font-weight-bold py-4 border-bottom">SEO & Content</h2>
         
-          <p class="p-big text-center font-weight-bold pb-2 text-dark">A good story is the beginning of everything.</p>
-          <p>Copywriting goes hand in hand with your website’s SEO (search engine optimisation), which enables Google to find your website when potential customers search for your products or services.</p>
-          <div class="text-center">
-            <a href="{{ route('content') }}" class="btn">Learn more</a>
+          <p class="p-big text-center font-weight-bold pb-2">A good story is the beginning of everything.</p>
+          <p class="text-justify">Copywriting goes hand in hand with your website’s SEO (search engine optimisation), which enables Google to find your website when potential customers search for your products or services.</p>
+          <div class="text-center pt-3">
+            <a href="{{ route('content') }}" class="btn">FIND OUT MORE</a>
           </div>
         </div>
       </div>
@@ -70,8 +72,8 @@
     <section id="" class="py-5 bg-light">
       <div class="bio p-5 mx-auto">
         <div class="d-flex flex-column align-items-center justify-content-center">
-          <h1 class="text-dark text-center">ABOUT US</h1>
-          <h4 class="text-dark  text-center mt-4 mb-5">Grow your business online is the driving force behind Atilus. We’ve been in business for 13 years and have worked on thousands of projects. We’re passionate, hard-working, and most of all, we love helping our clients do great things on the web.</h4>
+          <h1 class="text-center">ABOUT US</h1>
+          <h4 class="text-center mt-4 mb-5">Grow your business online is the driving force behind Atilus. We’ve been in business for 13 years and have worked on thousands of projects. We’re passionate, hard-working, and most of all, we love helping our clients do great things on the web.</h4>
           <div class="text-center">
             <a href="{{ route('about') }}" class="btn">Learn more</a>
           </div>
@@ -83,29 +85,29 @@
       <div class="main py-5">
         <div class="d-flex flex-column justify-content-center">
           <div class="">
-            <h1 class="text-light text-center">GROW YOUR BUSINESS ONLINE</h1>
+            <h1 class="text-center">GROW YOUR BUSINESS ONLINE</h1>
             <div class="separator">
               <div class="line line-left"></div>
               <div class="asterisk"><i class="fas fa-circle"></i></div>
               <div class="line line-right"></div>
             </div>
-            <p class="p-big text-center text-light mt-3 mb-5">The digital world is changing fast, and your business should be ready to embrace what's next. Ready to work together on a great website that gets results?</p>
+            <p class="p-big text-center mt-3 mb-5">The digital world is changing fast, and your business should be ready to embrace what's next. Ready to work together on a great website that gets results?</p>
           </div>
           <div class="d-flex flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-column justify-content-around">
             <div class="reveal plan-box align-self-center border m-3 p-3">
               <div><i class="icon fas fa-mobile-alt fa-2x"></i></div>
-              <h2 class="text-light text-center mt-4 mb-3">Schedule a Call</h2>
-              <p class="text-light text-center">We’re here to help you grow your business. Talk to us to see how we can help.</p>
+              <h2 class="text-center mt-4 mb-3">Schedule a Call</h2>
+              <p class="text-center">We’re here to help you grow your business. Talk to us to see how we can help.</p>
             </div>
             <div class="reveal plan-box align-self-center border m-3 p-3">
               <div><i class="icon far fa-map fa-2x"></i></div>
-              <h2 class="text-light text-center mt-4 mb-3">Plan it</h2>
-              <p class="text-light text-center">We’ll outline your goals together and create a plan to help you get the most of your website</p>
+              <h2 class="text-center mt-4 mb-3">Plan it</h2>
+              <p class="text-center">We’ll outline your goals together and create a plan to help you get the most of your website</p>
             </div>
             <div class="reveal plan-box align-self-center border m-3 p-3">
               <div><i class="icon fas fa-globe fa-2x"></i></div>
-              <h2 class="text-light text-center mt-4 mb-3">Grow online</h2>
-              <p class="text-light text-center">We’ll execute on our strategy and continue to refine and evolve to get more ROI from your website.</p>
+              <h2 class="text-center mt-4 mb-3">Grow online</h2>
+              <p class="text-center">We’ll execute on our strategy and continue to refine and evolve to get more ROI from your website.</p>
             </div>
           </div>
           <div class="text-center mt-5">
@@ -118,13 +120,13 @@
     <section id="" class="p-5 text-justify bg-grey">
       <div class="main py-5">
         <div class="d-flex flex-column justify-content-center">
-          <h1 class="text-dark text-center">START YOUR PROJECT WITH US</h1>
+          <h1 class="text-center">START YOUR PROJECT WITH US</h1>
           <div class="separator">
             <div class="line line-left"></div>
             <div class="asterisk"><i class="fas fa-circle"></i></div>
             <div class="line line-right"></div>
           </div>
-          <h4 class="text-dark text-center mt-4 mb-5">Our engineers are ready to help you. Contact us now and we will answer you today.</h4>
+          <h4 class="text-center mt-4 mb-5">Our engineers are ready to help you. Contact us now and we will answer you today.</h4>
           <div class="text-center">
             <a href="{{ route('contact.create') }}" class="btn">GET IN TOUCH</a>
           </div>
@@ -150,8 +152,8 @@
                   <a href="{{ route('posts.show', ['post' => $post]) }}"><img src="/storage/cover_images/{{$post->cover_image}}" alt=""></a>
                 </div>
                 <div class="blog-text p-3">
-                  <p class="mb-auto"><a href="" class="text-dark">{{$post->category->name}}</a></p>
-                  <h3 class="mb-auto"><a href="{{ route('posts.show', ['post' => $post]) }}" class="text-dark">{{$post->title}}</a></h3>
+                  <p class="mb-auto"><a href="">{{$post->category->name}}</a></p>
+                  <h3 class="mb-auto"><a href="{{ route('posts.show', ['post' => $post]) }}">{{$post->title}}</a></h3>
                   <p class="small">{{$post->created_at}}</p>
                 </div>
               </div>

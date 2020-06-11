@@ -21,5 +21,17 @@ $font-text: 'Cairo', sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
 
+@function text-color($color) {
+  @if(lightness($color) > 70) {
+    @return #0d0d0d;
+  } @else {
+    @return #fff;
+  }
+}
 
+//Background and text color
+@mixin background-color($color) {
+  background-color: $color;
+  color: text-color($color);
+}
 

@@ -21,7 +21,6 @@
    
 
     <section class="contact-form project_plan py-4 text-justify mx-auto">
-
       
     @if(session()->has('message'))
       <div class="alert alert-secondary" role="alert">

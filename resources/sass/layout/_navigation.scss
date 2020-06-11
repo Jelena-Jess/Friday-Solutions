@@ -1,21 +1,17 @@
 /***** NAVBAR *****/
 
 .logo{
-  font-family: $font-logo;
-  font-size: 1.5rem;
-  color: $strong-pink;
-  z-index: 3 !important;
-  &:hover {
+  a{
+    font-family: $font-logo;
+    font-size: 1.5rem;
     color: $strong-pink;
-    text-decoration: none;
+    z-index: 3 !important;
+    &:hover {
+      color: $strong-pink;
+      text-decoration: none;
+    }
   }
 }
-
-.header-fix {
-  width: 80vw;
-  margin-top: 15%;
-}
-
 
 .navbar {
   position: relative;
@@ -101,12 +97,6 @@
 
 
 @media all and (max-width:992px){
-  /***** NAVBAR *****/
-    .header-fix {
-      width: 80vw;
-      margin-top: 25%;
-  } 
-
   /***** SIDEBAR *****/
   .openbtn {
     z-index: 999;
@@ -174,12 +164,12 @@
     }
 }
 
-@media screen and (min-width:769px) and (max-width:810px){
+@media screen and (max-width:810px){
   .sidebar .nav-item {
     width: 40%;
   } 
 }
-@media screen and (min-width:601px) and (max-width:770px){
+@media screen and (max-width:770px){
   /***** SIDEBAR *****/
   .sidebar .closebtn {
     right: 4%;
@@ -189,12 +179,17 @@
   } 
 }
 
-@media screen and (min-width:600px) and (max-width:620px){
+@media screen and (max-width:620px){
+  .logo{
+    a{
+      font-size: 1.2rem;
+    }
+  }
   .sidebar .nav-item {
     width: 50%;
   } 
 }
-@media screen and (min-width:401px) and (max-width:600px){
+@media screen and (max-width:600px){
   /***** SIDEBAR *****/
   .sidebar .closebtn {
     right: 5%;

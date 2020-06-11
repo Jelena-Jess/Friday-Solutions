@@ -15,7 +15,7 @@
   width: 100%;
   height: auto;
   margin: -20px 0;
-  background-color: #314455;
+  @include background-color($bg-dark);
   color: rgb(228, 131, 149);
   border: 2px solid rgb(228, 131, 149);
   box-shadow: -5px 5px 10px rgba(0,0,0,0.3);

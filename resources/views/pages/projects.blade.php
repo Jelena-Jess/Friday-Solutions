@@ -20,9 +20,9 @@
       </div>
     </section>
 
-    <section id="projects" class="py-5 back-dark">
+    <section id="projects" class="py-5 bg-grey">
       <div class="main py-5">
-        <h2 class="text-center text-light pb-5"><a id="projects">PROJECTS</a></h2>
+        <h2 class="text-center pb-5"><a id="projects">PROJECTS</a></h2>
         <div class="p-lg-4 p-md-4 py-4 pb-md-0 pb-sm-0 pb-0 d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column  justify-content-xl-around justify-content-lg-around justify-content-md-around justify-content-sm-center justify-content-center">
           <div class="reveal projects m-2 py-4 align-self-center">
             <div class="text pr-3">

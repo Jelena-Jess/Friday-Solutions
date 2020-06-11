@@ -9,7 +9,8 @@ use Illuminate\Support\Facades\Mail;
 class ContactWithProjectInfoController extends Controller
 {
     public function create() {
-        return view('contact.contact_project');
+        $title='Project Plan';
+        return view('contact.contact_project')->with('title', $title);
     }
 
     public function store() {

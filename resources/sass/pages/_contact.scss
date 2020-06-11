@@ -8,6 +8,18 @@
   margin: 0 auto;
 }
 .contact-form {
-  background-color: $light-pink;
+  background-color: $bg-grey;
   width: 50%;
+}
+
+@media all and (max-width:1200px){
+  .contact-form {
+    width: 70%;
+  }
+}
+
+@media all and (max-width:600px){
+  .contact-form {
+    width: 90%;
+  }
 }

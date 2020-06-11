@@ -1,42 +1,42 @@
 @extends('layouts.app')
 
-@section('title', 'Contact us')
+@section('title', 'Project Plan')
 
 @section('content')
-  <main role="main" class="m-auto">
+  <main role="main" class="bg-light mx-auto pb-5">
 
     <section class="mb-5 text-justify">
       <div class="back-light">
         <div class="main contact-form d-flex flex-column align-items-center justify-content-center mx-auto">
-          <div class="animate-top">
+          {{-- <div class="animate-top">
             <img src="/images/contact.png" alt="">
-          </div>
+          </div> --}}
           <div class="px-lg-5 px-md-4">
           </div>
         </div>
       </div>
       <div id="triangle"></div>
+      <div class="pt-5 mx-auto w-75">
+        <h3 class="text-center pb-4">Let’s talk about your project</h3>
+        <p class="text-center">Fill out the fields important to you. After we examine your proposal, I will contact you to set up a time and discuss your project in further detail.</p>
+        <p class="text-center">You should expect to hear from me in a few days.</p> 
+      </div>
     </section>
 
    
 
-    <section class="contact-form project_plan py-5 text-justify m-auto">
+    <section class="contact-form project_plan py-4 text-justify mx-auto">
 
-      
     @if(session()->has('message'))
       <div class="alert alert-secondary" role="alert">
         <h1 class="pink-text">Thank you!</h1> <h4 class="text-dark">{{ session()->get('message') }}</h4>
       </div>
     @endif
 
-    <h3 class="text-center pb-4">Let’s talk about your project</h3>
-    <p>Fill out the fields important to you. After we examine your proposal, I will contact you to set up a time and discuss your project in further detail.</p>
-    <p>You should expect to hear from me in a few days.</p>
-  
     <div class="p-3 m-3">
         <form method="POST" action="{{ route('contactproject.store') }}">
     
-          <div class="my-5">
+          <div>
             <h5 class="text-center m-3 mb-5">Basic information</h5>
               <div class="form-group">
                 <label for="" class="col-form-label">Name</label>
@@ -204,7 +204,7 @@
           
             @csrf
 
-            <div class="my-5 text-center">
+            <div class="text-center pt-4">
               <button type="submit" class="btn" name="send_plan">Submit</button>
             </div>
 
