@@ -22,10 +22,6 @@ Auth::routes();
 Route::get('/admin', 'HomeController@index')->name('admin');
 
 Route::get('/', 'PagesController@index')->name('home');
-Route::get('/projects', 'PagesController@projects')->name('portfolio');
-Route::get('/project1', 'PagesController@project1');
-Route::get('/project2', 'PagesController@project2');
-Route::get('/project3', 'PagesController@project3');
 Route::get('/website', 'PagesController@website')->name('website');
 Route::get('/logo', 'PagesController@logo')->name('logo');
 Route::get('/about', 'PagesController@about')->name('about');

@@ -73,18 +73,6 @@
   width: 30%;
 }
 
-.back-light {
-  background-color: $bg-light;
-  z-index: -1;
- }
- .back-dark {
-   background-color: $bg-dark;
- }
- .back-pink {
-   background-color: $bg-grey;
-   z-index: -1;
- }
-
  @media all and (max-width:1350px){
   .split-screen{
     height: 65vh;

@@ -1,6 +1,6 @@
 // Body
-$bg-dark: #474747;
-$bg-footer: #313131;
+$bg-dark: #343a40;
+$bg-footer: #24282c;
 $bg-grey: #f3eff0;
 $bg-grey-matte: #dbd1d1;
 $bg-light: #fff;
@@ -10,7 +10,7 @@ $strong-pink: #FE4365;
 $light-pink: #f1e5e7;
 $very-light-pink: #f3eff0;
 $button: #fc5c79;
-$grey: #cccccc;
+$grey: #bec9d4;
 $sidebar: rgba(248, 249, 250, 0.9);
 
 // Typography
@@ -21,17 +21,5 @@ $font-text: 'Cairo', sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
 
-@function text-color($color) {
-  @if(lightness($color) > 70) {
-    @return #0d0d0d;
-  } @else {
-    @return #fff;
-  }
-}
 
-//Background and text color
-@mixin background-color($color) {
-  background-color: $color;
-  color: text-color($color);
-}
 

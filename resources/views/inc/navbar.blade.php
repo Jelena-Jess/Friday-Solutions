@@ -20,9 +20,6 @@
           </div>
         </li>
         <li class="px-xl-2 px-lg-0 nav-item bd-highlight nav">
-          <a class="nav-link hvr-underline-from-center" href="{{ route('portfolio') }}">PORTFOLIO</a>
-        </li>
-        <li class="px-xl-2 px-lg-0 nav-item bd-highlight nav">
           <a class="nav-link hvr-underline-from-center" href="{{ route('about') }}">ABOUT</a>
         </li>
         <li class="px-xl-2 px-lg-0 nav-item bd-highlight nav">

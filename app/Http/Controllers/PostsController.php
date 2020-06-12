@@ -26,11 +26,12 @@ class PostsController extends Controller
      */
     public function index()
     {
+        $title='Blog';
         $posts = Post::orderBy('created_at', 'desc')->paginate(3);
         $categories = Category::all();
-        return view('posts.index', compact('posts', 'categories'));
+        return view('posts.index', compact('title', 'posts', 'categories'));
     }
-
+ 
     /**
      * Show the form for creating a new resource.
      *

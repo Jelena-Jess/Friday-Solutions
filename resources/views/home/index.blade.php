@@ -45,9 +45,8 @@
                     <a href="/posts/{{$post->id}}"><img src="/storage/cover_images/{{$post->cover_image}}" alt=""></a>
                   </div>
                   <div class="blog-text p-3">
-                    <p>{{$post->category->name}}</p>
-                  <h3 class=""><a href="/posts/{{$post->id}}" class="text-dark">{{$post->title}}</a></h3>
-                    <p>{!!$post->body!!}</p>
+                    <p class="mb-auto">{{$post->category->name}}</p>
+                    <h3 class="mb-auto"><a href="/posts/{{$post->id}}">{{$post->title}}</a></h3>
                     <p class="small">{{$post->created_at}}</p>
                     <div class="d-flex row ml-0">
                         <a href="/posts/{{$post->id}}/edit" class="btn mr-3">Edit</a>
@@ -69,3 +68,5 @@
     </section>
 </main>
 @endsection
+
+     

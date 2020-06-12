@@ -7,28 +7,25 @@
 
   <section>
     <div class="blog-link text-center bg-light-pink pt-4">
-      <a href="/posts" class="text-dark">Blog Home</a>
+      <a href="/posts" class="text-dark">Blog Home</a> &rarr; Coding
     </div>
   </section>
 
-  <section class="py-5 text-justify bg-very-light-pink">
-    <div class="main my-5">
-      <div class="d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column align-items-center">
-        <div class="center-split px-lg-5 px-md-4">
-          <p>Check out our articles covering all facets of websites. We write about topics that business owners often ask us about and hope you find them helpful too.</p>
-          <p class="mt-5">If you’re interested in web maintenance, here’s a link to our managed plans.</p>
+  <section class="py-5 text-justify bg-light-pink">
+    <div class="main my-3">
+      <div class="d-flex flex-column justify-content-center align-items-center">
+        <div class="w-75 mx-auto">
+          <p class="text-center">Check out our articles covering all facets of websites. We write about topics that business owners often ask us about and hope you find them helpful too.</p>
+          <p class="text-center">If you’re interested in web maintenance, here’s a link to our managed plans.</p>
           <div class="text-center">
             <a href="" class="btn">GET IN TOUCH</a>
           </div>
-        </div>
-        <div class="center-split">
-          <img src="/images/blog.png" alt="">
         </div>
       </div>
     </div>
   </section>
 
-  <section class="bg-grey">
+  <section class="bg-light">
     <div class="mx-5 py-5">
 
       <div class="pt-4 d-flex flex-wrap justify-content-center">

@@ -34,7 +34,11 @@
     @include('inc.header_pages')
   @endif
 
-  @include('inc.sidebar')
+  @if(!Auth::guest()) 
+    @include('inc.sidebar_admin')
+  @else
+    @include('inc.sidebar')
+  @endif
   
  {{-- MAIN CONTENT --}}
   <div class="container">

@@ -220,84 +220,72 @@
 
           <div class="card">
             <div class="card-body">
-              <div class="text-center pt-2 pb-4"><i class="fas fa-palette fa-4x text-light"></i></div>
-              <h4 class="card-title text-light text-center">CUSTOM DESIGN</h4>
-              <p class="card-text text-light"> the visual design, UX design, imagery collection, and sitemap and page structure generation.</p>
+              <h4 class="card-title">CUSTOM DESIGN</h4>
+              <p class="card-text"> the visual design, UX design, imagery collection, and sitemap and page structure generation.</p>
             </div>
           </div>
           <div class="card">
             <div class="card-body">
-              <div class="text-center"><i class="fas fa-palette fa-4x text-dark"></i></div>
               <h4 class="card-title">INFORMATION ARCHITECTURE</h4>
               <p class="card-text">We generally spend up to 30 hours in this phase. That’s onboarding, initial meetings with our clients, and our design team’s work internally on the project, including final presentation and approval.</p>
             </div>
           </div>
           <div class="card">
             <div class="card-body">
-              <div class="text-center"><i class="fas fa-palette fa-4x text-dark"></i></div>
               <h4 class="card-title text-dark">MOBILE FRIENDLY DESIGN</h4>
               <p class="card-text">Your new website will look great and operate correctly on all devices. From large desktop monitors down to the latest smartphones.</p>
             </div>
           </div>
           <div class="card">
             <div class="card-body">
-              <div class="text-center"><i class="fas fa-palette fa-4x text-dark"></i></div>
               <h4 class="card-title text-dark">LOGO DESIGN</h4>
               <p class="card-text">Your new website will look great and operate correctly on all devices. From large desktop monitors down to the latest smartphones.</p>
             </div>
           </div>
           <div class="card">
             <div class="card-body">
-              <div class="text-center"><i class="fas fa-palette fa-4x text-dark"></i></div>
               <h4 class="card-title text-dark">WEBSITE CONTENT CREATION</h4>
               <p class="card-text">Most business owners are too busy running their companies so our expert copy writers do the writing and you just need to review it.</p>
             </div>
           </div>
           <div class="card">
             <div class="card-body">
-              <div class="text-center"><i class="fas fa-palette fa-4x text-dark"></i></div>
               <h4 class="card-title">SERVICE AND PRODUCT PAGES</h4>
               <p class="card-text">Draw attention to your most popular products and services with ‘must know’ information. We’ll organize the details for quick navigation and easy reading.</p>
             </div>
           </div>
           <div class="card">
             <div class="card-body">
-              <div class="text-center"><i class="fas fa-palette fa-4x text-dark"></i></div>
               <h4 class="card-title">CONTACT FORM</h4>
               <p class="card-text">The whole point of your website is to get prospects to contact you and we make it easy. A short form with vital contact info will be emailed directly to you.</p>
             </div>
           </div>
           <div class="card">
             <div class="card-body">
-              <div class="text-center"><i class="fas fa-palette fa-4x text-dark"></i></div>
               <h4 class="card-title">GALLERY</h4>
               <p class="card-text">Stunning photos of completed projects are the best way to showcase your work. Pictures really are worth a thousand words.</p>
             </div>
           </div>
           <div class="card">
             <div class="card-body">
-              <div class="text-center"><i class="fas fa-palette fa-4x text-dark"></i></div>
               <h4 class="card-title">BLOG SETUP</h4>
               <p class="card-text">Blog posts are the best way to educate customers about your products and services. We do the writing while you reap all the benefits.</p>
             </div>
           </div>
           <div class="card">
             <div class="card-body">
-              <div class="text-center"><i class="fas fa-palette fa-4x text-dark"></i></div>
               <h4 class="card-title">SHOPPING CART INTEGRATION</h4>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
           </div>
           <div class="card">
             <div class="card-body">
-              <div class="text-center"><i class="fas fa-palette fa-4x text-dark"></i></div>
               <h4 class="card-title">PROGRAMMING</h4>
               <p class="card-text">Custom feature development can cost extra, but the benefits of a fully customized and unique website can outweigh the costs.</p>
             </div>
           </div>
           <div class="card">
             <div class="card-body">
-              <div class="text-center"><i class="fas fa-palette fa-4x text-dark"></i></div>
               <h4 class="card-title">DIGITAL MARKETING SETUP (SEO)</h4>
               <p class="card-text">SEO is vital to your website's success. For every project we work on, we have a 40+ step process to ensure the final site is SEO friendly and communicating to the search engines properly.</p>
             </div>

@@ -5,6 +5,20 @@
   flex-direction: $direction;
 }
 
+@function text-color($color) {
+  @if(lightness($color) > 70) {
+    @return #0d0d0d;
+  } @else {
+    @return #fff;
+  }
+}
+
+//Background and text color
+@mixin background-color($color) {
+  background-color: $color;
+  color: text-color($color);
+}
+
 html, body {
   display: flex;
   flex-direction: column;
@@ -33,12 +47,12 @@ html, body {
 /***** COLORS *****/
 .bg-light {
   @include background-color($bg-light);
-  //background-color: $bg-light !important;
+  //background-color: $bg-light ;
 }
 
 .bg-dark {
   @include background-color($bg-dark);
-  //background-color: $bg-dark !important;
+  //background-color: $bg-dark ;
 }
 .bg-footer {
    @include background-color($bg-footer);

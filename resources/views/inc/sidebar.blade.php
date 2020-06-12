@@ -24,11 +24,6 @@
         </li>
         
         <li class="nav-item my-3">
-          <a class="nav-link hvr-underline-from-center" href="{{ route('portfolio') }}">
-        PORTFOLIO
-        </a>
-        </li>
-        <li class="nav-item my-3">
             <a class="nav-link hvr-underline-from-center" href="{{ route('about') }}">
             ABOUT
             </a>

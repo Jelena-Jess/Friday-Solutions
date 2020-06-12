@@ -8,9 +8,6 @@
     <section class="mb-5 text-justify">
       <div class="bg-very-light-pink">
         <div class="main d-flex flex-column align-items-center justify-content-center mx-auto">
-          {{-- <div class="animate-top">
-            <img src="/images/contact.png" alt="">
-          </div> --}}
           <div class="px-lg-5 px-md-4">
           </div>
         </div>
