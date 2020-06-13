@@ -91,7 +91,8 @@
           </div>
         @endforeach
         </div> 
-        {{$posts->links()}}
+        <div class="pagin"> {{$posts->links() }}</div>
+       
         @else
           <p>No posts to show</p>
         @endif

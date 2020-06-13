@@ -26,7 +26,7 @@ Route::get('/website', 'PagesController@website')->name('website');
 Route::get('/logo', 'PagesController@logo')->name('logo');
 Route::get('/about', 'PagesController@about')->name('about');
 Route::get('/content', 'PagesController@content')->name('content');
-Route::get('/blog/coding', 'PagesController@blog_coding')->name('blog.coding');
+Route::get('/blog/coding', 'PagesController@blog_coding')->name('blog.development');
 Route::get('/blog/design', 'PagesController@blog_design')->name('blog.design');
 Route::get('/blog/inspiration', 'PagesController@blog_inspiration')->name('blog.inspiration');
 

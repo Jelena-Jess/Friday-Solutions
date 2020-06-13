@@ -1,7 +1,7 @@
 <footer class="footer bg-dark">
     <div class="main">
       
-      <div class="footer-bottom d-flex flex-wrap justify-content-around pt-5 mt-5">
+      <div class="footer-bottom d-flex flex-wrap justify-content-around pt-5 pb-4 mt-5">
         <div class="mx-2 my-0">
           <h4 class="logo mb-3">FRIDAY SOLUTIONS</h4>
           <p>Jelena Petkov</p>
@@ -23,11 +23,12 @@
         </div>
         <div class="mx-2 my-5">
           <h4>BLOG TOPICS</h4>
-          <p><a href="{{ route('posts.index') }}">Web Development</a></p>
-          <p><a href="{{ route('posts.index') }}">Web Design</a></p>
-          <p><a href="{{ route('posts.index') }}">Marketing</a></p>
+          <p><a href="{{ route('blog.development') }}">Coding</a></p>
+          <p><a href="{{ route('blog.design') }}">Web Design</a></p>
+          <p><a href="{{ route('blog.inspiration') }}">Inspiration</a></p>
         </div>
       </div>
+
     </div>
     <div class="d-flex justify-content-center bg-footer py-4">
       <small>All rights reserved 	&copy; 2019-2020 Friday Solutions</small>

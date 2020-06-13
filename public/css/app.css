@@ -11027,10 +11027,29 @@ a.text-dark:focus {
   margin-top: 15%;
 }
 
+.logo-sm-screen {
+  z-index: 3 !important;
+}
+
+.logo-sm-screen a {
+  font-family: "Gugi", cursive;
+  font-size: 1.5rem;
+  color: #FE4365;
+}
+
+.logo-sm-screen a:hover {
+  color: #FE4365;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 1200px) {
   .header-fix {
     padding: 3rem;
     margin-top: 15%;
+  }
+
+  .header-fix .main {
+    margin: 0 1.5rem;
   }
 
   .header-fix h3 {
@@ -11050,6 +11069,10 @@ a.text-dark:focus {
 
   .header-fix {
     margin-top: 25%;
+  }
+
+  .header-fix .main {
+    margin: 0;
   }
 }
 
@@ -11083,6 +11106,7 @@ a.text-dark:focus {
 
   .header-fix {
     width: 100vw;
+    padding-left: 1rem !important;
   }
 
   .header-fix h1 {
@@ -11091,6 +11115,10 @@ a.text-dark:focus {
 
   .header-fix h3 {
     font-size: 1.3rem;
+  }
+
+  .logo-sm-screen {
+    padding-left: 1rem !important;
   }
 
   .title-pages {
@@ -11168,13 +11196,14 @@ a.text-dark:focus {
   }
 }
 
-/***** NAVBAR *****/
+.logo {
+  z-index: 3 !important;
+}
 
 .logo a {
   font-family: "Gugi", cursive;
   font-size: 1.5rem;
   color: #FE4365;
-  z-index: 3 !important;
 }
 
 .logo a:hover {
@@ -11367,10 +11396,6 @@ a.text-dark:focus {
 }
 
 @media screen and (max-width: 620px) {
-  .logo a {
-    font-size: 1.2rem;
-  }
-
   .sidebar .nav-item {
     width: 50%;
   }
@@ -11854,8 +11879,8 @@ a.text-dark:focus {
   content: "";
   position: absolute;
   z-index: -1;
-  left: 51%;
-  right: 51%;
+  left: 52%;
+  right: 52%;
   bottom: 10px;
   background: #FE4365;
   height: 1px;
@@ -11977,6 +12002,35 @@ th {
   color: #343a40;
   text-align: center;
   vertical-align: middle;
+}
+
+.pagin {
+  margin-top: 30px;
+}
+
+.pagin .pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagin .page-link {
+  background-color: white;
+  color: #FE4365 !important;
+  font-weight: 600;
+}
+
+.pagin .active {
+  background-color: #FE4365 !important;
+  color: #fff !important;
+}
+
+.pagin .pagination > li > a:focus,
+.pagin .pagination > li > a:hover,
+.pagin .pagination > li > span:focus,
+.pagin .pagination > li > span:hover {
+  color: #fff !important;
+  background-color: #FE4365;
+  border-color: #FE4365;
 }
 
 /******* LINE BELOW HEADINGS ********/

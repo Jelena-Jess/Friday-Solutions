@@ -96,6 +96,33 @@ td, th {
   vertical-align: middle;
 }
 
+.pagin {
+  margin-top: 30px;
+  .pagination {
+    display: flex;
+    justify-content: center;
+  }
+  .page-link
+  {
+      background-color: white;
+      color: $strong-pink !important;
+      font-weight: 600;
+  }
+  .active {
+    background-color: $strong-pink !important;
+    color: #fff !important;
+  }
+  .pagination > li > a:focus,
+  .pagination > li > a:hover,
+  .pagination > li > span:focus,
+  .pagination > li > span:hover
+  {
+      color: #fff !important;
+      background-color: $strong-pink;
+      border-color: $strong-pink;
+  }
+
+}
 
 
 /******* LINE BELOW HEADINGS ********/

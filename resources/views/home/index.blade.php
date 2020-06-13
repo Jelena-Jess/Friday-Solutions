@@ -60,6 +60,7 @@
                 </div>
             @endforeach
             </div> 
+            {{$posts->links()}}
             @else
               <p>No posts to show</p>
             @endif

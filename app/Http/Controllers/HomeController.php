@@ -29,6 +29,6 @@ class HomeController extends Controller
         $user_id = auth()->user()->id;
         $user = User::find($user_id);
         $posts = Post::orderBy('created_at', 'desc')->paginate(3);
-        return view('home.index')->with('posts', $user->posts);
+        return view('home.index', compact('user', 'posts', $user->posts));
     }
 }

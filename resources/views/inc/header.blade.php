@@ -15,14 +15,14 @@
           </button>
         </div>
       </div>
-      <div class="logo align-self-start d-lg-none d-xl-none pt-2 pl-5">
+      <div class="logo-sm-screen align-self-start d-lg-none d-xl-none pt-3 pl-5">
         <a href="{{ route('home') }}">FRIDAY SOLUTIONS</a>
       </div>
       <div class="header-fix">
         <div class="main">
           <div class="py-5">
             <h1 class="title">The solution to your digital problems</h1>
-            <h3 class="">Creative? Sure we are, but we're here to listen and solve your problems. Our main goals are to help you bring in more clients and give you more time to run your business. You'll gain peace of mind knowing we have your digital presence covered. Welcome to Friday Solutions.</h3>
+            <h3 class="">We are here to help you attract clients while providing you with more time to run your business. You'll be free of worries knowing we have your digital presence covered. Welcome to Friday Solutions!</h3>
             <div class="float-left"><a href="{{ route('contact.create') }}" class="button mt-4">Contact us</a></div>
           </div>
         </div>

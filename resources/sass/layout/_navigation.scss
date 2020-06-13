@@ -1,11 +1,9 @@
-/***** NAVBAR *****/
-
 .logo{
+  z-index: 3 !important;
   a{
     font-family: $font-logo;
     font-size: 1.5rem;
     color: $strong-pink;
-    z-index: 3 !important;
     &:hover {
       color: $strong-pink;
       text-decoration: none;
@@ -180,11 +178,6 @@
 }
 
 @media screen and (max-width:620px){
-  .logo{
-    a{
-      font-size: 1.2rem;
-    }
-  }
   .sidebar .nav-item {
     width: 50%;
   } 

@@ -72,10 +72,27 @@
   margin-top: 15%;
 }
 
+.logo-sm-screen {
+  z-index: 3 !important;
+  a{
+    font-family: $font-logo;
+    font-size: 1.5rem;
+    color: $strong-pink;
+    &:hover {
+      color: $strong-pink;
+      text-decoration: none;
+    }
+  }
+}
+
+
 @media screen and (max-width:1200px){
   .header-fix {
     padding: 3rem;
     margin-top: 15%;
+    .main {
+      margin: 0 1.5rem;
+    }
     h3 {
       font-size: 1.5rem;
     }
@@ -92,6 +109,9 @@
   }
   .header-fix {
     margin-top: 25%;
+    .main {
+      margin: 0;
+    }
   }
 }
 @media screen and (max-width:770px){
@@ -119,13 +139,18 @@
   }
   .header-fix {
     width: 100vw;
-  } 
-  .header-fix h1 {
-    font-size: 2rem;
-  } 
-  .header-fix h3 {
-    font-size: 1.3rem;
-  } 
+    padding-left: 1rem !important;
+    h1 {
+      font-size: 2rem;
+    } 
+    h3 {
+      font-size: 1.3rem;
+    } 
+  }
+  .logo-sm-screen {
+    padding-left: 1rem !important;
+  }
+
   .title-pages {
     font-size: 3rem;
     margin-bottom: -19px !important;
