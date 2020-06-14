@@ -3,7 +3,7 @@
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="far fa-window-close fa-sm"></i></a>
     <ul class="custom-scrollbar nav flex-column text-center ml-auto mr-auto">
       <li class="nav-item mt-5 mb-3">
-            <a class="mt-5 nav-link hvr-underline-from-center" href="{{ route('home') }}">
+            <a class="mt-3 mt-sm-3 mt-md-5 nav-link hvr-underline-from-center" href="{{ route('home') }}">
             HOME
             </a>
         </li>

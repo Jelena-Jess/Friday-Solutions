@@ -7,13 +7,11 @@
 
   <section class="p-5 back-light">
     <div class="main p-5">
-      <div class="d-flex flex-column justify-content-center align-items-center">
-        <div class="pb-4 animate-left">
-          <h4 class="text-center">We have a collection of articles on coding, web design, and some which are here only to inspire you. Please choose from any category or see all the latest articles.</h4>
+      <div class="d-flex flex-column justify-content-center">
+        <div class="animate-left w-75 mx-auto">
+          <h5 class="text-center">We have a collection of articles on coding, web design, and some which are here only to inspire you. Please choose from any category or see all the latest articles.</h5>
         </div>
-        <div class="blog-index-img animate-right">
-          <img src="/images/blog.png" alt="">
-        </div>
+          <img src="/images/blog.png" alt="" class="animate-right mx-auto">
       </div>
     </div>
   </section>

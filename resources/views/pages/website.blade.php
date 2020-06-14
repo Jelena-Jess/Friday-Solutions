@@ -5,27 +5,88 @@
 @section('content')
 <main id="main" role="main" class="m-auto">
 
-  <section class="py-5 text-justify bg-light">
+  <section class="py-5 text-center bg-light">
     <div class="main py-5">
-      <div class="d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column align-items-center">
-        <div class="animate-left center-split px-lg-5 px-md-4">
-          {{-- <p>The website design process starts with a sketch. First, we discuss wireframes, page layouts, and menu structures. Digital design concepts are then created. You will be presented with a variety of website design concepts to review. Feedback on the design concepts is essential to give you the opportunity to express your thoughts on the design and make alterations where desired before the final sign-off.</p>
-          <p>Once the design has been finalised, the creation of the website can begin. The website development process starts by taking the graphical elements (colours, fonts, layout, images) defined in the design process and coding them using web industry standards (PHP, HTML5, CSS3, JS, jQuery). This is typically done by first coding the home page, followed by templates for the interior pages. When the website is ready for review you will be supplied with login details to view the website before it is launched to the public. You will also be supplied with instructions on how to update your website.</p> --}}
-          <h3 class=" text-center text-dark">All of the websites that we create have been tailor-made and coded from scratch.</h3>
-          <p class="p-big"> We believe in simplicity. Whether your audience is reading content, watching a video or purchasing an item, every action should be clear throughout the website. Our goal is to create a website that highlights your company’s brand while ensuring ease of use and simplicity for your audience.</p>
+      <div class="d-flex flex-column justify-content-center">
+        <div class="animate-left w-75 mx-auto">
+          <h5 class="p-big"> We believe in simplicity. Whether your audience is reading content, watching a video or purchasing an item, every action should be clear throughout the website. Our goal is to create a website that highlights your company’s brand while ensuring ease of use and simplicity for your audience.</h5>
         </div>
-        <div class="animate-right center-split">
-          <img src="/images/code.png" alt="">
-        </div>
+        <img src="/images/code.png" alt="" class="website-img animate-right mx-auto">
       </div>
-    
-     
     </div>
   </section>
 
-  <section id="tech" class="py-5 bg-grey">
+  <section class="py-5 bg-grey">
+    <div class="py-5">
+      <h2 class="text-center">STAGES OF WEB DEVELOPMENT</h2>
+      <div class="separator pb-5">
+        <div class="line line-left"></div>
+        <div class="asterisk"><i class="fas fa-circle"></i></div>
+        <div class="line line-right"></div>
+      </div>
+      <div class="web-stages">
+        <div>
+          <h4>Stage 1. Information Gathering</h4>
+          <ul>
+            <li>Set goals for the website</li>
+            <li>Define target audience</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Stage 2. Planning</h4>
+          <ul>
+            <li>Create a sitemap sketch</li>
+            <li>Create a wireframe/mock-up</li>
+            <li>Select technology stack (programming language, frameworks, CMS)</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Stage 3. Design</h4>
+          <ul>
+            <li>Create colourful page layouts</li>
+            <li>Review the layouts</li>
+            <li>Get client's feedback on the layouts</li>
+            <li>Change the layout when required</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Stage 4. Content Writing and Assembly</h4>
+          <ul>
+            <li>Create new content</li>
+            <li>Get content ready for migration</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Stage 5. Coding</h4>
+          <ul>
+            <li>Build and deploy website</li>
+            <li>Add special features and interactivity</li>
+            <li>SEO for the website</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Stage 6. Testing, Review and Launch</h4>
+          <ul>
+            <li>Test the created website</li>
+            <li>Upload the website to server</li>
+            <li>Final testing and launch</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Stage 7. Maintenance and Regular Updating</h4>
+          <ul>
+            <li>Add user report system</li>
+            <li>Fix bugs</li>
+            <li>Keep website up-to-date</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tech" class="py-5 bg-light">
     <div class="main py-5 container-fluid">
-      <h2 class="text-center text-dark"><a id="plans">TECHNOLOGIES THAT CREATE WONDERS</a></h2>
+      <h2 class="text-center">TECHNOLOGIES THAT CREATE WONDERS</h2>
       <div class="separator">
         <div class="line line-left"></div>
         <div class="asterisk"><i class="fas fa-circle"></i></div>
@@ -76,17 +137,17 @@
 
   <section id="plans" class="py-5 bg-dark">
     <div class="monthly-plans py-5">
-      <h2 class="text-center text-light"><a id="plans">WEBSITE SERVICES</a></h2>
+      <h2 class="text-center">OUR WEBSITE SERVICES</h2>
       <div class="separator">
         <div class="line line-left"></div>
         <div class="asterisk"><i class="fas fa-circle"></i></div>
         <div class="line line-right"></div>
       </div>
       <div class="d-flex flex-column justify-content-center">
-        <p class=" mt-4 mb-5 text-center text-light">
+        <p class=" mt-4 mb-5 text-center">
           Websites are a necessity to compete in today’s business landscape. We offer a few different types of web design services, including templates, semi-custom, and fully custom websites. Each of our web design offerings includes a dedicated account manager, an in-depth kickoff meeting, a 40+ step post-launch SEO checklist, and more. We build most of our websites on WordPress, the web’s most popular content management system and all our websites are built to be responsive, meaning they work on any tablet or mobile phone.
         </p>
-        <p class="mb-5 text-center text-light">
+        <p class="mb-5 text-center">
           You’ll notice that we only list pricing ranges and not set pricing for reach offering. Each of our web design projects varies greatly and depends on your budget, goals, and timeframe. If you’re unsure of what you want, our team can help you choose the right option that falls within your budget.
         </p>
       </div>
@@ -205,9 +266,7 @@
     </div>
   </section>
 
-  
-
-  <section id="plans" class="py-5 bg-light">
+  <section id="plans" class="py-5 bg-grey">
     <div class="main">
      <div class="py-5">
       <h2 class="text-center text-dark">TERMINOLOGY</h2>

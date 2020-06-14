@@ -167,7 +167,11 @@ td, th {
   border-color: transparent;
 }
 img {
-  width: 100%;
+  width: 40%;
+  height: auto;
+}
+.website-img {
+  width: 30%;
   height: auto;
 }
 .wide {
@@ -187,11 +191,20 @@ img {
   .main {
     width: 90%;
   }
+  .website-img {
+    width: 40%;
+  }
 }
 
 @media all and (max-width:992px){
   .main {
     width: 100%;
+  }
+  img {
+    width: 60%;
+  }
+  .website-img {
+    width: 50%;
   }
 }
 

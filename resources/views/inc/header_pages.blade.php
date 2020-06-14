@@ -20,8 +20,8 @@
             </button>
           </div>
         </div>
-        <div class="logo">
-          <a class="align-self-start d-lg-none d-xl-none pt-4 pl-5" href="{{ route('home') }}">FRIDAY SOLUTIONS</a>
+        <div class="logo-sm-screen align-self-start d-lg-none d-xl-none pt-3 pl-5">
+          <a href="{{ route('home') }}">FRIDAY SOLUTIONS</a>
         </div>
          
       </div>

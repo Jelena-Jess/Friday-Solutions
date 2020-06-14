@@ -87,6 +87,51 @@
   width: 30%;
 }
 
+.web-stages {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+  align-self: center;
+  >div {
+    padding: 30px;
+  }
+  > div:nth-child(1) {
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 2;
+    @include background-color($bg-dark);
+  }
+  > div:nth-child(2) {
+    grid-row: 1 / span 2;
+    grid-column: 3 / span 2;
+    @include background-color($light-pink);
+  }
+  > div:nth-child(3) {
+    grid-row: 1 / span 5;
+    grid-column: 5 / span 1;
+    @include background-color($grey);
+  }
+  > div:nth-child(4) {
+    grid-row: 2 / span 2;
+    grid-column: 1 / span 2;
+  }
+  > div:nth-child(5) {
+    grid-row: 3 / span 3;
+    grid-column: 3 / span 1;
+    @include background-color($grey);
+  }
+  > div:nth-child(6) {
+    grid-row: 3 / span 3;
+    grid-column: 4 / span 1;
+    @include background-color($bg-dark);
+  }
+  > div:nth-child(7) {
+    grid-row: 4 / span 2;
+    grid-column: 1 / span 2;
+    @include background-color($bg-dark);
+  }
+}
+
 /***** LOGO *****/
 .logo-text {
   div {
@@ -132,6 +177,12 @@
     width: 40vw;
     margin: 20px;
   }
+  .web-stages {
+    width: 90%;
+    >div {
+      padding: 30px 20px;
+    }
+  }
 }
 
 @media screen and (max-width:1200px){
@@ -147,6 +198,9 @@
     width: 35vw;
     margin: 15px;
   }
+  .web-stages {
+    width: 95%;
+  }
 }
 
 @media all and (max-width:992px){
@@ -160,6 +214,48 @@
   .content {
     width: 80%;
   }
+  .web-stages {
+    width: 95%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    >div {
+      padding: 20px 10px;
+    }
+    > div:nth-child(1) {
+      grid-row: 1 / span 2;
+      grid-column: 1 / span 2;
+    }
+    > div:nth-child(2) {
+      grid-row: 1 / span 3;
+      grid-column: 3 / span 2;
+      @include background-color($grey);
+    }
+    > div:nth-child(3) {
+      grid-row: 3 / span 4;
+      grid-column: 1 / span 2;
+      @include background-color($light-pink);
+    }
+    > div:nth-child(4) {
+      grid-row: 4 / span 3;
+      grid-column: 3 / span 2;
+      @include background-color($bg-dark);
+    }
+    > div:nth-child(5) {
+      grid-row: 7 / span 2;
+      grid-column: 1 / span 4;
+      padding: 20px 30%;
+      margin: 0 auto;
+    }
+    > div:nth-child(6) {
+      grid-row: 9 / span 3;
+      grid-column: 1 / span 2;
+    }
+    > div:nth-child(7) {
+      grid-row: 9 / span 3;
+      grid-column: 3 / span 2;
+      @include background-color($light-pink);
+    }
+  }
+  
 }
 
 @media screen and (max-width:770px){
@@ -187,6 +283,18 @@
   .logo-text {
     div {
       width: 90%;
+    }
+  }
+  .web-stages {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    >div {
+      padding: 20px 30px;
+    }
+    > div:nth-child(5) {
+      padding: 20px 30px;
+      margin: 0;
     }
   }
 }

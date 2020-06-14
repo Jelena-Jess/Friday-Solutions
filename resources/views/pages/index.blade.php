@@ -73,7 +73,7 @@
       <div class="bio p-5 mx-auto">
         <div class="d-flex flex-column align-items-center justify-content-center">
           <h1 class="text-center">ABOUT US</h1>
-          <h4 class="text-center mt-4 mb-5">Grow your business online is the driving force behind Friday Solutions. We’re passionate, hard-working, and most of all, we love helping our clients do great things.</h4>
+          <h4 class="text-center mt-4 mb-5">Making your business grow online is the driving force behind Friday Solutions. We’re enthusiastic and hard-working, and most of all, eager to help our clients do amazing things.</h4>
           <div class="text-center">
             <a href="{{ route('about') }}" class="btn">Learn more</a>
           </div>
@@ -85,24 +85,24 @@
       <div class="main py-5">
         <div class="d-flex flex-column justify-content-center">
           <div class="">
-            <h1 class="text-center">GROW YOUR BUSINESS ONLINE</h1>
+            <h1 class="text-center">EXPAND YOUR BUSINESS ONLINE</h1>
             <div class="separator">
               <div class="line line-left"></div>
               <div class="asterisk"><i class="fas fa-circle"></i></div>
               <div class="line line-right"></div>
             </div>
-            <p class="p-big text-center mt-3 mb-5">The digital world is changing fast, and your business should be ready to embrace what's next. Ready to work together on a great website that gets results?</p>
+            <p class="p-big text-center mt-3 mb-5">The digital world is changing rapidly, and your business should keep pace. Ready to work together on a great website that gets results?</p>
           </div>
           <div class="d-flex flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-column justify-content-around">
             <div class="reveal plan-box align-self-center border m-3 p-3">
               <div><i class="icon fas fa-mobile-alt fa-2x"></i></div>
-              <h2 class="text-center mt-4 mb-3">Schedule a Call</h2>
-              <p class="text-center">We’re here to help you grow your business. Talk to us to see how we can help.</p>
+              <h2 class="text-center mt-4 mb-3">Schedule a call</h2>
+              <p class="text-center">We’re here to help you expand your business. Talk to us to see how we can help.</p>
             </div>
             <div class="reveal plan-box align-self-center border m-3 p-3">
               <div><i class="icon far fa-map fa-2x"></i></div>
-              <h2 class="text-center mt-4 mb-3">Plan it</h2>
-              <p class="text-center">We’ll outline your goals together and create a plan to help you get the most of your website.</p>
+              <h2 class="text-center mt-4 mb-3">Create a strategy</h2>
+              <p class="text-center">We’ll define your goals together and create a plan to help you get the most of your website.</p>
             </div>
             <div class="reveal plan-box align-self-center border m-3 p-3">
               <div><i class="icon fas fa-globe fa-2x"></i></div>
@@ -111,24 +111,7 @@
             </div>
           </div>
           <div class="text-center mt-5">
-            <a href="{{ route('contact.create') }}" class="btn">Schedule a call today</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="" class="p-5 text-justify bg-grey">
-      <div class="main py-5">
-        <div class="d-flex flex-column justify-content-center">
-          <h1 class="text-center">START YOUR PROJECT WITH US</h1>
-          <div class="separator">
-            <div class="line line-left"></div>
-            <div class="asterisk"><i class="fas fa-circle"></i></div>
-            <div class="line line-right"></div>
-          </div>
-          <h4 class="text-center mt-4 mb-5">Our team is ready to help you. Contact us now and we will answer you today.</h4>
-          <div class="text-center">
-            <a href="{{ route('contact.create') }}" class="btn">GET IN TOUCH</a>
+            <a href="{{ route('contact.create') }}" class="btn">Contact us today</a>
           </div>
         </div>
       </div>
@@ -163,6 +146,23 @@
             @else
               <p>No posts to show</p>
             @endif
+        </div>
+      </div>
+    </section>
+
+    <section id="" class="p-5 text-justify bg-grey">
+      <div class="main py-5">
+        <div class="d-flex flex-column justify-content-center">
+          <h1 class="text-center">START YOUR PROJECT WITH US</h1>
+          <div class="separator">
+            <div class="line line-left"></div>
+            <div class="asterisk"><i class="fas fa-circle"></i></div>
+            <div class="line line-right"></div>
+          </div>
+          <h4 class="text-center mt-4 mb-5">Our team is ready to help you. Contact us now and we will answer you today.</h4>
+          <div class="text-center">
+            <a href="{{ route('contact.create') }}" class="btn">GET IN TOUCH</a>
+          </div>
         </div>
       </div>
     </section>

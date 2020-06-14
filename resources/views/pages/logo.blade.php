@@ -21,9 +21,9 @@
     </section>
     
 
-    <section class="col-12 py-5 text-justify bg-grey">
+    <section class="py-5 text-justify bg-grey">
       <div class="main p-5">
-        <h1 class="text-center text-dark">The stages of logo creation</h1>
+        <h1 class="text-center">The stages of logo creation</h1>
         <div class="separator">
           <div class="line line-left"></div>
           <div class="asterisk"><i class="fas fa-circle"></i></div>

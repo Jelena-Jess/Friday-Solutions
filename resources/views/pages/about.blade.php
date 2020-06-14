@@ -8,13 +8,11 @@
 
   <section class="py-5 text-justify bg-light">
     <div class="main">
-      <div class="d-flex flex-column align-items-center">
-        <div class="animate-left px-lg-5 px-md-4">
-          <p class="p-big text-center text-dark">We're a small web developing studio studio based in Novi Sad, Serbia. You'll always deal with an owner of the company.</p>
+      <div class="d-flex flex-column justify-content-center">
+        <div class="animate-left w-75 mx-auto">
+          <h5 class="text-center">We're a small web developing studio studio based in Novi Sad, Serbia. You'll always deal with an owner of the company.</h5>
         </div>
-        <div class="animate-right">
-          <img src="/images/about.png" alt="">
-        </div>
+          <img src="/images/about.png" alt="" class="animate-right mx-auto">
       </div>
     </div>
   </section>
