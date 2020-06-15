@@ -5,20 +5,18 @@
 @section('content')
 <main role="main" class="m-auto">
 
-  <section class="col-12 py-5 text-justify bg-light">
-    <div class="main">
-      <div class="d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column align-items-center">
-        <div class="animate-left center-split px-lg-5 px-md-4">
-          <h3 class="text-center text-dark">All of the websites that we create have been tailor-made and coded from scratch.</h3>
+  <section class="py-5 text-center bg-light">
+    <div class="main py-5">
+      <div class="d-flex flex-column justify-content-center">
+        <div class="animate-left w-75 mx-auto">
+          <h5 class="p-big">A content strategy includes everything from brand and tone to how you will promote your content and eventually repurpose it. Let’s go over how to create your content plan, step-by-step.</h5>
         </div>
-        <div class="animate-right center-split">
-          <img src="/images/content.png" alt="">
-        </div>
+        <img src="/images/content.png" alt="" class="website-img animate-right mx-auto">
       </div>
     </div>
   </section>
 
-  <section class="col-12 py-5 text-justify bg-dark">
+  <section class="py-5 text-justify bg-dark">
     <div class="main p-5">
       <h1 class="text-center">Why Is Content Important?</h1>
       <div class="separator">
@@ -28,18 +26,16 @@
       </div>
       <div class="d-flex flex-column align-items-center pt-4">
         <div>
-          <p class="text-center p-big py-3">
+          <p class="text-center py-3">
             Content creation is the ultimate inbound marketing practice. When you create content, you’re providing free and useful information to your audience, attracting potential customers to your website, and retaining existing customers through quality engagement.Content equals business growth. So, let’s get started with your content strategy.</p>
-        </div>
-          <div>
             <p>You wouldn’t start building a house without a blueprint, a sculpture without a sketch, or a company without a mission statement. So, there should be no content creation without a plan. Otherwise you risk getting derailed from your objective.</p>
-            <p>A content strategy includes everything from brand and tone to how you will promote your content and eventually repurpose it. Let’s go over how to create your content plan, step-by-step.</p>
           </div>
         </div>
       </div>
     </section>
-    <section class="col-12 py-5 text-justify bg-grey">
-      <div class="main py-5 content"> 
+
+    <section class="py-5 text-justify bg-grey">
+      <div class="main py-5"> 
         <div>          
           <h1>Set Your Content Goals</h1>
           <p>Similar to a traditional marketing campaign, your content strategy should be centered on your marketing goals (which should, in turn, be derived from your company goals).</p>  
@@ -141,87 +137,96 @@
           <p>Think of it as recycling. You want to spend less time creating and more time getting your content in front of your audience. For example, that blog post that you wrote on marketing stats can also serve as a great infographic or even a video.</p>
           <p>If you created something in one format, try to think of all the other ways that you could reuse that information that might be just as effective.</p>
         </div>
+      </section>
           
-        <div>
-          <h1>The Content Creation Process</h1>
-          <p>We marketers are busy. We don’t have time to waste on inefficient systems. That’s why we create processes for everything we do. We devise a system, roll it out, tweak it until it works, then repeat that system over and over to generate the results we want. Think about every marketing campaign you’ve ever done — webinars, autoresponders, surveys. Each of them had a process. Content creation is no different.</p>
-          <p>Follow these steps to create content, remove the guesswork, and allow for more creative mental space.</p>
+        <section class="p-3 bg-light">
+          <div id="content">
+            <h1 class="text-center">The Content Creation Process</h1>
+            <div class="separator">
+              <div class="line line-left"></div>
+              <div class="asterisk"><i class="fas fa-circle"></i></div>
+              <div class="line line-right"></div>
+            </div>
+            <p class="mx-auto text-center">We marketers are busy. We don’t have time to waste on inefficient systems. That’s why we create processes for everything we do. We devise a system, roll it out, tweak it until it works, then repeat that system over and over to generate the results we want. Think about every marketing campaign you’ve ever done — webinars, autoresponders, surveys. Each of them had a process. Content creation is no different.</p>
+            <p class="mx-auto text-center">Follow these steps to create content, remove the guesswork, and allow for more creative mental space.</p>
+            <div class="d-flex flex-column align-items-center pt-4">
+              <div class="content">
+                <div>
+                <h3>1. SEO Research</h3>
+                <p>Creating your buyer persona likely gave you some ideas about what topics to write about and what questions your audience might have, which is a great start. Now, you need to confirm if those ideas can apply on a bigger scale to a larger audience. Sure, it would be great to write a blog post directed toward a single person, but, boy, would it be a waste of energy.</p>
+                <p>SEO research — a.k.a. keyword research — will show you the search volume of a specific keyword phrase and whether it’s worth the investment of creating a piece of content around it.</p>
+                <p>A good way to go about keyword research is to write down some questions that your persona might have based on their obstacles and goals. Then, perform some keyword research around those queries to see if enough people are searching for them. A rule of thumb is to target keywords that are attainable, meaning that have a monthly search volume (MSV) and keyword difficulty that corresponds to your domain authority. Trying to target high volume (read: highly competitive) keywords when you’ve just started blogging won’t pan out too well for you.</p>
+                <p>Before we go any further, let’s detour into a quick-and-dirty SEO explanation:</p>
+                <p>One important factor that helps you to rank in search engines is domain authority. You gain domain authority by how many external sites link back to your content. In order for this to happen, you need to have a pretty large library of content that is valuable enough to cite. That means, the longer you write high quality content, the higher your domain authority and the easier it is to rank for highly competitive keywords that will put you on the first page of Google.</p>
+                <p>If you’re not quite there yet, the best thing to do is to target long-tail, low-volume keywords with minimal keyword difficulty (50) — we’re talking 200-1000 MSV. This will give you the best chance at ranking for keywords and getting your content in front of more people.</p>
+                <p>SEO lesson concluded. Back to our scheduled programming.</p>
+                <p>There are a few ways you could perform your keyword research:</p>
+                <ul>
+                  <li>Use keyword research tools, like SEMRush or Moz Keyword Explorer.</li>
+                  <li>Type your keyword into a search engine and take note of the auto-filled queries.</li>
+                  <li>Check out the related searches section on search engine results pages (SERPs).</li>
+                </ul>
+                <p>Featured Resources</p>
+                <ul>
+                  <li>How to Conduct a Technical SEO Audit</li>
+                  <li>22 SEO Myths to Leave Behind in 2019</li>
+                </ul>
+              </div>
+              <div>
+                <h3>2. Ideation</h3>
+                <p>Now that you’ve determined which keywords to target, it’s time to brainstorm some content ideas. HubSpot research shows that the best way to organize content is through topic clusters, meaning you create a long-form, comprehensive pillar page based on a keyword that then links to content you’ve created on related subtopics (think blog posts).</p>
+                <p>To illustrate the point, it looks something like this.</p>
+                <p>The topic cluster model makes brainstorming so much easier because now you have structure to follow (... told you we like processes). You can use your main keyword to create a pillar piece that covers that topic in depth, like … say a guide to content creation. Then, you can create shorter pieces of content — infographics, blog posts, templates — that help your audience dive deeper into the topic and target long-tail keywords.</p>
+                <p>If you’re stumped for ideas, you might want to consider looking for inspiration from books you’ve read, industry studies, your competitor’s sites, or related searches on SERPs.</p>
+                <p>Once you have all of your ideas down, you can develop your editorial calendar and start creating.</p>
+              </div>
+              <div>
+                <h3>3. Writing</h3>
+                <p>I’m going to talk about the writing process because … well, that’s what I do. Your specific content creation strength might be videos or graphics or podcasts. Whatever it is, the creation process follows some pretty similar guidelines:</p>
+                <ul>
+                  <li>Write to your persona. Use their voice, their euphemisms, even their humor to construct a piece that resonates.</li>
+                  <li>Use titles, meta descriptions, and other teasers to compel your audience to read your content. Put the benefit of your content right in the title to let them know why they should read it.</li>
+                  <li>Create something unique. Don’t simply regurgitate the information that’s already out there. Infuse a unique style or cite new research to emphasize your points.</li>
+                  <li>Stick to one idea and use your content to reinforce it. Don’t confuse your reader by going on tangents or trying to explain multiple semi-related topics in a single piece.</li>
+                  <li>Stay true to your voice. Don’t try to impress your audience with eloquent prose or an expansive vocabulary if they don’t speak that way.</li>
+                  <li>Be concise and clear. You want your audience to relate to you and derive value from your content … and not have to sift through jargon or confusing metaphors.</li>
+                </ul>
+                <p>Featured Resource</p>
+                <ul><li>HubSpot's Guide to Writing Well in Marketing</li></ul>
+              </div>
+              <div>
+                <h3>4. Editing</h3>
+                <p>The way you edit your (or others’) work is a very subjective process. You may want to edit as you go, or you might wait a few days and review the work with fresh eyes. You might care a great deal about grammar, or you might aim for a more colloquial piece.</p>
+                <p>Either way, there are a few things that should definitely look out for as you refine your content, like active voice, clear language, short sentences, and plenty of whitespace. Consider having a colleague or manager review your work, too.</p>
+                <p>Some tools that will help you cut down on your editing time are Grammarly and Hemingway Editor.</p>
+              </div>
+              <div>
+                <h3>5. Uploading</h3>
+                <p>Now that your content is ready, you’ll need to put it somewhere that people can access it. A content management system (CMS) is software that hosts digital content and allows you to display it on your website (or anywhere else on the web).</p>
+                <p>The benefit to a CMS is that it connects all of your content and stores it in one place. So, you can easily link to a landing page in your blog article or insert a content offer in an email. Not only that, but you can analyze the results of all the content you created for a specific campaign (which can help with content audits). A CMS saves you from having a disjointed content marketing system.</p>
+                <p>For example, CMS Hub is home to our blog, where you get access to all of our great content and useful free offers.</p>
+              </div>
+              <div>
+                <h3>6. Publishing</h3>
+                <p>Publishing content is as simple as clicking a button. So, why include a section on it? Well, because it’s not always that simple. Yes, you can publish your content immediately after uploading, or you can maximize its impact by waiting for an optimal time.</p>
+                <p>If you’re just starting out, then clicking publish right away probably won’t impact your audience too much. But if you have committed to a regular publishing schedule, like delivering a new post every Wednesday, your audience will expect to see posts published on Wednesdays.</p>
+                <p>Something else to keep in mind is to publish according to trends or time-sensitive events. For example, if you create content about national holidays or current events, then you’ll want to publish those at specific times.</p>
+                <p>A CMS will allow you schedule posts for a future date and specific time, so you can click, schedule, and forget.</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div>
-          <h3>1. SEO Research</h3>
-          <p>Creating your buyer persona likely gave you some ideas about what topics to write about and what questions your audience might have, which is a great start. Now, you need to confirm if those ideas can apply on a bigger scale to a larger audience. Sure, it would be great to write a blog post directed toward a single person, but, boy, would it be a waste of energy.</p>
-          <p>SEO research — a.k.a. keyword research — will show you the search volume of a specific keyword phrase and whether it’s worth the investment of creating a piece of content around it.</p>
-          <p>A good way to go about keyword research is to write down some questions that your persona might have based on their obstacles and goals. Then, perform some keyword research around those queries to see if enough people are searching for them. A rule of thumb is to target keywords that are attainable, meaning that have a monthly search volume (MSV) and keyword difficulty that corresponds to your domain authority. Trying to target high volume (read: highly competitive) keywords when you’ve just started blogging won’t pan out too well for you.</p>
-          <p>Before we go any further, let’s detour into a quick-and-dirty SEO explanation:</p>
-          <p>One important factor that helps you to rank in search engines is domain authority. You gain domain authority by how many external sites link back to your content. In order for this to happen, you need to have a pretty large library of content that is valuable enough to cite. That means, the longer you write high quality content, the higher your domain authority and the easier it is to rank for highly competitive keywords that will put you on the first page of Google.</p>
-          <p>If you’re not quite there yet, the best thing to do is to target long-tail, low-volume keywords with minimal keyword difficulty (50) — we’re talking 200-1000 MSV. This will give you the best chance at ranking for keywords and getting your content in front of more people.</p>
-          <p>SEO lesson concluded. Back to our scheduled programming.</p>
-          <p>There are a few ways you could perform your keyword research:</p>
-          <ul>
-            <li>Use keyword research tools, like SEMRush or Moz Keyword Explorer.</li>
-            <li>Type your keyword into a search engine and take note of the auto-filled queries.</li>
-            <li>Check out the related searches section on search engine results pages (SERPs).</li>
-          </ul>
-          <p>Featured Resources</p>
-          <ul>
-            <li>How to Conduct a Technical SEO Audit</li>
-            <li>22 SEO Myths to Leave Behind in 2019</li>
-          </ul>
-        </div>
-        <div>
-          <h3>2. Ideation</h3>
-          <p>Now that you’ve determined which keywords to target, it’s time to brainstorm some content ideas. HubSpot research shows that the best way to organize content is through topic clusters, meaning you create a long-form, comprehensive pillar page based on a keyword that then links to content you’ve created on related subtopics (think blog posts).</p>
-          <p>To illustrate the point, it looks something like this.</p>
-          <p>The topic cluster model makes brainstorming so much easier because now you have structure to follow (... told you we like processes). You can use your main keyword to create a pillar piece that covers that topic in depth, like … say a guide to content creation. Then, you can create shorter pieces of content — infographics, blog posts, templates — that help your audience dive deeper into the topic and target long-tail keywords.</p>
-          <p>If you’re stumped for ideas, you might want to consider looking for inspiration from books you’ve read, industry studies, your competitor’s sites, or related searches on SERPs.</p>
-          <p>Once you have all of your ideas down, you can develop your editorial calendar and start creating.</p>
-        </div>
-        <div>
-          <h3>3. Writing</h3>
-          <p>I’m going to talk about the writing process because … well, that’s what I do. Your specific content creation strength might be videos or graphics or podcasts. Whatever it is, the creation process follows some pretty similar guidelines:</p>
-          <ul>
-            <li>Write to your persona. Use their voice, their euphemisms, even their humor to construct a piece that resonates.</li>
-            <li>Use titles, meta descriptions, and other teasers to compel your audience to read your content. Put the benefit of your content right in the title to let them know why they should read it.</li>
-            <li>Create something unique. Don’t simply regurgitate the information that’s already out there. Infuse a unique style or cite new research to emphasize your points.</li>
-            <li>Stick to one idea and use your content to reinforce it. Don’t confuse your reader by going on tangents or trying to explain multiple semi-related topics in a single piece.</li>
-            <li>Stay true to your voice. Don’t try to impress your audience with eloquent prose or an expansive vocabulary if they don’t speak that way.</li>
-            <li>Be concise and clear. You want your audience to relate to you and derive value from your content … and not have to sift through jargon or confusing metaphors.</li>
-          </ul>
-          <p>Featured Resource</p>
-          <ul><li>HubSpot's Guide to Writing Well in Marketing</li></ul>
-        </div>
-        <div>
-          <h3>4. Editing</h3>
-          <p>The way you edit your (or others’) work is a very subjective process. You may want to edit as you go, or you might wait a few days and review the work with fresh eyes. You might care a great deal about grammar, or you might aim for a more colloquial piece.</p>
-          <p>Either way, there are a few things that should definitely look out for as you refine your content, like active voice, clear language, short sentences, and plenty of whitespace. Consider having a colleague or manager review your work, too.</p>
-          <p>Some tools that will help you cut down on your editing time are Grammarly and Hemingway Editor.</p>
-        </div>
-        <div>
-          <h3>5. Uploading</h3>
-          <p>Now that your content is ready, you’ll need to put it somewhere that people can access it. A content management system (CMS) is software that hosts digital content and allows you to display it on your website (or anywhere else on the web).</p>
-          <p>The benefit to a CMS is that it connects all of your content and stores it in one place. So, you can easily link to a landing page in your blog article or insert a content offer in an email. Not only that, but you can analyze the results of all the content you created for a specific campaign (which can help with content audits). A CMS saves you from having a disjointed content marketing system.</p>
-          <p>For example, CMS Hub is home to our blog, where you get access to all of our great content and useful free offers.</p>
-        </div>
-        <div>
-          <h3>6. Publishing</h3>
-          <p>Publishing content is as simple as clicking a button. So, why include a section on it? Well, because it’s not always that simple. Yes, you can publish your content immediately after uploading, or you can maximize its impact by waiting for an optimal time.</p>
-          <p>If you’re just starting out, then clicking publish right away probably won’t impact your audience too much. But if you have committed to a regular publishing schedule, like delivering a new post every Wednesday, your audience will expect to see posts published on Wednesdays.</p>
-          <p>Something else to keep in mind is to publish according to trends or time-sensitive events. For example, if you create content about national holidays or current events, then you’ll want to publish those at specific times.</p>
-          <p>A CMS will allow you schedule posts for a future date and specific time, so you can click, schedule, and forget.</p>
-        </div>
+      </section>
 
-        <div>
-          <h1>Content Creation Tools</h1>
-          <p>While a CMS will help you manage your content, it won’t help you create it. That’s where content creation tools come in handy. These are especially useful if you’re artistically impaired, like me, or if you don’t have the capacity to hire help. From GIFs to infographics, these content creation tools will help you look like a professional, regardless of what kind of content you’re making.</p>
-          <p>Canva will help you create beautiful designs for any platform, from social ads to Facebook cover photos to infographics. The software features aesthetically pleasing templates that you can customize with colors, images, and text ... for free.</p>
-          <p>Giphy The GIF has replaced emojis as a completely normal form of communication, and, therefore, an acceptable way to present content. Giphy allows you to search millions of pre-created GIFs in their database or even create your own.</p>
-          <p>Vidyard is a video hosting platform that was made for marketers. The software allows you to customize your video by adding overlays, text, or CTA buttons, split test, transcribe, and has SEO features.</p>
-          <p>SurveyMonkey is a leading survey creation platform. Why might you need such a thing? Because a good marketer knows that customer feedback is critical to an effective marketing campaign.</p>
-          <p>MakeMyPersona is HubSpot’s own nifty tool that will walk you through the process of creating your buyer persona. You can generate a document to reference throughout your content creation process.</p>
-          <p>Anchor is the podcasting tool for beginners. It’s free, allows you to record and store unlimited episodes, and you can easily upload to any third-party platform.</p>
-          <p>This is far from an exhaustive list of all the great content creation tools out there — this list is much better!</p>
-        </div>
-          
+      <section class="py-5 text-justify bg-dark">
+        <div class="main p-5">
+          <h1 class="text-center">Why Is Content Important?</h1>
+          <div class="separator">
+            <div class="line line-left"></div>
+            <div class="asterisk"><i class="fas fa-circle"></i></div>
+            <div class="line line-right"></div>
+          </div>
+          <div class="d-flex flex-column align-items-center pt-4">
         <div>
           <h1>Creating a Content Plan</h1>
           <p>Content exists everywhere, but its success relies on your ability to adapt it to the medium on which it lives. One size does not fit all when it comes to posting on different mediums — or the platforms within those mediums, for that matter.</p>
@@ -256,9 +261,19 @@
             <li>5 Free Blog Post Templates</li>
           </ul>
         </div>
+      </section>
+
+      <section class="py-5 text-justify bg-light">
+        <div class="main p-5">
+          <h1 class="text-center">Analyzing Your Content</h1>
+          <div class="separator">
+            <div class="line line-left"></div>
+            <div class="asterisk"><i class="fas fa-circle"></i></div>
+            <div class="line line-right"></div>
+          </div>
+          <div class="d-flex flex-column align-items-center pt-4">
 
         <div>
-          <h1>Analyzing Your Content</h1>
           <p>The final, and arguably most important step in content creation is analyzing your content. Without data, you can’t know what’s working or how to improve it.</p>
           <p>There are several data points you could track when analyzing your content, so use your goals as a guide to set some parameters. Whatever you want to accomplish with your content will help you choose your metrics. (Remember that initial goal we talked about?)</p>
           <p>What you analyze is completely up to you, but here are some ideas for metrics to track:</p>
@@ -272,6 +287,7 @@
           </ul>
         </div>
       </div>
+    </div>
     </section>
   </main>
     

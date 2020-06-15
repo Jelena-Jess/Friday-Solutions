@@ -11636,22 +11636,6 @@ a.text-dark:focus {
   height: 100%;
 }
 
-#slides .slide_1 {
-  background-color: #fff;
-}
-
-#slides .slide_2 {
-  background-color: #fff;
-}
-
-#slides .slide_3 {
-  background-color: #fff;
-}
-
-#slides .slide_4 {
-  background-color: #fff;
-}
-
 #controls {
   margin: -130px 0 0 0;
   width: 100%;
@@ -11702,7 +11686,7 @@ a.text-dark:focus {
   width: 10px;
   height: 10px;
   border-radius: 100%;
-  background-color: #f3eff0;
+  background-color: #c0bebe;
   margin: 0 10px;
 }
 
@@ -12696,22 +12680,44 @@ h2.related {
 
 /***** CONTENT *****/
 
-.content {
+#content {
   width: 60%;
   margin: 0 auto;
 }
 
-.content div {
-  padding: 1rem;
+.content > div {
+  padding: 2rem;
+  background-color: #fff;
+  color: #0d0d0d;
+  margin: 2rem 0;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px -1px #b8abb5;
+  position: relative;
+  z-index: 1;
 }
 
-.content div h1,
-.content div h3 {
+.content > div::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 10px;
+  left: 42%;
+  height: 150px;
+  width: 150px;
+  background-color: #f1e5e7;
+  color: #0d0d0d;
+  border-radius: 50%;
+}
+
+.content > div h3 {
   text-align: center;
+  padding-top: 2.5rem;
+  padding-bottom: 3rem;
 }
 
-.content div h1 {
-  padding-top: 2rem;
+.content > div h1 {
+  text-align: center;
+  padding-top: 5rem;
   padding-bottom: 1rem;
   color: #FE4365;
 }
@@ -12736,6 +12742,10 @@ h2.related {
 }
 
 @media screen and (max-width: 1200px) {
+  #content {
+    width: 80%;
+  }
+
   .monthly-plans {
     width: 90%;
     margin: 0 auto;
@@ -12762,10 +12772,6 @@ h2.related {
   }
 
   .plan-box {
-    width: 80%;
-  }
-
-  .content {
     width: 80%;
   }
 
@@ -12840,6 +12846,10 @@ h2.related {
 }
 
 @media screen and (max-width: 600px) {
+  #content {
+    width: 95%;
+  }
+
   .help div {
     width: 65px;
     height: 65px;

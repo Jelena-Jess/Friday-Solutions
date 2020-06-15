@@ -47,20 +47,20 @@
   align-items: center;
   height: 100%;
 }
-#slides .slide_1 {
-  background-color: $bg-light;
-}
-#slides .slide_2 {
-  background-color: $bg-light;
-}
+// #slides .slide_1 {
+//   background-color: $bg-light;
+// }
+// #slides .slide_2 {
+//   background-color: $bg-light;
+// }
 
-#slides .slide_3 {
-  background-color: $bg-light;
-}
+// #slides .slide_3 {
+//   background-color: $bg-light;
+// }
 
-#slides .slide_4 {
-  background-color: $bg-light;
-}
+// #slides .slide_4 {
+//   background-color: $bg-light;
+// }
 #controls {
   margin: -130px 0 0 0;
   width: 100%;
@@ -105,7 +105,7 @@
   width: 10px;
   height: 10px;
   border-radius: 100%;
-  background-color: $bg-grey;
+  background-color: rgb(192, 190, 190);
   margin: 0 10px;
 }
 #slide1:checked ~ #bullets label:nth-child(1),

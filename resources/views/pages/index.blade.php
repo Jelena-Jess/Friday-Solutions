@@ -161,7 +161,7 @@
           </div>
           <h4 class="text-center mt-4 mb-5">Our team is ready to help you. Contact us now and we will answer you today.</h4>
           <div class="text-center">
-            <a href="{{ route('contact.create') }}" class="btn">GET IN TOUCH</a>
+            <a href="{{ route('contact.create') }}" class="btn">LET'S DISCUSS A PROJECT</a>
           </div>
         </div>
       </div>

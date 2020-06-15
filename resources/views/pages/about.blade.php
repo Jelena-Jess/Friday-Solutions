@@ -72,7 +72,7 @@
   
   <section class="py-5 bg-grey">
     <div class="main py-5">
-      <h1 class="text-center">WHAT DO WE BELIEVE IN?</h1>
+      <h1 class="text-center">OUR CORE VALUES</h1>
       <div class="separator">
         <div class="line line-left"></div>
         <div class="asterisk"><i class="fas fa-circle"></i></div>
@@ -89,31 +89,31 @@
               <div class="slide slide_1">
                 <div class="slide-content">
                   <div>
-                    <h2 class="py-2">LISTENING</h2>
-                    <h3>We believe listening is the key to solving your problems.</h3>
+                    <h3 class="py-2">THINKING DEEPLY BEFORE WE ACT</h3>
+                    <h5>Your project needs are deeply researched by our certified business analysts to ensure that your future app provides value to your users.</h5>
                   </div>
                 </div>
               </div>
               <div class="slide slide_2">
                 <div class="slide-content">
                   <div>
-                    <h2 class="py-2">RELATIONSHIPS</h2>
-                    <h3>We believe in building long-term relationships with you.</h3>
+                    <h3 class="py-2">RELATIONSHIPS</h3>
+                    <h5>We believe in building long-term relationships with you.</h5>
                   </div>
                 </div>
               </div>
               <div class="slide slide_3">
                 <div class="slide-content">
                   <div>
-                    <h2 class="py-2">WEBSITES ROCK</h2>
-                    <h3>We believe your website is the centerpiece of all your marketing.</h3>
+                    <h2 class="py-2">RELIABILITY IS OUR TOP PRIORITY</h2>
+                    <h5>We provide reliable software products and services at competitive prices and deliver them on time.</h5>
                   </div>
                 </div>
               </div>
               <div class="slide slide_4">
                 <div class="slide-content">
                   <h2 class="py-2">YOUR SUCCESS</h2>
-                  <h3>We believe our success is tied to your success.</h3>
+                  <h5>We believe our success is tied to your success.</h5>
                 </div>
               </div>
             </div>
@@ -146,7 +146,7 @@
         </div>
         <p class="p-big text-dark text-center mt-4 mb-5">Our team is ready to help you. Contact us now and we will answer you today.</p>
         <div class="text-center">
-          <a href="{{ route('contact.create') }}" class="btn">GET IN TOUCH</a>
+          <a href="{{ route('contact.create') }}" class="btn">LET'S DISCUSS A PROJECT</a>
         </div>
       </div>
     </div>
