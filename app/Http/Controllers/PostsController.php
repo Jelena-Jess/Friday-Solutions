@@ -94,8 +94,8 @@ class PostsController extends Controller
     public function show(Post $post)
     {
         //Route model binding
-        // $post =  Post::find($post);
-        $posts = Post::orderBy('created_at', 'desc')->take(3)->get();
+        //$post =  Post::find($post);
+        $posts = Post::inRandomOrder()->take(3)->get();
         
         return view('posts.show', compact('post', 'posts'));
     }

@@ -16,131 +16,140 @@
     </div>
   </section>
 
-  <section class="py-5 text-justify bg-dark">
-    <div class="main p-5">
+  <section class="p-5 text-justify bg-dark">
+    <div id="content" class="py-5">
       <h1 class="text-center">Why Is Content Important?</h1>
       <div class="separator">
         <div class="line line-left"></div>
         <div class="asterisk"><i class="fas fa-circle"></i></div>
         <div class="line line-right"></div>
       </div>
-      <div class="d-flex flex-column align-items-center pt-4">
+      <div class="d-flex flex-column align-items-center mx-auto pt-4">
         <div>
           <p class="text-center py-3">
             Content creation is the ultimate inbound marketing practice. When you create content, you’re providing free and useful information to your audience, attracting potential customers to your website, and retaining existing customers through quality engagement.Content equals business growth. So, let’s get started with your content strategy.</p>
-            <p>You wouldn’t start building a house without a blueprint, a sculpture without a sketch, or a company without a mission statement. So, there should be no content creation without a plan. Otherwise you risk getting derailed from your objective.</p>
+            <p class="text-center">You wouldn’t start building a house without a blueprint, a sculpture without a sketch, or a company without a mission statement. So, there should be no content creation without a plan. Otherwise you risk getting derailed from your objective.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="py-5 text-justify bg-grey">
-      <div class="main py-5"> 
-        <div>          
-          <h1>Set Your Content Goals</h1>
-          <p>Similar to a traditional marketing campaign, your content strategy should be centered on your marketing goals (which should, in turn, be derived from your company goals).</p>  
-          <p>Your goals could range from attracting more visitors to your site to generating more leads to anything in between — as long as they’re SMART goals. An example of this kind of goal would be to increase organic traffic to the blog by 25% in the next quarter.</p> 
-          <p>Once you determine that, each piece of content you create should be aligned with your goal and contribute to your desired outcome.</p>
-          <p>In sum, start with your goals, then create your content.</p>
+    {{-- <section class="py-5 text-justify bg-grey">
+      <div class="main p-5">
+        <h1 class="text-center">Set Your Content Goals</h1>
+        <div class="separator">
+          <div class="line line-left"></div>
+          <div class="asterisk"><i class="fas fa-circle"></i></div>
+          <div class="line line-right"></div>
         </div>
+          <div class="d-flex flex-column align-items-center pt-4">
+            <div>        
+            <h1></h1>
+            <p>Similar to a traditional marketing campaign, your content strategy should be centered on your marketing goals (which should, in turn, be derived from your company goals).</p>  
+            <p>Your goals could range from attracting more visitors to your site to generating more leads to anything in between — as long as they’re SMART goals. An example of this kind of goal would be to increase organic traffic to the blog by 25% in the next quarter.</p> 
+            <p>Once you determine that, each piece of content you create should be aligned with your goal and contribute to your desired outcome.</p>
+            <p>In sum, start with your goals, then create your content.</p>
+          </div>
 
-        <div>          
-          <h3>Create a Buyer Persona</h3>
-          <p>Building a content strategy is more than considering what type of content you want to create. You first need to know who you’re speaking to, how you want to speak to them, and where to find them. </p>  
-          <p>The key to creating successful inbound content is to make each reader feel like you’re speaking directly to them.</p> 
-          <p>The only way to do this is to get intimate with your visitors, leads, and customers — you need to know them like you know an old friend. You should be aware of their obstacles, their pain points, their challenges, and fears. Similarly, you should understand their best possible outcome, their dream solution, and their biggest fantasies. </p>  
-          <p>Always remember that you are marketing to humans that want to feel connected.</p> 
-          <p>Ideally you’d know and be able to speak directly to every individual that visits your website, but you can’t. The solution? Create a buyer persona. </p>  
-          <p>Your buyer persona is the person that you want to reach with your content. This semi-fictional character serves as a representation of your target audience, i.e., the people who are most likely to benefit from your message and become customers.</p>
-          <p>Creating a buyer persona takes a bit of research, some guesswork, and tweaking. But the end result is a clear picture of the person you want to market to and someone who will happily consume your content.</p> 
-        </div>
+          <div>          
+            <h3>Create a Buyer Persona</h3>
+            <p>Building a content strategy is more than considering what type of content you want to create. You first need to know who you’re speaking to, how you want to speak to them, and where to find them. </p>  
+            <p>The key to creating successful inbound content is to make each reader feel like you’re speaking directly to them.</p> 
+            <p>The only way to do this is to get intimate with your visitors, leads, and customers — you need to know them like you know an old friend. You should be aware of their obstacles, their pain points, their challenges, and fears. Similarly, you should understand their best possible outcome, their dream solution, and their biggest fantasies. </p>  
+            <p>Always remember that you are marketing to humans that want to feel connected.</p> 
+            <p>Ideally you’d know and be able to speak directly to every individual that visits your website, but you can’t. The solution? Create a buyer persona. </p>  
+            <p>Your buyer persona is the person that you want to reach with your content. This semi-fictional character serves as a representation of your target audience, i.e., the people who are most likely to benefit from your message and become customers.</p>
+            <p>Creating a buyer persona takes a bit of research, some guesswork, and tweaking. But the end result is a clear picture of the person you want to market to and someone who will happily consume your content.</p> 
+          </div>
 
-        
-        <div>
-          <h3>Rely on the Buyer’s Journey</h3>
-          <p>If you’ve ever had a headache, the first thing you likely did was try to figure out the cause. Perhaps you were dehydrated, or caffeine-depleted, or maybe you were sick. After you diagnosed the problem, you moved on to solutions — drink some water, grab an espresso, or take some medicine. Finally, you decide between solutions: Evian or tap water? Starbucks or Peet’s Coffee? Aleve or Tylenol? Hopefully, your headache then subsided and you were able to go about your day.</p>
-          <p>This is a representation of the buyer’s journey. Each of your prospects follows a path to a solution — that path involves awareness, consideration, and decision stages. But each of your prospects is in a different part of that journey, so it’s important to use your content to appeal to each stage.</p>
-          <p>By creating content for each stage of the buyer’s journey, you’re ensuring that no visitors fall through the cracks and that every individual that comes to your site feels like they are receiving relevant, useful information.</p>
-          <p>You also want to select a format for your content so that it’s tailored to each stage of the buyer’s journey. A new visitor in the awareness stage won’t want a live demo of your product, but they would read a quick checklist or blog post that helps them better understand their problem. A prospect in the decision stage doesn’t need to know about all the possible solutions, they need a consultation or demo that shows them that your product is the right solution. Always meet your audience where they are.</p>
-          <p>Here’s a guide to the best content formats for each stage of the buyer’s journey:</p>
-          <p>Awareness: Whitepaper, Blog Post, Checklist, Tip Sheet, Infographic, Ebook, Game, Quiz</p>
-          <p>Consideration: Podcast, Webinar, Worksheet, Comparison Matrix, Template</p>
-          <p>Decision: Demo, Free Trial, Product Guide, Consultation, Coupon</p>
-        </div>
-        <div>
-          <h3>Perform a Content Audit</h3>
-          <p>Whether you’ve been creating content for a while without any clear direction or you’ve been following a strategy all along, every marketing department can benefit from a content audit. Just because you didn’t start out with a clearly defined strategy doesn’t mean that the content you already have won’t fit into one.</p>
-          <p>A content audit is simply taking inventory of the work you’ve already done, then organizing it to fit under a your new content plan.</p>
-          <p>The process might involve some re-writing, or it could reveal gaps that need to be filled with content that appeals to your persona and their journey stage.</p>
-          <p>Here’s how you’d perform your content audit:</p>
-          <ol>
-            <li>Gather all of your content in a spreadsheet.</li>
-            <li>Create columns for target keywords, buyer persona, buyer’s journey stage, format, and main topic, then fill these in for each content piece.</li>
-            <li>Add columns for your key metrics, like page views, shares, engagement, etc.</li>
-            <li>Finally, categorize each post (using highlights or another column) by those that are doing well, need improvement, should be rewritten, or can be merged with another post.</li>
-          </ol>
-          <p>While a content audit may seem tedious, all the manual labor will be worth the increased traffic and leads. Plus, you’ll have a verified plan moving forward.</p>
-        </div>
-        <div>
-          <h3>Choose the Right Format</h3>
-          <p>Remember that buyer person you created? You’re creating content for them. That means you should be crafting content in a format that is most easily and enjoyably consumed by your prospects.</p>
-          <p>The format you choose might be a blog post, video, slideshare, graphic, ebook, whitepaper, podcast, or whatever your creative mind can conceive. As long as it serves your persona, you’ll be in good shape.</p>
-          <p>Also, you don’t need to stick to one format for every piece of content that you create. But you should be able to create content — in whatever format — on a consistent cadence. What I mean is, a podcast series might be a great marketing tactic, but if you lack the resources (and patience) to stick to it, then a blog might be a better route.</p>
-          <p>Use these questions as a guide when choosing your content format:</p>
-          <ul>
-            <li>What stage of buyer’s journey is this for?</li>
-            <li>How easy is it for your audience to consume this content?</li>
-            <li>Where does your persona spend their time online?</li>
-            <li>What format can you create on a consistent basis?</li>
-            <li>Are you able to produce this content at aquality level that’s competitive?</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Content Promotion</h3>
-          <p>What good is it to create all this great content if no one sees it? In a perfect world, herds of people would flock to your site every time you published a new post. In reality — especially when you’re just starting out — you’ll need to entice people to consume your content and even shepherd them into your online space.</p>
-          <p> Hence why content promotion is just as important to your strategy as whatever content you create.</p>
-          <p>Your promotion plan should be guided by your persona. Where do they spend their time online? What time of day do they use a particular platform? How often do they want to see content from you? How do they like to consume content? What email subject lines get them to click?</p>
-          <p>Content promotion varies by medium, and there are specific rules to follow for each.</p>
-        </div>
-        <div>
-          <h3>Social Media</h3>
-          <p>While social media is a relationship building tool, it can be used to promote content. It’s all about finding the right balance between self-promotion, sharing useful information, and entertainment. Facebook, Twitter, Instagram, YouTube, and Snapchat are all great mediums to both create and share relevant content. The key is modifying that content to fit the platform.</p>
-          <p>Featured Resources</p>
-          <ul>
-            <li> How to Use Twitter for Business (+ Follower Growth Tracking Template)</li>
-            <li>30 Days of Instagram: A Guide for Businesses</li>
-            <li>How to Attract Customers With Facebook</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Email Marketing</h3>
-          <p>Email is one of the best ways to reach your audience for any reason, especially to promote content. The reason is anyone on your email list has opted in to hear from you and you can guarantee that they’ll get your messages. Better yet, you can improve your open rates by sending relevant content to segmented lists, meaning they’ll be eager to read everything you send their way.</p>
-          <p>Featured Resource</p>
-          <ul><li>The Beginner's Guide to Email Marketing</li></ul>
-        </div>
-        <div>
-          <h3>Paid Promotion</h3>
-          <p>Pay-per-click (PPC) helps you get your content in front of new audiences through targeted, paid advertisements. These ads can run on social media, search engines, or other websites. Once you define your buyer persona, you’ll want to go the paid route so not to waste money targeting uninterested parties. Once you have your audience down, paid promotion can yield a great ROI.</p>
-          <p>Featured Resources</p>
-          <ul>
-            <li>The Ultimate Google AdWords and PPC Kit</li>
-            <li>34 Digital Advertising Myths</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Syndication</h3>
-          <p>Getting your content promoted through authoritative, third-party channels is a great way to build your audience. Syndication gets your brand in front of fresh eyes (and wallets) that you wouldn’t otherwise reach with your own efforts.</p>
-        </div>
-        <div>
-          <h3>Repurposing Content</h3>
-          <p>When you repurpose content, you’re reusing something you spent a lot of time to create and transforming it in various formats so that it can be more widely consumed.</p>
-          <p>Think of it as recycling. You want to spend less time creating and more time getting your content in front of your audience. For example, that blog post that you wrote on marketing stats can also serve as a great infographic or even a video.</p>
-          <p>If you created something in one format, try to think of all the other ways that you could reuse that information that might be just as effective.</p>
-        </div>
-      </section>
           
-        <section class="p-3 bg-light">
-          <div id="content">
+          <div>
+            <h3>Rely on the Buyer’s Journey</h3>
+            <p>If you’ve ever had a headache, the first thing you likely did was try to figure out the cause. Perhaps you were dehydrated, or caffeine-depleted, or maybe you were sick. After you diagnosed the problem, you moved on to solutions — drink some water, grab an espresso, or take some medicine. Finally, you decide between solutions: Evian or tap water? Starbucks or Peet’s Coffee? Aleve or Tylenol? Hopefully, your headache then subsided and you were able to go about your day.</p>
+            <p>This is a representation of the buyer’s journey. Each of your prospects follows a path to a solution — that path involves awareness, consideration, and decision stages. But each of your prospects is in a different part of that journey, so it’s important to use your content to appeal to each stage.</p>
+            <p>By creating content for each stage of the buyer’s journey, you’re ensuring that no visitors fall through the cracks and that every individual that comes to your site feels like they are receiving relevant, useful information.</p>
+            <p>You also want to select a format for your content so that it’s tailored to each stage of the buyer’s journey. A new visitor in the awareness stage won’t want a live demo of your product, but they would read a quick checklist or blog post that helps them better understand their problem. A prospect in the decision stage doesn’t need to know about all the possible solutions, they need a consultation or demo that shows them that your product is the right solution. Always meet your audience where they are.</p>
+            <p>Here’s a guide to the best content formats for each stage of the buyer’s journey:</p>
+            <p>Awareness: Whitepaper, Blog Post, Checklist, Tip Sheet, Infographic, Ebook, Game, Quiz</p>
+            <p>Consideration: Podcast, Webinar, Worksheet, Comparison Matrix, Template</p>
+            <p>Decision: Demo, Free Trial, Product Guide, Consultation, Coupon</p>
+          </div>
+          <div>
+            <h3>Perform a Content Audit</h3>
+            <p>Whether you’ve been creating content for a while without any clear direction or you’ve been following a strategy all along, every marketing department can benefit from a content audit. Just because you didn’t start out with a clearly defined strategy doesn’t mean that the content you already have won’t fit into one.</p>
+            <p>A content audit is simply taking inventory of the work you’ve already done, then organizing it to fit under a your new content plan.</p>
+            <p>The process might involve some re-writing, or it could reveal gaps that need to be filled with content that appeals to your persona and their journey stage.</p>
+            <p>Here’s how you’d perform your content audit:</p>
+            <ol>
+              <li>Gather all of your content in a spreadsheet.</li>
+              <li>Create columns for target keywords, buyer persona, buyer’s journey stage, format, and main topic, then fill these in for each content piece.</li>
+              <li>Add columns for your key metrics, like page views, shares, engagement, etc.</li>
+              <li>Finally, categorize each post (using highlights or another column) by those that are doing well, need improvement, should be rewritten, or can be merged with another post.</li>
+            </ol>
+            <p>While a content audit may seem tedious, all the manual labor will be worth the increased traffic and leads. Plus, you’ll have a verified plan moving forward.</p>
+          </div>
+          <div>
+            <h3>Choose the Right Format</h3>
+            <p>Remember that buyer person you created? You’re creating content for them. That means you should be crafting content in a format that is most easily and enjoyably consumed by your prospects.</p>
+            <p>The format you choose might be a blog post, video, slideshare, graphic, ebook, whitepaper, podcast, or whatever your creative mind can conceive. As long as it serves your persona, you’ll be in good shape.</p>
+            <p>Also, you don’t need to stick to one format for every piece of content that you create. But you should be able to create content — in whatever format — on a consistent cadence. What I mean is, a podcast series might be a great marketing tactic, but if you lack the resources (and patience) to stick to it, then a blog might be a better route.</p>
+            <p>Use these questions as a guide when choosing your content format:</p>
+            <ul>
+              <li>What stage of buyer’s journey is this for?</li>
+              <li>How easy is it for your audience to consume this content?</li>
+              <li>Where does your persona spend their time online?</li>
+              <li>What format can you create on a consistent basis?</li>
+              <li>Are you able to produce this content at aquality level that’s competitive?</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Content Promotion</h3>
+            <p>What good is it to create all this great content if no one sees it? In a perfect world, herds of people would flock to your site every time you published a new post. In reality — especially when you’re just starting out — you’ll need to entice people to consume your content and even shepherd them into your online space.</p>
+            <p> Hence why content promotion is just as important to your strategy as whatever content you create.</p>
+            <p>Your promotion plan should be guided by your persona. Where do they spend their time online? What time of day do they use a particular platform? How often do they want to see content from you? How do they like to consume content? What email subject lines get them to click?</p>
+            <p>Content promotion varies by medium, and there are specific rules to follow for each.</p>
+          </div>
+          <div>
+            <h3>Social Media</h3>
+            <p>While social media is a relationship building tool, it can be used to promote content. It’s all about finding the right balance between self-promotion, sharing useful information, and entertainment. Facebook, Twitter, Instagram, YouTube, and Snapchat are all great mediums to both create and share relevant content. The key is modifying that content to fit the platform.</p>
+            <p>Featured Resources</p>
+            <ul>
+              <li> How to Use Twitter for Business (+ Follower Growth Tracking Template)</li>
+              <li>30 Days of Instagram: A Guide for Businesses</li>
+              <li>How to Attract Customers With Facebook</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Email Marketing</h3>
+            <p>Email is one of the best ways to reach your audience for any reason, especially to promote content. The reason is anyone on your email list has opted in to hear from you and you can guarantee that they’ll get your messages. Better yet, you can improve your open rates by sending relevant content to segmented lists, meaning they’ll be eager to read everything you send their way.</p>
+            <p>Featured Resource</p>
+            <ul><li>The Beginner's Guide to Email Marketing</li></ul>
+          </div>
+          <div>
+            <h3>Paid Promotion</h3>
+            <p>Pay-per-click (PPC) helps you get your content in front of new audiences through targeted, paid advertisements. These ads can run on social media, search engines, or other websites. Once you define your buyer persona, you’ll want to go the paid route so not to waste money targeting uninterested parties. Once you have your audience down, paid promotion can yield a great ROI.</p>
+            <p>Featured Resources</p>
+            <ul>
+              <li>The Ultimate Google AdWords and PPC Kit</li>
+              <li>34 Digital Advertising Myths</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Syndication</h3>
+            <p>Getting your content promoted through authoritative, third-party channels is a great way to build your audience. Syndication gets your brand in front of fresh eyes (and wallets) that you wouldn’t otherwise reach with your own efforts.</p>
+          </div>
+          <div>
+            <h3>Repurposing Content</h3>
+            <p>When you repurpose content, you’re reusing something you spent a lot of time to create and transforming it in various formats so that it can be more widely consumed.</p>
+            <p>Think of it as recycling. You want to spend less time creating and more time getting your content in front of your audience. For example, that blog post that you wrote on marketing stats can also serve as a great infographic or even a video.</p>
+            <p>If you created something in one format, try to think of all the other ways that you could reuse that information that might be just as effective.</p>
+          </div>
+        </div>
+      </div>
+      </section> --}}
+          
+        <section class="px-3 py-5 bg-light">
+          <div id="content" class="py-5">
             <h1 class="text-center">The Content Creation Process</h1>
             <div class="separator">
               <div class="line line-left"></div>
@@ -218,48 +227,49 @@
         </div>
       </section>
 
-      <section class="py-5 text-justify bg-dark">
+      {{-- <section class="py-5 text-justify bg-dark">
         <div class="main p-5">
-          <h1 class="text-center">Why Is Content Important?</h1>
+          <h1 class="text-center">Creating a Content Plan</h1>
           <div class="separator">
             <div class="line line-left"></div>
             <div class="asterisk"><i class="fas fa-circle"></i></div>
             <div class="line line-right"></div>
           </div>
           <div class="d-flex flex-column align-items-center pt-4">
-        <div>
-          <h1>Creating a Content Plan</h1>
-          <p>Content exists everywhere, but its success relies on your ability to adapt it to the medium on which it lives. One size does not fit all when it comes to posting on different mediums — or the platforms within those mediums, for that matter.</p>
-          <p>Social media content varies from blog content, which is different than website content. So, you need to know how to tailor your creation to reach your audience where they are.</p>
-          <p>Let’s dive into some guidelines for sharing content on various platforms.</p>
-        </div>
-        <div>
-          <h3>Social Media Content</h3>
-          <p>There is an art to creating content for social media. But it’s well worth your time since there are 2.6 billion users across social media platforms worldwide. Plus, someone who follows you on social media is like a warm lead — they already like you and are interested in what you have to say. So, you have an eager audience that’s ready to engage with your content.</p>
-          <p>Here are a few quick tips for creating content on some popular social channels.</p>
-          <p>Facebook can be used to build micro communities via Facebook Groups or to share to a mass audience on Facebook Pages. When it comes to sharing content, questions and videos reap the most engagement.</p>
-          <p>Instagram is best for sharing high-quality imagery and short videos with brief captions. Hashtags work well on this platform as long as they’re relevant to your account and business. Instagram Stories has introduced a new way to engage with your followers, from quick polls to questions to real-time videos.</p>
-          <p>YouTube has 1.3 billion users and counting. Users frequent this platform to watch content ranging from DIY videos to parodies. Some of the most successful content on this platform are how-to guides, vlogs, product reviews, and educational videos.</p>
-          <p>Featured Resources</p>
-          <ul>
-            <li>The Ultimate Video Marketing Starter Pack</li>
-            <li>YouTube for Business: A 30-Day Roadmap for Channel Growth</li>
-          </ul>
-          <p>Twitter best practices include short messages, supporting images, relevant hashtags, and retweets. And, of course, replies go a long way to win over your audience.</p>
-        </div>
-        <div>
-          <h3>Website Content</h3>
-          <p>Website content should focus on three things: your persona, your target keywords, and your solution. Not unlike your blog content, the copy on your website needs to guide visitors to your solution in a cohesive and natural way. Think of web content like a map to your product.</p>
-          <p>Be careful not to turn visitors away through social media feeds and other distracting elements. Once you you’ve attracted a potential customer, you must do everything you can to keep them there, and that’s the key function of your website content.</p>
-        </div>
-        <div>
-          <h3>Blog Content</h3>
-          <p>The purpose of blog content is to support your business by attracting strangers and bringing in qualified leads. Blog content is a free resource that’s not often directly tied to sales, but don’t underestimate the power of a well-crafted blog to ultimately generate revenue for your business. Research shows that companies that blog more get more traffic and more leads than those that don’t.</p>
-          <p>Featured Resources</p>
-          <ul>
-            <li>How to Start a Successful Blog</li>
-            <li>5 Free Blog Post Templates</li>
-          </ul>
+            <div>
+              <p>Content exists everywhere, but its success relies on your ability to adapt it to the medium on which it lives. One size does not fit all when it comes to posting on different mediums — or the platforms within those mediums, for that matter.</p>
+              <p>Social media content varies from blog content, which is different than website content. So, you need to know how to tailor your creation to reach your audience where they are.</p>
+              <p>Let’s dive into some guidelines for sharing content on various platforms.</p>
+            </div>
+            <div>
+              <h3>Social Media Content</h3>
+              <p>There is an art to creating content for social media. But it’s well worth your time since there are 2.6 billion users across social media platforms worldwide. Plus, someone who follows you on social media is like a warm lead — they already like you and are interested in what you have to say. So, you have an eager audience that’s ready to engage with your content.</p>
+              <p>Here are a few quick tips for creating content on some popular social channels.</p>
+              <p>Facebook can be used to build micro communities via Facebook Groups or to share to a mass audience on Facebook Pages. When it comes to sharing content, questions and videos reap the most engagement.</p>
+              <p>Instagram is best for sharing high-quality imagery and short videos with brief captions. Hashtags work well on this platform as long as they’re relevant to your account and business. Instagram Stories has introduced a new way to engage with your followers, from quick polls to questions to real-time videos.</p>
+              <p>YouTube has 1.3 billion users and counting. Users frequent this platform to watch content ranging from DIY videos to parodies. Some of the most successful content on this platform are how-to guides, vlogs, product reviews, and educational videos.</p>
+              <p>Featured Resources</p>
+              <ul>
+                <li>The Ultimate Video Marketing Starter Pack</li>
+                <li>YouTube for Business: A 30-Day Roadmap for Channel Growth</li>
+              </ul>
+              <p>Twitter best practices include short messages, supporting images, relevant hashtags, and retweets. And, of course, replies go a long way to win over your audience.</p>
+            </div>
+            <div>
+              <h3>Website Content</h3>
+              <p>Website content should focus on three things: your persona, your target keywords, and your solution. Not unlike your blog content, the copy on your website needs to guide visitors to your solution in a cohesive and natural way. Think of web content like a map to your product.</p>
+              <p>Be careful not to turn visitors away through social media feeds and other distracting elements. Once you you’ve attracted a potential customer, you must do everything you can to keep them there, and that’s the key function of your website content.</p>
+            </div>
+            <div>
+              <h3>Blog Content</h3>
+              <p>The purpose of blog content is to support your business by attracting strangers and bringing in qualified leads. Blog content is a free resource that’s not often directly tied to sales, but don’t underestimate the power of a well-crafted blog to ultimately generate revenue for your business. Research shows that companies that blog more get more traffic and more leads than those that don’t.</p>
+              <p>Featured Resources</p>
+              <ul>
+                <li>How to Start a Successful Blog</li>
+                <li>5 Free Blog Post Templates</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -288,7 +298,7 @@
         </div>
       </div>
     </div>
-    </section>
+    </section> --}}
   </main>
     
 @endsection

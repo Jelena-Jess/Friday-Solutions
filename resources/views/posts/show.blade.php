@@ -6,14 +6,13 @@
 <main role="main">
 
   <section>
-    <div class="blog-link text-center bg-light pt-4">
+    <div class="blog-link text-center bg-light pt-4 px-2">
       <a href="{{ route('posts.index') }}" class="text-dark">Blog Home</a> &rarr; <a href="" class="text-dark">{{$post->category->name}}</a> &rarr; {{$post->title}}
     </div>
   </section>
 
   <section class="py-5 bg-light">
-    <div class="main">
-      <div class="blog-post mx-auto d-flex flex-column align-items-center justify-content-center">
+      <div class="blog-post mx-auto d-flex flex-column align-items-center justify-content-center px-xl-5 px-lg-4 px-md-3 px-sm-3 px-3">
         <h1 class="align-self-start pink-text">{{$post->title}}</h1>
         <div class="mt-3 align-self-start">
           <p class="blog-author">Author: {{$post->user->name}}</p>
@@ -23,17 +22,15 @@
           <img src="/storage/cover_images/{{$post->cover_image}}" alt="">
         </div>
 
-        <div class="px-xl-5 px-lg-4 px-md-3 px-sm-3 px-3 align-self-start">
+        <div class="align-self-start">
           <p class="p-big">{!!$post->body!!}</p>
         </div>
-
-      </div>
     </div>
   </section>
 
   <section class="py-5 bg-grey d-none d-sm-none d-md-block">
-    <div class="main">
-      <div class="blog-post mx-auto px-xl-5 px-lg-4 px-md-3 px-sm-3 px-3">
+    <div class="">
+      <div class="blog-post mx-auto px-xl-5 px-lg-5 px-md-0 px-sm-0 px-0">
         <div class="related-posts">
           <h2 class="related pink-text">MORE POSTS</h2>
           <div class="d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column justify-content-around mt-4">
@@ -45,7 +42,7 @@
               </div>
               <div class="blog-text p-2">
                 <p class="mb-auto"><a href="" class="text-dark">{{$post->category->name}}</a></p>
-                <h3 class="mb-auto"><a href="{{ route('posts.show', ['post' => $post]) }}" class="text-dark">{{$post->title}}</a></h3>
+                <h4 class="mb-auto"><a href="{{ route('posts.show', ['post' => $post]) }}" class="text-dark">{{$post->title}}</a></h4>
                 <p class="small">Created: {{$post->created_at}}</p>
               </div>
             </div>

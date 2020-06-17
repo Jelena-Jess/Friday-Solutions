@@ -27,9 +27,9 @@
             </div>
 
             <div class="back bg-light-pink d-flex flex-column justify-content-center">
-              <p class="text-center align-self-center font-italic pb-2">One of a kind web design solutions. Each line of code is not just pure code, but art.</p>
+              <p class="text-center align-self-center font-italic pb-2"><span class="pink-text">Learn about:</span> front and back end development for the web; markup, style, scripting, and server-side techniques and technologies; creating websites and applications.</p>
               <div class="text-center">
-                <a href="/blog/coding" class="btn">Learn more</a>
+                <a href="/blog/coding" class="btn">Read posts</a>
               </div>
             </div>
           </div>
@@ -40,9 +40,9 @@
             </div>
 
             <div class="back bg-very-light-pink d-flex flex-column justify-content-center">
-              <p class="text-center align-self-center font-italic pb-2">One of a kind web design solutions. Each line of code is not just pure code, but art.</p>
+              <p class="text-center align-self-center font-italic pb-2"><span class="pink-text">Learn about:</span> visual communication, art direction; web layouts and typography; graphic design, interface design, user experience design, illustration, photography, artwork.</p>
               <div class="text-center">
-                <a href="/blog/design" class="btn">Learn more</a>
+                <a href="/blog/design" class="btn">Read posts</a>
               </div>
             </div>
           </div>
@@ -53,9 +53,9 @@
             </div>
 
             <div class="back grey d-flex flex-column justify-content-center">
-              <p class="text-center align-self-center font-italic pb-2">One of a kind web design solutions. Each line of code is not just pure code, but art.</p>
+              <p class="text-center align-self-center font-italic pb-2"><span class="pink-text">Learn about:</span> inspirational websites, photography and artwork; web design styles, website types, web design trends, and collections that focus on a particular area of a web page.</p>
               <div class="text-center">
-                <a href="/blog/inspiration" class="btn">Learn more</a>
+                <a href="/blog/inspiration" class="btn">Read posts</a>
               </div>
             </div>
           </div>

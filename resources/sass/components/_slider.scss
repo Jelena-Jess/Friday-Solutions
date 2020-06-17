@@ -47,20 +47,6 @@
   align-items: center;
   height: 100%;
 }
-// #slides .slide_1 {
-//   background-color: $bg-light;
-// }
-// #slides .slide_2 {
-//   background-color: $bg-light;
-// }
-
-// #slides .slide_3 {
-//   background-color: $bg-light;
-// }
-
-// #slides .slide_4 {
-//   background-color: $bg-light;
-// }
 #controls {
   margin: -130px 0 0 0;
   width: 100%;
@@ -113,4 +99,12 @@
 #slide3:checked ~ #bullets label:nth-child(3),
 #slide4:checked ~ #bullets label:nth-child(4) {
   background-color: $button;
+}
+
+@media all and (max-width:600px){
+  #slider {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+  }
 }

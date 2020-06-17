@@ -152,6 +152,19 @@
   }
 }
 
+#logo-list {
+  p::before{
+    content: '\2911';
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 15px 0 -30px;
+    color: #fff;
+  }
+}
+
 /***** CONTENT *****/
 #content {
   width: 60%;
@@ -178,6 +191,9 @@
       width: 150px;
       @include background-color($light-pink);
       border-radius: 50%;
+      -webkit-box-shadow: 0px 2px 10px -1px rgba(184,171,181,1);
+      -moz-box-shadow: 0px 2px 10px -1px rgba(184,171,181,1);
+      box-shadow: 0px 2px 10px -1px rgba(184,171,181,1);
     }
     h3 {
       text-align: center;
@@ -212,6 +228,19 @@
 @media screen and (max-width:1200px){
   #content {
     width: 80%;
+  }
+  .content {
+    > div {
+      &::before {
+        top: 10px;
+        left: 43%;
+        height: 120px;
+        width: 120px;
+      }
+      h3 {
+        padding-top: 1.5rem;
+      }
+    }
   }
   .monthly-plans
   {
@@ -293,11 +322,26 @@
   .center-split {
     width: 80%;
   }
+  .content {
+    > div {
+      &::before {
+        left: 40%;
+      }
+    }
+  }
 }
 
 @media screen and (max-width:600px){
   #content {
-    width: 95%;
+    width: 100%;
+  }
+  .content {
+    > div {
+      padding: 1rem;
+      &::before {
+        left: 37%;
+      }
+    }
   }
   .help div {
     width: 65px;
@@ -331,5 +375,12 @@
     width: 60px;
     height: 60px;
     font-size: 12px;
+  }
+  .content {
+    > div {
+      &::before {
+        left: 30%;
+      }
+    }
   }
 }

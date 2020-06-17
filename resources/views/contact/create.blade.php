@@ -24,8 +24,6 @@
         <h1 class="pink-text">Thank you!</h1> <h4 class="text-dark">{{ session()->get('message') }}</h4>
       </div>
     @endif
-
-    <h3 class="text-center pt-4">Have a question?</h3>
   
     <div class="p-3 m-3">
       <form method="POST" action="{{ route('contact.store') }}">

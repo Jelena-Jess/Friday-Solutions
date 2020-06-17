@@ -14,7 +14,7 @@
       </div>
       <div id="triangle"></div>
       <div class="pt-5 mx-auto w-75">
-        <h3 class="text-center pb-4">Let’s talk about your project</h3>
+        <h1 class="text-center pb-4">Let’s talk about your project</h1>
         <p class="text-center">Fill out the fields important to you. After we examine your proposal, I will contact you to set up a time and discuss your project in further detail.</p>
         <p class="text-center">You should expect to hear from me in a few days.</p> 
       </div>
@@ -34,7 +34,7 @@
         <form method="POST" action="{{ route('contactproject.store') }}">
     
           <div>
-            <h5 class="text-center m-3 mb-5">Basic information</h5>
+            <h3 class="text-center m-3 py-3">Basic information</h3>
               <div class="form-group">
                 <label for="" class="col-form-label">Name</label>
                 <div class="">
@@ -56,7 +56,7 @@
             </div>
           
             <div class="my-5">
-              <h5 class="text-center m-3 mb-5">About Your Company/Product</h5>
+              <h3 class="text-center m-3 pt-5 pb-3">About Your Company/Product</h3>
               <div class="form-group">
                 <label for="" class="col-form-label">Company/Product name</label>
                 <div class="">
@@ -81,34 +81,34 @@
                 <textarea name="achieve" class="form-control z-depth-1" rows="7" placeholder=""></textarea>
                 </div>
               </div>
-            </div>
-            <div class="form-group">
-              <label for="" class="col-form-label">What are the long-term goals for the website?</label>
-              <div class="">
-              <textarea name="goals" class="form-control z-depth-1" rows="7" placeholder=""></textarea>
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="" class="col-form-label">What are the aims and objectives of the project?</label>
-              <div class="">
-              <textarea name="aims" class="form-control z-depth-1" rows="7" placeholder=""></textarea>
-              </div>
-            </div>
               <div class="form-group">
-              <label for="" class="col-form-label">Budget</label>
-              <div class="">
-              <input name="budget" type="text" class="form-control" id="" placeholder="">
+                <label for="" class="col-form-label">What are the long-term goals for the website?</label>
+                <div class="">
+                <textarea name="goals" class="form-control z-depth-1" rows="7" placeholder=""></textarea>
+                </div>
               </div>
-            </div>
               <div class="form-group">
-              <label for="" class="col-form-label">Deadline</label>
-              <div class="">
-              <input name="deadline" type="text" class="form-control" id="" placeholder="">
+                <label for="" class="col-form-label">What are the aims and objectives of the project?</label>
+                <div class="">
+                <textarea name="aims" class="form-control z-depth-1" rows="7" placeholder=""></textarea>
+                </div>
+              </div>
+                <div class="form-group">
+                <label for="" class="col-form-label">Budget</label>
+                <div class="">
+                <input name="budget" type="text" class="form-control" id="" placeholder="">
+                </div>
+              </div>
+                <div class="form-group">
+                <label for="" class="col-form-label">Deadline</label>
+                <div class="">
+                <input name="deadline" type="text" class="form-control" id="" placeholder="">
+                </div>
               </div>
             </div>
           
             <div class="my-5">
-              <h5 class="text-center m-3 mb-5">Audience</h5>
+              <h3 class="text-center m-3 pt-5 pb-3">Audience</h3>
               <div class="form-group">
                 <label for="" class="col-form-label">Who are your target audience?</label>
                 <div class="">
@@ -125,7 +125,7 @@
             </div>
           
             <div class="my-5">
-              <h5 class="text-center m-3 mb-5">Your competition</h5>
+              <h3 class="text-center m-3 pt-5 pb-3">Your competition</h3>
               <div class="form-group">
                 <label for="" class="col-form-label">List your main competitors.</label>
                 <div class="">
@@ -142,7 +142,7 @@
               </div>
                 
               <div class="my-5">
-              <h5 class="text-center m-3 mb-5">Content</h5>
+              <h3 class="text-center m-3 pt-5 pb-3">Content</h3>
               <div class="form-group">
                 <label for="" class="col-form-label">Do you have your website's content ready? <br><small>E.g. Text for each page, photos etc.</small></label>
               <div class="">
@@ -152,7 +152,7 @@
             </div>
           
             <div class="my-5">
-              <h5 class="text-center m-3 mb-5">Design</h5>
+              <h3 class="text-center m-3 pt-5 pb-3">Design</h3>
               <div class="form-group">
                 <label for="" class="col-form-label">Do you have brand guidelines? <br><small>Logo, colour scheme, fonts etc.</small></label>
           
@@ -176,7 +176,7 @@
             </div>
           
             <div class="my-5">
-              <h5 class="text-center m-3 mb-5">Development</h5>
+              <h3 class="text-center m-3 pt-5 pb-3">Development</h3>
               <div class="form-group">
                 <label for="" class="col-form-label">List the pages that you require?<br><small>E.g. Home, About Us, Services, Blog, Contact Us</small></label>
                 <div class="">
@@ -201,7 +201,7 @@
           
             @csrf
 
-            <div class="text-center pt-4">
+            <div class="text-center py-3">
               <button type="submit" class="btn" name="send_plan">Submit</button>
             </div>
 

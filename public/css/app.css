@@ -11386,10 +11386,6 @@ a.text-dark:focus {
 @media screen and (max-width: 770px) {
   /***** SIDEBAR *****/
 
-  .sidebar .closebtn {
-    right: 2%;
-  }
-
   .sidebar .nav-item {
     width: 43%;
   }
@@ -11406,7 +11402,6 @@ a.text-dark:focus {
 
   .sidebar .closebtn {
     right: 4%;
-    font-size: 2.5rem;
   }
 
   .sidebar .nav-item {
@@ -11419,10 +11414,6 @@ a.text-dark:focus {
 
   .sidebar {
     padding-top: 10px;
-  }
-
-  .sidebar .closebtn {
-    font-size: 2.5rem;
   }
 
   .sidebar .nav-item {
@@ -11534,7 +11525,11 @@ a.text-dark:focus {
   }
 
   .split {
-    padding: 30px;
+    padding: 0px;
+  }
+
+  .split > div {
+    padding: 1rem !important;
   }
 
   .split.center {
@@ -11572,6 +11567,12 @@ a.text-dark:focus {
     padding: 0.4rem;
     width: 10rem;
     font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .split-screen {
+    padding: 0;
   }
 }
 
@@ -11697,6 +11698,14 @@ a.text-dark:focus {
   background-color: #fc5c79;
 }
 
+@media all and (max-width: 600px) {
+  #slider {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+  }
+}
+
 .button {
   display: block;
   position: relative;
@@ -11798,17 +11807,16 @@ a.text-dark:focus {
   left: 0;
   width: 100%;
   height: 100%;
-  padding: 15px;
   border-radius: 5%;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-  transform: rotateX(0deg);
+  transform: rotateY(0deg);
   transition: 0.8s;
   box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .project:hover .front {
-  transform: rotateX(-180deg);
+  transform: rotateY(-180deg);
 }
 
 .project .back {
@@ -11821,27 +11829,60 @@ a.text-dark:focus {
   border-radius: 5%;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-  transform: rotateX(180deg);
+  transform: rotateY(180deg);
   transition: 0.8s;
   box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .project:hover .back {
-  transform: rotateX(0deg);
+  transform: rotateY(0deg);
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 1300px) {
   .project {
-    height: 150px;
+    height: 330px;
     width: 60vw !important;
     margin: 0 auto;
   }
 }
 
+@media screen and (max-width: 770px) {
+  .project {
+    height: 250px;
+  }
+
+  .project .front {
+    transform: rotateX(0deg);
+  }
+
+  .project:hover .front {
+    transform: rotateX(-180deg);
+  }
+
+  .project .back {
+    transform: rotateX(180deg);
+  }
+
+  .project:hover .back {
+    transform: rotateX(0deg);
+  }
+}
+
 @media screen and (max-width: 600px) {
   .project {
-    width: 80vw;
-    height: 200px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .project {
+    height: 330px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .project {
+    height: 370px;
   }
 }
 
@@ -11968,7 +12009,8 @@ h6 {
   font-family: "Rajdhani", sans-serif;
 }
 
-p {
+p,
+li {
   font-family: "Cairo", sans-serif;
   font-size: 18px;
 }
@@ -12255,9 +12297,9 @@ img {
 /******* BLOG CARDS ********/
 
 .cards {
-  height: 350px;
   margin: 10px;
   width: 30%;
+  height: auto;
   border-radius: 2%;
   box-shadow: 0px 2px 16px -4px rgba(0, 0, 0, 0.47);
 }
@@ -12268,6 +12310,14 @@ img {
 
 .cards > div {
   height: 50%;
+  overflow: hidden;
+}
+
+.cards > div img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 /******* BLOG IMAGE ZOOM ********/
@@ -12287,7 +12337,14 @@ img {
 /******* BLOG POST PAGE ********/
 
 .blog-post {
-  width: 70%;
+  width: 60%;
+}
+
+.blog-post img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .related-posts {
@@ -12334,10 +12391,6 @@ h2.related {
   .blog-post {
     width: 85%;
   }
-
-  .project {
-    width: 40vw;
-  }
 }
 
 @media all and (max-width: 992px) {
@@ -12350,18 +12403,9 @@ h2.related {
   .blog-post {
     width: 85%;
   }
-
-  .project {
-    width: 50vw;
-  }
 }
 
 @media screen and (max-width: 770px) {
-  .cards {
-    width: 70%;
-    margin: 10px auto !important;
-  }
-
   /******* BLOG POST PAGE ********/
 
   .blog {
@@ -12387,10 +12431,6 @@ h2.related {
 
   .blog-card {
     width: 60%;
-  }
-
-  .project {
-    width: 100%;
   }
 
   .blog-index-img {
@@ -12430,10 +12470,6 @@ h2.related {
   .blog-card {
     width: 70%;
   }
-
-  .project {
-    width: 90%;
-  }
 }
 
 @media all and (max-width: 400px) {
@@ -12467,11 +12503,6 @@ h2.related {
 
   .blog-card {
     width: 80%;
-  }
-
-  .project {
-    width: 90%;
-    height: 200px;
   }
 }
 
@@ -12678,6 +12709,17 @@ h2.related {
   z-index: -1;
 }
 
+#logo-list p::before {
+  content: "\2911";
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 15px 0 -30px;
+  color: #fff;
+}
+
 /***** CONTENT *****/
 
 #content {
@@ -12707,6 +12749,7 @@ h2.related {
   background-color: #f1e5e7;
   color: #0d0d0d;
   border-radius: 50%;
+  box-shadow: 0px 2px 10px -1px #b8abb5;
 }
 
 .content > div h3 {
@@ -12744,6 +12787,17 @@ h2.related {
 @media screen and (max-width: 1200px) {
   #content {
     width: 80%;
+  }
+
+  .content > div::before {
+    top: 10px;
+    left: 43%;
+    height: 120px;
+    width: 120px;
+  }
+
+  .content > div h3 {
+    padding-top: 1.5rem;
   }
 
   .monthly-plans {
@@ -12843,11 +12897,23 @@ h2.related {
   .center-split {
     width: 80%;
   }
+
+  .content > div::before {
+    left: 40%;
+  }
 }
 
 @media screen and (max-width: 600px) {
   #content {
-    width: 95%;
+    width: 100%;
+  }
+
+  .content > div {
+    padding: 1rem;
+  }
+
+  .content > div::before {
+    left: 37%;
   }
 
   .help div {
@@ -12885,6 +12951,10 @@ h2.related {
     width: 60px;
     height: 60px;
     font-size: 12px;
+  }
+
+  .content > div::before {
+    left: 30%;
   }
 }
 

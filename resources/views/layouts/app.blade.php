@@ -16,7 +16,6 @@
   rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
   
   <!-- Styles -->

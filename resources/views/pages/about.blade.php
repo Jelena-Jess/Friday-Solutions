@@ -40,7 +40,7 @@
             </div>
           <div class="ml-4">
             <h2 class="pink-text">WHY WE'RE DIFFERENT</h2>
-            <p class="text-light">We cut through the BS. You won’t get jargon and buzz words thrown at you, instead we use easy to understand language to get our point across.</p>
+            <p class="text-light">We will talk to you in a way so that you understand - no jargon and buzz words thrown around. We use easy to understand language to get our point across.</p>
           </div>
         </div>
         <div class="d-flex flex-row py-5 border-bottom">
@@ -90,7 +90,7 @@
                 <div class="slide-content">
                   <div>
                     <h3 class="py-2">THINKING DEEPLY BEFORE WE ACT</h3>
-                    <h5>Your project needs are deeply researched by our certified business analysts to ensure that your future app provides value to your users.</h5>
+                    <h5>Your project needs are deeply researched to ensure that your future website provides value to your end users.</h5>
                   </div>
                 </div>
               </div>
@@ -98,7 +98,7 @@
                 <div class="slide-content">
                   <div>
                     <h3 class="py-2">RELATIONSHIPS</h3>
-                    <h5>We believe in building long-term relationships with you.</h5>
+                    <h5>We believe in building long-term relationships with our clients.</h5>
                   </div>
                 </div>
               </div>
@@ -146,7 +146,7 @@
         </div>
         <p class="p-big text-dark text-center mt-4 mb-5">Our team is ready to help you. Contact us now and we will answer you today.</p>
         <div class="text-center">
-          <a href="{{ route('contact.create') }}" class="btn">LET'S DISCUSS A PROJECT</a>
+          <a href="{{ route('contact.create') }}" class="btn">CONTACT US</a>
         </div>
       </div>
     </div>

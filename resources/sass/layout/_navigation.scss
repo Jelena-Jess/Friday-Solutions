@@ -169,9 +169,6 @@
 }
 @media screen and (max-width:770px){
   /***** SIDEBAR *****/
-  .sidebar .closebtn {
-    right: 2%;
-    }
   .sidebar .nav-item {
     width: 43%;
   } 
@@ -186,7 +183,6 @@
   /***** SIDEBAR *****/
   .sidebar .closebtn {
     right: 4%;
-    font-size: 2.5rem;
   }
     .sidebar .nav-item {
     width: 55%;
@@ -196,9 +192,6 @@
 @media all and (max-width:400px){
   /***** SIDEBAR *****/
   .sidebar {padding-top: 10px;}
-  .sidebar .closebtn {
-    font-size: 2.5rem;
-  }
   .sidebar .nav-item {
     width: 80%;
   }

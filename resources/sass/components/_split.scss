@@ -98,7 +98,10 @@
   }
 
   .split {
-    padding: 30px;
+    padding: 0px;
+    > div {
+      padding: 1rem !important;
+    }
   }
 
   .split.center {
@@ -135,6 +138,12 @@
     padding: 0.4rem;
     width: 10rem;
     font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width:400px){
+  .split-screen{
+    padding: 0;
   }
 }
 

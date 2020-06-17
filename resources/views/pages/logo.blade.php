@@ -5,17 +5,14 @@
 @section('content')
   <main role="main" class="m-auto">
 
-    <section class="py-5 text-justify bg-light">
+    <section class="py-5 text-center bg-light">
       <div class="main py-5">
-        <div class="d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column align-items-center">
-          <div class="animate-left center-split px-lg-5 px-md-4">
-            <h3 class="text-center text-dark">Your personal stamp</h3>
-            <p>A successful logo is simple and representative of the company it stands for.</p>
+        <div class="d-flex flex-column justify-content-center">
+          <div class="animate-left w-75 mx-auto">
+            <p>A successful logo is simple and representative of the company it stands for. It basically serves as your personal stamp.</p>
             <p>Designing a small visual representation of an entire company can be a daunting task, but if the process is done correctly, a logo can be a very effective marketing device.</p>
           </div>
-          <div class="animate-right center-split">
-            <img src="/images/logo.png" alt="">
-          </div>
+          <img src="/images/logo.png" alt="" class="website-img animate-right mx-auto">
         </div>
       </div>
     </section>
@@ -73,6 +70,73 @@
             </p>
             <p>Upon delivery of the final files, it is time to think about employing the logo on marketing materials and promotional products. Many times the designer will continue working with the client to create a full brand identity system using the new logo.
             </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 text-justify bg-dark">
+      <div class="main p-5">
+        <h1 class="text-center">Logo Design Questionnaire</h1>
+        <div class="separator">
+          <div class="line line-left"></div>
+          <div class="asterisk"><i class="fas fa-circle"></i></div>
+          <div class="line line-right"></div>
+        </div>
+        <div class="d-flex flex-column">
+          <div class="py-5">
+            <p class="text-center p-big">There are certain questions we like to ask a client prior to beginning the logo design process. It may seem like a long list but it is helps us to know what our client needs and expects from their finished logo/branding. It also helps to clarify our client’s vision for their business branding.</p>            
+          </div>
+          <div id="logo-list" class="w-75 mx-auto">
+            <div class="p-5 my-2 border">
+              <h3 class="pink-text">Your business:</h3>
+              <p>What is the name of your business?</p>
+              <p>Describe in one sentence your business/service. (Difficult but vital!)</p>
+              <p>If you are not a new business start-up – what are the reasons you want a new logo?</p>
+              <p>What are your business short term, medium term and long term goals?</p>
+              <p>What do you want your new logo to achieve?</p>
+              <p>Who are your main competitors and how do you differ from them?</p>
+              <p>What do you like or dislike about your competitor’s branding?</p>
+              <p>Who are your potential clients?</p>
+              <p>Where will your business be publicised?</p>
+            </div>
+            <div class="p-5 my-2 border">
+              <h3 class="pink-text">Your logo:</h3>
+              <p>Do you have a specific idea in mind for your logo?</p>
+              <p>Do you want to use  existing brand colours or a particular range of colours?</p>
+              <p>Are there any colors that you do not want to use?</p>
+              <p>Do you have a particular font you would like to use – or ones you definitely do not want to use?</p>
+              <p>What words should describe your logo?</p>
+              <p>What message or emotion do you want your logo to portray?</p>
+              <p>Does your logo have a tag line?</p>
+              <p>Is your tag line to appear with your logo on all of your branding?</p>
+              <p>Where will you logo be used  (ie. Internet / print) ?</p>
+              <p>What logos do you like and why?</p>
+            </div>
+            <div class="p-5 my-2 border">
+              <h3 class="pink-text">The practical bits:</h3>
+              <p>When do you want your logo to be web/print-ready?</p>
+              <p>What is your budget?</p>
+              <p>Would you like any additional design services alongside your new logo? (eg. business cards, letterheads & other stationery, social media icons/banners, advertising material etc.)</p>
+              <p>Any other comments?</p>
+            </div>            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="" class="p-5 text-justify bg-grey">
+      <div class="main py-5">
+        <div class="d-flex flex-column justify-content-center">
+          <h1 class="text-center">LET'S CREATE YOUR LOGO</h1>
+          <div class="separator">
+            <div class="line line-left"></div>
+            <div class="asterisk"><i class="fas fa-circle"></i></div>
+            <div class="line line-right"></div>
+          </div>
+          <h4 class="text-center mt-4 mb-5">Our team is ready to help you. Contact us now and we will answer you today.</h4>
+          <div class="text-center">
+            <a href="{{ route('contact.create') }}" class="btn">CONTACT US</a>
           </div>
         </div>
       </div>
