@@ -12205,7 +12205,7 @@ img {
   display: flex;
   flex-direction: row;
   width: 40%;
-  height: 250px;
+  height: 280px;
   margin: 20px;
   box-shadow: 0px 2px 16px -4px rgba(0, 0, 0, 0.47);
 }
@@ -12237,19 +12237,26 @@ img {
 }
 
 .blog-text p {
-  max-height: 30px;
-  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  margin: 0;
 }
 
-.blog-text h3,
 .blog-text a {
   color: #0d0d0d;
 }
 
-.blog-text h3:hover,
 .blog-text a:hover {
   text-decoration: none;
-  color: #FE4365 !important;
+  color: #FE4365;
+}
+
+.blog-text h4 > a {
+  color: #FE4365;
+}
+
+.blog-text h4 > a:hover {
+  color: #0d0d0d;
+  text-decoration: none;
 }
 
 .blog-text .btn {
@@ -12258,6 +12265,22 @@ img {
 
 .blog-text .btn:hover {
   color: #fff;
+}
+
+.blog-text .small-text-blog {
+  font-size: 0.9rem;
+}
+
+/* Truncated text */
+
+.blog-description {
+  display: block;
+  display: -webkit-box;
+  max-width: auto;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .blog-link a {
@@ -12306,6 +12329,7 @@ img {
 
 .cards:hover {
   background-color: #f3eff0;
+  color: #0d0d0d;
 }
 
 .cards > div {
@@ -12347,9 +12371,14 @@ img {
      object-fit: cover;
 }
 
+.blog-post h4 {
+  font-size: 1.5rem;
+}
+
 .related-posts {
   position: relative;
   padding-left: 30px;
+  width: 60%;
 }
 
 .related-posts .cards {
@@ -12369,27 +12398,31 @@ h2.related {
   transform-origin: left top;
 }
 
-@media screen and (min-width: 1201px) and (max-width: 1350px) {
+@media screen and (max-width: 1350px) {
   /******* BLOG POST PAGE ********/
 
   .blog-post {
-    width: 85%;
+    width: 65%;
   }
 
-  .blog {
-    width: 70%;
+  .related-posts {
+    width: 80%;
   }
 }
 
-@media screen and (min-width: 993px) and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   /******* BLOG POST PAGE ********/
 
   .blog {
-    width: 70%;
+    width: 75%;
   }
 
-  .blog-post {
-    width: 85%;
+  .related-posts {
+    width: 90%;
+  }
+
+  .related-posts h4 {
+    font-size: 1.3rem;
   }
 }
 
@@ -12401,17 +12434,37 @@ h2.related {
   }
 
   .blog-post {
-    width: 85%;
+    width: 70%;
+  }
+
+  .related-posts {
+    width: 80%;
+    margin-left: 10px;
+  }
+
+  .related-posts h4 {
+    font-size: 1.4rem;
+  }
+
+  .related-posts .cards {
+    display: flex;
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .related-posts .cards > div {
+    height: 230px;
+    width: 50%;
   }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 768px) {
   /******* BLOG POST PAGE ********/
 
   .blog {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
     height: 500px;
   }
 
@@ -12425,16 +12478,35 @@ h2.related {
     height: 50%;
   }
 
-  .blog-post {
-    width: 90%;
-  }
-
   .blog-card {
     width: 60%;
   }
 
   .blog-index-img {
     width: 80%;
+  }
+
+  .blog-post {
+    width: 90%;
+  }
+
+  .related-posts {
+    width: 95%;
+  }
+
+  .related-posts .cards {
+    display: flex;
+    width: 95%;
+    margin: 10px auto;
+  }
+
+  .related-posts .cards > div {
+    height: 230px;
+    width: 50%;
+  }
+
+  .related-posts h4 {
+    font-size: 1.3rem;
   }
 }
 
@@ -12450,7 +12522,7 @@ h2.related {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 500px;
+    height: 520px;
   }
 
   .blog-image {
@@ -12463,12 +12535,29 @@ h2.related {
     height: 50%;
   }
 
-  .blog-post {
-    width: 100%;
-  }
-
   .blog-card {
     width: 70%;
+  }
+
+  .blog-post {
+    width: 95%;
+  }
+}
+
+@media all and (max-width: 550px) {
+  .related-posts {
+    width: 80%;
+  }
+
+  .related-posts .cards {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .related-posts .cards > div {
+    height: 200px;
+    width: 100%;
   }
 }
 
@@ -12484,7 +12573,7 @@ h2.related {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 500px;
+    height: 550px;
   }
 
   .blog-image {
@@ -12642,6 +12731,10 @@ h2.related {
   padding: 30px;
 }
 
+.web-stages > div li {
+  list-style-type: square;
+}
+
 .web-stages > div:nth-child(1) {
   grid-row: 1/span 1;
   grid-column: 1/span 2;
@@ -12709,6 +12802,10 @@ h2.related {
   z-index: -1;
 }
 
+#logo-list {
+  width: 60%;
+}
+
 #logo-list p::before {
   content: "\2911";
   display: inline-block;
@@ -12723,7 +12820,7 @@ h2.related {
 /***** CONTENT *****/
 
 #content {
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -12782,6 +12879,10 @@ h2.related {
   .web-stages > div {
     padding: 30px 20px;
   }
+
+  #logo-list {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -12812,21 +12913,6 @@ h2.related {
   .bg {
     width: 35vw;
     margin: 15px;
-  }
-
-  .web-stages {
-    width: 95%;
-  }
-}
-
-@media all and (max-width: 992px) {
-  .bg {
-    width: 60%;
-    margin: 1.5rem auto;
-  }
-
-  .plan-box {
-    width: 80%;
   }
 
   .web-stages {
@@ -12884,6 +12970,21 @@ h2.related {
   }
 }
 
+@media all and (max-width: 992px) {
+  .bg {
+    width: 60%;
+    margin: 1.5rem auto;
+  }
+
+  .plan-box {
+    width: 80%;
+  }
+
+  #logo-list {
+    width: 90%;
+  }
+}
+
 @media screen and (max-width: 770px) {
   .bg {
     width: 70%;
@@ -12892,6 +12993,7 @@ h2.related {
   .card {
     width: 60%;
     margin: 8px 0;
+    box-shadow: 0px 2px 10px -1px #b8abb5;
   }
 
   .center-split {
@@ -12924,6 +13026,10 @@ h2.related {
 
   .bg {
     width: 80%;
+  }
+
+  .card {
+    width: 70%;
   }
 
   .logo-text div {

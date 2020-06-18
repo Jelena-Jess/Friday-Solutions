@@ -41,3 +41,4 @@ Route::get('contact', 'ContactFormController@create')->name('contact.create');
 Route::post('contact', 'ContactFormController@store')->name('contact.store');
 Route::get('contact_project', 'ContactWithProjectInfoController@create')->name('contactproject.create');
 Route::post('contact_project', 'ContactWithProjectInfoController@store')->name('contactproject.store');
+Route::post('/', 'SubscribeController@store')->name('subscribe.store');

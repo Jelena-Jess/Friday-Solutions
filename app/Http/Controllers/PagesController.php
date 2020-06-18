@@ -34,17 +34,17 @@ class PagesController extends Controller
 
     public function blog_coding(){
         $title='Posts on coding';
-        $posts = Post::coding()->orderBy('created_at', 'desc')->paginate(3);
+        $posts = Post::coding()->orderBy('created_at', 'desc')->paginate(12);
         return view('pages.blog_coding', compact('title', 'posts'));
         }
     public function blog_design(){
         $title='Posts on web design';
-        $posts = Post::design()->orderBy('created_at', 'desc')->paginate(3);
+        $posts = Post::design()->orderBy('created_at', 'desc')->paginate(12);
         return view('pages.blog_design', compact('title', 'posts'));
         }
     public function blog_inspiration(){
         $title='Posts to insire you';
-        $posts = Post::inspiration()->orderBy('created_at', 'desc')->paginate(3);
+        $posts = Post::inspiration()->orderBy('created_at', 'desc')->paginate(12);
         return view('pages.blog_inspiration', compact('title', 'posts'));
         }
         

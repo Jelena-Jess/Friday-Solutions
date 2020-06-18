@@ -29,6 +29,10 @@
           {{Form::text('title', '', ['class' => 'form-control', 'placeholder' => 'Title'])}}
         </div>
         <div class="form-group">
+          {{Form::label('description', 'Description')}}
+          {{Form::textarea('description', '', ['class' => 'form-control', 'placeholder' => 'Short description'])}}
+        </div>
+        <div class="form-group">
           {{Form::label('body', 'Body')}}
           {{Form::textarea('body', '', ['id' => 'article-ckeditor', 'class' => 'form-control', 'placeholder' => 'Body text'])}}
         </div>

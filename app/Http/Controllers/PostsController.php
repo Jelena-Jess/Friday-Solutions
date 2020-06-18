@@ -27,7 +27,7 @@ class PostsController extends Controller
     public function index()
     {
         $title='Blog';
-        $posts = Post::orderBy('created_at', 'desc')->paginate(3);
+        $posts = Post::orderBy('created_at', 'desc')->take(6)->get();
         $categories = Category::all();
         return view('posts.index', compact('title', 'posts', 'categories'));
     }
@@ -54,6 +54,7 @@ class PostsController extends Controller
         $this->validate($request, [
             'title' => 'required',
             'body' => 'required',
+            'description' => 'required',
             'cover_image' => 'image|nullable|max:1999',
             'category_id' => 'required',
         ]);
@@ -77,6 +78,7 @@ class PostsController extends Controller
         $post = new Post;
         $post->title = $request->input('title');
         $post->body = $request->input('body');
+        $post->description = $request->input('description');
         $post->user_id = auth()->user()->id;
         $post->cover_image = $fileNameToStore;
         $post->category_id = $request->input('category_id');
@@ -131,6 +133,7 @@ class PostsController extends Controller
         $this->validate($request, [
             'title' => 'required',
             'body' => 'required',
+            'description' => 'required',
             'cover_image' => 'image|nullable|max:1999',
             'category_id' => 'required',
         ]);
@@ -152,6 +155,7 @@ class PostsController extends Controller
         $post = Post::find($id);
         $post->title = $request->input('title');
         $post->body = $request->input('body');
+        $post->description = $request->input('description');
         $post->category_id = $request->input('category_id');
         $post->user_id = auth()->user()->id;
         if($request->hasFile('cover_image')) {

@@ -84,10 +84,10 @@
           <div class="line line-right"></div>
         </div>
         <div class="d-flex flex-column">
-          <div class="py-5">
+          <div class="py-5 px-3">
             <p class="text-center p-big">There are certain questions we like to ask a client prior to beginning the logo design process. It may seem like a long list but it is helps us to know what our client needs and expects from their finished logo/branding. It also helps to clarify our client’s vision for their business branding.</p>            
           </div>
-          <div id="logo-list" class="w-75 mx-auto">
+          <div id="logo-list" class="mx-auto">
             <div class="p-5 my-2 border">
               <h3 class="pink-text">Your business:</h3>
               <p>What is the name of your business?</p>

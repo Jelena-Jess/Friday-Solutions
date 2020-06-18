@@ -299,6 +299,23 @@
       </div>
     </div>
     </section> --}}
+
+    <section id="" class="p-5 text-justify bg-grey">
+      <div class="main py-5">
+        <div class="d-flex flex-column justify-content-center">
+          <h1 class="text-center">LET'S START WRITING</h1>
+          <div class="separator">
+            <div class="line line-left"></div>
+            <div class="asterisk"><i class="fas fa-circle"></i></div>
+            <div class="line line-right"></div>
+          </div>
+          <h4 class="text-center mt-4 mb-5">Our team is ready to help you. Contact us now and we will answer you today.</h4>
+          <div class="text-center">
+            <a href="{{ route('contact.create') }}" class="btn">CONTACT US</a>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
     
 @endsection

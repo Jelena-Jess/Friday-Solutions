@@ -28,22 +28,29 @@
     </div>
   </section>
 
-  <section class="py-5 bg-grey d-none d-sm-none d-md-block">
+  <section class="py-5 bg-grey">
     <div class="">
-      <div class="blog-post mx-auto px-xl-5 px-lg-5 px-md-0 px-sm-0 px-0">
-        <div class="related-posts">
+      <div class="mx-auto px-xl-5 px-lg-5 px-md-0 px-sm-0 px-0">
+        <div class="related-posts mx-auto">
           <h2 class="related pink-text">MORE POSTS</h2>
-          <div class="d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column justify-content-around mt-4">
+          <div class="d-flex flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-column justify-content-around mt-4">
             @foreach($posts as $post)
               
             <div class="cards">
               <div class="inner">
                 <a href="{{ route('posts.show', ['post' => $post]) }}"><img src="/storage/cover_images/{{$post->cover_image}}" alt=""></a>
               </div>
-              <div class="blog-text p-2">
-                <p class="mb-auto"><a href="" class="text-dark">{{$post->category->name}}</a></p>
-                <h4 class="mb-auto"><a href="{{ route('posts.show', ['post' => $post]) }}" class="text-dark">{{$post->title}}</a></h4>
-                <p class="small">Created: {{$post->created_at}}</p>
+              <div class="blog-text p-3">
+                <div class="mb-auto">
+                  <p class="small-text-blog"><a href="">{{$post->category->name}}</a></p>
+                </div>
+                <div class="mb-auto">
+                  <h4 class="font-weight-bold pt-3"><a href="{{ route('posts.show', ['post' => $post]) }}">{{$post->title}}</a></h4>
+                </div>
+                <div>
+                  <p class="small-text-blog">Author: {{$post->user->name}} </p>
+                  <p class="small-text-blog">{{$post->created_at->format('d/m/Y')}}</p>
+                </div>
               </div>
             </div>
             @endforeach

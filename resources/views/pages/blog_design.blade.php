@@ -15,20 +15,19 @@
     <div class="main my-3">
       <div class="d-flex flex-column justify-content-center align-items-center">
         <div class="w-75 mx-auto">
-          <p class="text-center">Check out our articles covering all facets of websites. We write about topics that business owners often ask us about and hope you find them helpful too.</p>
-          <p class="text-center">If you’re interested in web maintenance, here’s a link to our managed plans.</p>
+          <p class="text-center"><span class="pink-text">Visual</span> communication, art direction. Web layouts and typography. Graphic design, interface design, user experience design, illustration, photography, artwork. Creative, strategic, and technical approaches to crafting great interfaces. Visual styles, influences, and trends.</p>
           <div class="text-center">
-            <a href="" class="btn">GET IN TOUCH</a>
+            <a href="" class="btn">SUBSCRiBE</a>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="bg-light">
-    <div class="mx-5 py-5">
+  <section class="bg-light py-5">
+    <div class="py-5">
 
-      <div class="pt-4 d-flex flex-wrap text-align-center justify-content-center">
+      <div class="pt-4 d-flex flex-wrap justify-content-center">
         @if(count($posts) > 0)
         @foreach($posts as $post)
           <div class="blog">
@@ -36,11 +35,17 @@
               <a href="{{ route('posts.show', ['post' => $post]) }}"><img src="/storage/cover_images/{{$post->cover_image}}" alt=""></a>
             </div>
             <div class="blog-text p-3">
-              <p>{{$post->category->name}}</p>
-            <h3 class="pt-3"><a href="/posts/{{$post->id}}" class="text-dark">{{$post->title}}</a></h3>
-              <p>{!!$post->body!!}</p>
-              <p class="small">Author: {{$post->user->name}}</p>
-              <p class="small">{{$post->created_at}}</p>
+              <div class="mb-auto">
+                <p class="small-text-blog"><a href="">{{$post->category->name}}</a></p>
+              </div>
+              <div class="mb-auto">
+                <h4 class="font-weight-bold pt-3"><a href="{{ route('posts.show', ['post' => $post]) }}">{{$post->title}}</a></h4>
+                <p class="blog-description">{{$post->description}}</a></p>
+              </div>
+              <div class="d-flex justify-content-between align-items-end">
+                <p class="small-text-blog">Author: {{$post->user->name}} </p>
+                <p class="small-text-blog">{{$post->created_at->format('d/m/Y')}}</p>
+              </div>
             </div>
           </div>
         @endforeach

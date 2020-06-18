@@ -45,9 +45,16 @@
                     <a href="/posts/{{$post->id}}"><img src="/storage/cover_images/{{$post->cover_image}}" alt=""></a>
                   </div>
                   <div class="blog-text p-3">
-                    <p class="mb-auto">{{$post->category->name}}</p>
-                    <h3 class="mb-auto"><a href="/posts/{{$post->id}}">{{$post->title}}</a></h3>
-                    <p class="small">{{$post->created_at}}</p>
+                    <div class="mb-auto d-flex justify-content-between">
+                      <p class="small-text-blog"><a href="">{{$post->category->name}}</a></p>
+                      <p class="small-text-blog">Author: {{$post->user->name}} </p>
+                      <p class="small-text-blog">{{$post->created_at->format('d/m/Y')}}</p>
+                    </div>
+                    <div class="mb-auto">
+                      <h4 class="font-weight-bold pt-3"><a href="{{ route('posts.show', ['post' => $post]) }}">{{$post->title}}</a></h4>
+                      <p class="blog-description">{{$post->description}}</a></p>
+                    </div>
+                   
                     <div class="d-flex row ml-0">
                         <a href="/posts/{{$post->id}}/edit" class="btn mr-3">Edit</a>
                         
@@ -60,7 +67,7 @@
                 </div>
             @endforeach
             </div> 
-            {{$posts->links()}}
+            {{-- {{$posts->links()}} --}}
             @else
               <p>No posts to show</p>
             @endif

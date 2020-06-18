@@ -175,58 +175,58 @@
           <p class="pl-3 pt-2">Estimated time: 1-2 weeks</p>
         </div>
         <div>
-          <h4>Stage 2. Planning</h4>
+          <h4 class="pb-3">Stage 2. Planning</h4>
           <ul>
             <li>Create a sitemap sketch (define the main areas of your website)</li>
             <li>Create a wireframe/mock-up (a visual representation of the user interface which the customer reviews)</li>
             <li>Select technology stack (programming language, frameworks, CMS)</li>
-            <li>Estimated time: 2-6 weeks</li>
           </ul>
+          <p class="pl-3 pt-2">Estimated time: 2-6 weeks</p>
         </div>
         <div>
-          <h4>Stage 3. Design</h4>
+          <h4 class="pb-3">Stage 3. Design</h4>
           <ul>
             <li>Create the website layout</li>
             <li>Customer reviews the layouts</li>
             <li>Get client's feedback on the layouts</li>
-            <li>Change the layout when required</li>
-            <li>Estimated time: 4-12 weeks</li>
+            <li>Change the layout when required</li> 
           </ul>
+          <p class="pl-3 pt-2">Estimated time: 4-12 weeks</p>
         </div>
         <div>
-          <h4>Stage 4. Content Management</h4>
+          <h4 class="pb-3">Stage 4. Content Management</h4>
           <ul>
             <li>Create new content (creation of catching headlines, text editing, writing new text, compiling the existing text, etc.)</li>
             <li>Get content ready for migration</li>
-            <li>Estimated time: 5-15 weeks</li>
-          </ul>
+          </ul>  
+          <p class="pl-3 pt-2">Estimated time: 5-15 weeks</p>
         </div>
         <div>
-          <h4>Stage 5. Coding</h4>
+          <h4 class="pb-3">Stage 5. Coding</h4>
           <ul>
             <li>Build website according to the website hierarchy that was previously created</li>
             <li>Add special features and interactivity</li>
-            <li>SEO for the website (the optimization of website elements)</li>
-            <li>Estimated time: 6-15 weeks</li>
+            <li>SEO for the website (the optimization of website elements)</li> 
           </ul>
+          <p class="pl-3 pt-2">Estimated time: 6-15 weeks</p>
         </div>
         <div>
-          <h4>Stage 6. Testing, Review and Launch</h4>
+          <h4 class="pb-3">Stage 6. Testing, Review and Launch</h4>
           <ul>
             <li>Test the created website</li>
             <li>Upload the website to server</li>
             <li>Final testing and launch</li>
-            <li>Estimated time: 2-4 weeks</li>
           </ul>
+          <p class="pl-3 pt-2">Estimated time: 2-4 weeks</p>
         </div>
         <div>
-          <h4>Stage 7. Maintenance and Regular Updating</h4>
+          <h4 class="pb-3">Stage 7. Maintenance and Regular Updating</h4>
           <ul>
             <li>Add user report system</li>
             <li>Fix bugs</li>
             <li>Keep website up-to-date</li>
-            <li>Estimated time: ongoing</li> 
-          </ul>
+          </ul>  
+          <p class="pl-3 pt-2">Estimated time: ongoing</p> 
         </div>
       </div>
     </div>
