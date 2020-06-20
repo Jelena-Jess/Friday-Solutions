@@ -22,13 +22,13 @@ Auth::routes();
 Route::get('/admin', 'HomeController@index')->name('admin');
 
 Route::get('/', 'PagesController@index')->name('home');
-Route::get('/website', 'PagesController@website')->name('website');
-Route::get('/logo', 'PagesController@logo')->name('logo');
-Route::get('/about', 'PagesController@about')->name('about');
-Route::get('/content', 'PagesController@content')->name('content');
-Route::get('/blog/coding', 'PagesController@blog_coding')->name('blog.development');
-Route::get('/blog/design', 'PagesController@blog_design')->name('blog.design');
-Route::get('/blog/inspiration', 'PagesController@blog_inspiration')->name('blog.inspiration');
+Route::get('/web-design-and-development', 'PagesController@website')->name('website');
+Route::get('/logo-design', 'PagesController@logo')->name('logo');
+Route::get('/about-us', 'PagesController@about')->name('about');
+Route::get('/content-management', 'PagesController@content')->name('content');
+Route::get('/blog-Coding', 'PagesController@blog_coding')->name('blog.development');
+Route::get('/blog-Design', 'PagesController@blog_design')->name('blog.design');
+Route::get('/blog-Inspiration', 'PagesController@blog_inspiration')->name('blog.inspiration');
 
 // Route::get('/contact', 'EmailController@home');
 // Route::post('/send', 'EmailController@send');
@@ -37,8 +37,9 @@ Route::get('/blog/inspiration', 'PagesController@blog_inspiration')->name('blog.
 
 Route::resource('posts', 'PostsController');
 
-Route::get('contact', 'ContactFormController@create')->name('contact.create');
+Route::get('contact-form', 'ContactFormController@create')->name('contact.create');
 Route::post('contact', 'ContactFormController@store')->name('contact.store');
-Route::get('contact_project', 'ContactWithProjectInfoController@create')->name('contactproject.create');
+Route::get('contact-project-form', 'ContactWithProjectInfoController@create')->name('contactproject.create');
 Route::post('contact_project', 'ContactWithProjectInfoController@store')->name('contactproject.store');
+
 Route::post('/', 'SubscribeController@store')->name('subscribe.store');

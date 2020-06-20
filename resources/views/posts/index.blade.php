@@ -29,7 +29,7 @@
             <div class="back bg-light-pink d-flex flex-column justify-content-center">
               <p class="text-center align-self-center font-italic pb-2"><span class="pink-text">Learn about:</span> front and back end development for the web; markup, style, scripting, and server-side techniques and technologies; creating websites and applications.</p>
               <div class="text-center">
-                <a href="/blog/coding" class="btn">Read posts</a>
+                <a href="{{ route('blog.development') }}" class="btn">Read posts</a>
               </div>
             </div>
           </div>
@@ -42,7 +42,7 @@
             <div class="back bg-very-light-pink d-flex flex-column justify-content-center">
               <p class="text-center align-self-center font-italic pb-2"><span class="pink-text">Learn about:</span> visual communication, art direction; web layouts and typography; graphic design, interface design, user experience design, illustration, photography, artwork.</p>
               <div class="text-center">
-                <a href="/blog/design" class="btn">Read posts</a>
+                <a href="{{ route('blog.design') }}" class="btn">Read posts</a>
               </div>
             </div>
           </div>
@@ -55,7 +55,7 @@
             <div class="back grey d-flex flex-column justify-content-center">
               <p class="text-center align-self-center font-italic pb-2"><span class="pink-text">Learn about:</span> inspirational websites, photography and artwork; web design styles, website types, web design trends, and collections that focus on a particular area of a web page.</p>
               <div class="text-center">
-                <a href="/blog/inspiration" class="btn">Read posts</a>
+                <a href="{{ route('blog.inspiration') }}" class="btn">Read posts</a>
               </div>
             </div>
           </div>
@@ -83,7 +83,7 @@
             </div>
             <div class="blog-text p-3">
               <div class="mb-auto">
-                <p class="small-text-blog"><a href="">{{$post->category->name}}</a></p>
+                <p class="small-text-blog"><a href="/blog-{{$post->category->name}}" >{{$post->category->name}}</a></p>
               </div>
               <div class="mb-auto">
                 <h4 class="font-weight-bold pt-3"><a href="{{ route('posts.show', ['post' => $post]) }}">{{$post->title}}</a></h4>

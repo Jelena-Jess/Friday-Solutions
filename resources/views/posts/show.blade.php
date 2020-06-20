@@ -42,7 +42,7 @@
               </div>
               <div class="blog-text p-3">
                 <div class="mb-auto">
-                  <p class="small-text-blog"><a href="">{{$post->category->name}}</a></p>
+                  <p class="small-text-blog"><a href="/blog-{{$post->category->name}}" >{{$post->category->name}}</a></p>
                 </div>
                 <div class="mb-auto">
                   <h4 class="font-weight-bold pt-3"><a href="{{ route('posts.show', ['post' => $post]) }}">{{$post->title}}</a></h4>

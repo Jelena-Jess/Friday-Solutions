@@ -7,7 +7,7 @@
 
   <section class="bg-light">
     <div class="mx-5 py-5">
-      <h1 class="text-center">EDIT THE POST</h1>
+      <h1 class="text-center">EDIT: {{$post->title}}</h1>
       
       <div class="separator">
         <div class="line line-left"></div>

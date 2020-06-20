@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Mail\WelcomeNewSubscriberMail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Storage;
+use App\Subscriber;
 
 class SubscribeController extends Controller
 {
@@ -12,11 +14,15 @@ class SubscribeController extends Controller
         $data = request()->validate([
             'email' => 'required|email',
         ]);
+
+        $subscriber = new Subscriber();
+        $subscriber->email = request('email');
+        $subscriber->save();
         
         //Send an email
         Mail::to('test@test.com')->send(new WelcomeNewSubscriberMail($data));
 
-        dump('Regitsered to newsletter');
+        dump('Registered to newsletter');
         dump('Slack mesage here');
 
         //Display a thank you message
