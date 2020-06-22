@@ -51,7 +51,7 @@
 }
 
 /******* BALLS  ********/
-.help div {
+.tech div {
   @include flexCenter(row);
   margin: 10px;
   width: 83px;
@@ -59,24 +59,30 @@
   font-size: 17px;
   color: #fff;
   border-radius: 50%;
-  background-image: -moz-linear-gradient(45px 45px 45deg, circle cover, $bg-dark 0%, 
-  rgb(102, 153, 197)  10%, rgba(228, 131, 149, 0.5) 100%, rgb(228, 131, 149) 95%);
-  background-image: -webkit-radial-gradient(45px 45px, circle cover,
-  $bg-dark, rgb(228, 131, 149));
-  background-image: linear-gradient(45px 45px 45deg, circle cover, 
-  $bg-dark 0%, rgb(102, 153, 197)  10%, rgb(228, 131, 149) 100%, 
-  rgba(228, 131, 149) 95%);
-  background-color: rgb(228, 131, 149);
   font-size: 17px;
   color: #fff;
   box-shadow: -5px 5px 10px rgba(0,0,0,0.3);
   &:hover{
-    background-image: -moz-linear-gradient(45px 45px 45deg, circle cover, rgb(228, 131, 149) 0%, $bg-dark 100%, $bg-dark 95%);
-    background-image: -webkit-radial-gradient(45px 45px, circle cover, rgb(228, 131, 149), $bg-dark);
-    background-image: linear-gradient(45px 45px 45deg, circle cover, rgb(228, 131, 149) 0%, $bg-dark 100%, $bg-dark 95%);
-    background-color: rgb(228, 131, 149);
     color: #fff;
   }
+}
+.tech1 div {
+  background-image: radial-gradient(circle, #fd8ab9, #e28bae, #c88ba2, #ad8997, #92878b);
+  background-image: -webkit-radial-gradient(circle, #fd8ab9, #e28bae, #c88ba2, #ad8997, #92878b);
+  background-image: radial-gradient(circle, #fd8ab9, #e28bae, #c88ba2, #ad8997, #92878b);
+  background-color: #fd8ab9;  
+}
+.tech2 div {
+  background-image: radial-gradient(circle, #ee5b96, #c85c86, #a25a75, #7d5664, #595053);
+  background-image: -webkit-radial-gradient(circle, #ee5b96, #c85c86, #a25a75, #7d5664, #595053);
+  background-image: radial-gradient(circle, #ee5b96, #c85c86, #a25a75, #7d5664, #595053);
+  background-color: #ee5b96;
+}
+.tech3 div {
+  background-image: radial-gradient(circle, #8e4d68, #764659, #5f3f4b, #48373d, #322f30);
+  background-image: -webkit-radial-gradient(circle, #8e4d68, #764659, #5f3f4b, #48373d, #322f30);
+  background-image: radial-gradient(circle, #8e4d68, #764659, #5f3f4b, #48373d, #322f30);
+  background-color: #8e4d68;
 }
 
 .center-split {
@@ -217,6 +223,9 @@
   .plan-boxes {
     justify-content: center !important;
   }
+  .plan-box {
+    height: 250px;
+  }
   .bg {
     width: 40vw;
     margin: 20px;
@@ -311,6 +320,7 @@
   }
   .plan-box {
     width: 80%;
+    height: auto;
   }
   
   #logo-list {
@@ -353,7 +363,7 @@
       }
     }
   }
-  .help div {
+  .tech div {
     width: 65px;
     height: 65px;
     font-size: 13px;
@@ -384,7 +394,7 @@
 }
 
 @media all and (max-width:400px){
-  .help div{
+  .tech div{
     width: 60px;
     height: 60px;
     font-size: 12px;

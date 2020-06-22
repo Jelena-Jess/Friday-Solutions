@@ -22,7 +22,7 @@ class ContactFormController extends Controller
         ]);
         
         //Send an email
-        Mail::to('test@test.com')->send(new ContactFormMail($data));
+        Mail::to('jelenafriday@gmail.com')->send(new ContactFormMail($data));
 
         //Display a thank you message
 

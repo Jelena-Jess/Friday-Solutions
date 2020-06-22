@@ -31,29 +31,29 @@
           <p class="p-big text-center">You can think of a modern website as a cake that has multiple layers. Each layer represents a certain technology. Each “technology layer” has its own function and purpose. Choose them wisely and you have a great-tasting cake. Choose poorly, and your product will be inedible.</p>
         </div>
         <div class="pl-4">
-          <div class="d-flex justify-content-center help">
+          <div class="d-flex justify-content-center tech tech1">
             <div data-anijs="if: mouseover, do: swing animated">
               <span>HTML</span>
             </div>
             <div data-anijs="if: mouseover, do: swing animated">
               <span>SCSS</span>
             </div>
+          </div>
+          <div class="d-flex justify-content-center tech tech2">   
             <div data-anijs="if: mouseover, do: swing animated">
               <span>PHP</span>
             </div>
-          </div>
-          <div class="d-flex justify-content-center help">
             <div data-anijs="if: mouseover, do: swing animated">
               <span>MySQL</span>
             </div>
             <div data-anijs="if: mouseover, do: swing animated">
               <span>Laravel</span>
             </div>
+          </div>
+          <div class="d-flex justify-content-center tech tech3">
             <div data-anijs="if: mouseover, do: swing animated">
               <span>JavaScript</span>
             </div>
-          </div>
-          <div class="d-flex justify-content-center help">
             <div data-anijs="if: mouseover, do: swing animated">
               <span>Git</span>
             </div>
@@ -106,7 +106,7 @@
               Custom websites are for medium-large sized businesses that have a sizeable budget for a new website and that want full control over the look/feel. Once a client has been on-boarded, our team meets internally to start planning a sitemap, wireframes, and design direction. We then go through each step, presenting everything from initial concepts to structural planning to the final design. Our team will walk you through each phase until the final project is launched to ensure your 100% satisfaction.
             </p>
             <p>
-              Final pricing will ultimately depend upon the number of hours we’ll need to complete your project.
+              Final pricing will ultimately depend upon the number of hours we’ll need to put into your project.
             </p>
           </div>
         </div>
@@ -118,7 +118,7 @@
               We love building new websites, but if you come to us with an existing website, we’re willing to work with that, too. We’ll review your existing website design, your code, and your overall goals to make design change recommendations and implement those. Website redesigns vary greatly in pricing and depend on the existing framework.
             </p>
             <p>
-              The above offerings encompass most of the types of web design services we offer, and we also can work with you to include special functionality. This includes adding plugins that support your website’s functionality, like IDX integration, event calendars, and more. You tell us what you’d like your website to do and we can build it into your budget.
+              The above offerings include most of the types of web design services we offer, but we also can work with you to include special functionality. This includes adding plugins that support your website’s needs. You tell us what you’d like your website to do and we can build it into your budget.
             </p>
           </div>
         </div>
@@ -140,14 +140,14 @@
               <li>Ongoing Search Engine Optimisation</li>
               <li>New ideas and features developments</li>
               <li>Malware and hack detection</li>
-              <li>Each maintenance package is designed for both the size and the needs of your company.</li>
             </ul>
+            <p>Each maintenance package is designed for both the size and the needs of your company.</p>
           </div>
         </div>
 
       </div>
       <div>
-        <p class="text-center text-light px-5 pt-5">All plans also include website hosting and monthly performance audits. The best way to get all the info is by contacting us for a quick online meeting.</p>
+        <p class="text-center text-light px-5 pt-5">The best way to get all the info is by contacting us for a quick online meeting.</p>
       </div>
        
       <div>

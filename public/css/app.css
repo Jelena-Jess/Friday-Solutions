@@ -12685,7 +12685,7 @@ h2.related {
 
 /******* BALLS  ********/
 
-.help div {
+.tech div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12696,19 +12696,31 @@ h2.related {
   font-size: 17px;
   color: #fff;
   border-radius: 50%;
-  background-image: -webkit-radial-gradient(45px 45px, circle cover, #343a40, #e48395);
-  background-image: linear-gradient(45px 45px 45deg, circle cover, #343a40 0%, #6699c5 10%, #e48395 100%, #e48395 95%);
-  background-color: #e48395;
   font-size: 17px;
   color: #fff;
   box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-.help div:hover {
-  background-image: -webkit-radial-gradient(45px 45px, circle cover, #e48395, #343a40);
-  background-image: linear-gradient(45px 45px 45deg, circle cover, #e48395 0%, #343a40 100%, #343a40 95%);
-  background-color: #e48395;
+.tech div:hover {
   color: #fff;
+}
+
+.tech1 div {
+  background-image: radial-gradient(circle, #fd8ab9, #e28bae, #c88ba2, #ad8997, #92878b);
+  background-image: radial-gradient(circle, #fd8ab9, #e28bae, #c88ba2, #ad8997, #92878b);
+  background-color: #fd8ab9;
+}
+
+.tech2 div {
+  background-image: radial-gradient(circle, #ee5b96, #c85c86, #a25a75, #7d5664, #595053);
+  background-image: radial-gradient(circle, #ee5b96, #c85c86, #a25a75, #7d5664, #595053);
+  background-color: #ee5b96;
+}
+
+.tech3 div {
+  background-image: radial-gradient(circle, #8e4d68, #764659, #5f3f4b, #48373d, #322f30);
+  background-image: radial-gradient(circle, #8e4d68, #764659, #5f3f4b, #48373d, #322f30);
+  background-color: #8e4d68;
 }
 
 .center-split {
@@ -12867,6 +12879,10 @@ h2.related {
     justify-content: center !important;
   }
 
+  .plan-box {
+    height: 250px;
+  }
+
   .bg {
     width: 40vw;
     margin: 20px;
@@ -12978,6 +12994,7 @@ h2.related {
 
   .plan-box {
     width: 80%;
+    height: auto;
   }
 
   #logo-list {
@@ -13018,7 +13035,7 @@ h2.related {
     left: 37%;
   }
 
-  .help div {
+  .tech div {
     width: 65px;
     height: 65px;
     font-size: 13px;
@@ -13053,7 +13070,7 @@ h2.related {
 }
 
 @media all and (max-width: 400px) {
-  .help div {
+  .tech div {
     width: 60px;
     height: 60px;
     font-size: 12px;

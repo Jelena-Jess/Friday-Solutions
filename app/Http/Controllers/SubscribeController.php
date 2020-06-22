@@ -22,11 +22,11 @@ class SubscribeController extends Controller
         //Send an email
         Mail::to('test@test.com')->send(new WelcomeNewSubscriberMail($data));
 
-        dump('Registered to newsletter');
-        dump('Slack mesage here');
+        // dump('Registered to newsletter');
+        // dump('Slack mesage here');
 
         //Display a thank you message
 
-        //return redirect('/')->with('message', 'You have successfully subscribed to our newsletter. Thank you for your interest in Friday Solutions. Enjoy reading and learning!');
+        return redirect('posts')->with('message', 'You have successfully subscribed to our newsletter. Thank you for your interest in Friday Solutions. Enjoy reading and learning!');
     }
 }

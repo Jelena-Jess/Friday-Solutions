@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 Auth::routes();
 
@@ -30,16 +30,11 @@ Route::get('/blog-Coding', 'PagesController@blog_coding')->name('blog.developmen
 Route::get('/blog-Design', 'PagesController@blog_design')->name('blog.design');
 Route::get('/blog-Inspiration', 'PagesController@blog_inspiration')->name('blog.inspiration');
 
-// Route::get('/contact', 'EmailController@home');
-// Route::post('/send', 'EmailController@send');
-// Route::get('/project_plan', 'EmailController@project_plan');
-// Route::post('/project_plan_send', 'EmailController@project_plan_send');
-
 Route::resource('posts', 'PostsController');
 
-Route::get('contact-form', 'ContactFormController@create')->name('contact.create');
+Route::get('contact', 'ContactFormController@create')->name('contact.create');
 Route::post('contact', 'ContactFormController@store')->name('contact.store');
-Route::get('contact-project-form', 'ContactWithProjectInfoController@create')->name('contactproject.create');
-Route::post('contact_project', 'ContactWithProjectInfoController@store')->name('contactproject.store');
+Route::get('contact-project', 'ContactWithProjectInfoController@create')->name('contactproject.create');
+Route::post('contact-project', 'ContactWithProjectInfoController@store')->name('contactproject.store');
 
 Route::post('/', 'SubscribeController@store')->name('subscribe.store');

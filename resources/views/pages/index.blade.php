@@ -19,8 +19,8 @@
       <div class="main bio py-5 d-flex flex-column justify-content-center">
         <div class="align-self-center">
           <h1 class="text-center pb-4">You have to come to the right place!</h1>
-          <p>Imagine the free time you'll have when Friday Solutions takes care of your website, updates and blogging. All this is feasible with a simple monthly fee rather than large upfront design costs.</p>
-          <p class="text-center">We build websites from scratch, and provide template websites, as well. In addition, we can upgrade your old web pages, fix bugs, or add extra features to your current website. We strive to be impeccable in all aspects, from creative design to flawless code.</p>
+          <p class="text-center">Imagine the free time you'll have when Friday Solutions takes care of your website, updates and blogging. All this is feasible with a simple monthly fee rather than large upfront design costs.</p>
+          <p class="text-center">We build websites from scratch, and provide template websites, as well. We strive to be impeccable in all aspects, from creative design to flawless code.</p>
           <p class="text-center">Our final goal is two things: the <span class="pink-text font-weight-bold">PERFECT PRODUCT</span> and a <span class="pink-text font-weight-bold">HAPPY CUSTOMER</span>.</p> 
         </div>
       </div>
@@ -172,43 +172,6 @@
             @else
               <p>No posts to show</p>
             @endif
-        </div>
-      </div>
-    </section>
-
-    <section id="" class="p-5 text-justify bg-grey">
-      <div class="py-5">
-        <div class="d-flex flex-column justify-content-center">
-          <h1 class="text-center">SUBSCRIBE TO OUR NEWSLETTER</h1>
-          <div class="separator">
-            <div class="line line-left"></div>
-            <div class="asterisk"><i class="fas fa-circle"></i></div>
-            <div class="line line-right"></div>
-          </div>
-          @if(session()->has('message'))
-            <div class="alert alert-secondary" role="alert">
-              <h3 class="pink-text text-center">Thank you!</h3> <p class="p-big text-dark text-center">{{ session()->get('message') }}</p>
-            </div>
-          @endif
-        
-          <div class="pt-5 w-50 mx-auto">
-            <form method="POST" action="{{ route('subscribe.store') }}">
-          
-              <div class="form-group">
-                <div class="">
-                <input name="email" type="text" class="form-control{{$errors->has('email')}}" value="{{old('email')}}" placeholder="Your email address" data-parsley-required-message="Email is required" required autofocus>
-                </div>
-                <div>{{$errors->first('email')}}</div>
-              </div>
-          
-              @csrf
-
-              <div class="text-center pt-4">
-                <button type="submit" class="btn">Subscribe</button>
-              </div>
-        
-            </form>
-          </div>
         </div>
       </div>
     </section>

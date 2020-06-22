@@ -7,7 +7,7 @@
 
   <section>
     <div class="blog-link text-center bg-light pt-4 px-2">
-      <a href="{{ route('posts.index') }}" class="text-dark">Blog Home</a> &rarr; <a href="" class="text-dark">{{$post->category->name}}</a> &rarr; {{$post->title}}
+      <a href="{{ route('posts.index') }}" class="text-dark">Blog Home</a> &rarr; <a href="/blog-{{$post->category->name}}" class="text-dark">{{$post->category->name}}</a> &rarr; {{$post->title}}
     </div>
   </section>
 

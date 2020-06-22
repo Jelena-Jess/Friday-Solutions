@@ -58,7 +58,6 @@
         <textarea name="message" class="form-control z-depth-1 {{$errors->has('message') ? ' is-invalid' : ''}}" value="{{old('message')}}" placeholder="Required field" data-parsley-required-message="Please write the message" required autofocus rows="7"></textarea>
         </div>
         </div>
-    
         @csrf
 
         <div class="text-center pt-4">

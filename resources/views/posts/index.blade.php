@@ -5,64 +5,93 @@
 @section('content')
 <main role="main" class="m-auto">
 
-  <section class="p-5 back-light">
+  <section class="p-5 bg-light">
     <div class="main p-5">
       <div class="d-flex flex-column justify-content-center">
         <div class="animate-left w-75 mx-auto">
-          <h5 class="text-center">We have a collection of articles on coding, web design, and some which are here only to inspire you. Please choose from any category or see all the latest articles.</h5>
+          <h5 class="text-center">We have a collection of articles on coding, web design, and some which are here only to inspire you. Choose from any category or see all the latest articles.</h5>
         </div>
           <img src="/images/blog.png" alt="" class="animate-right mx-auto">
+      </div> 
+      <div class="d-flex flex-column justify-content-center">
+        @if(session()->has('message'))
+          <div class="alert alert-secondary" role="alert">
+            <h3 class="pink-text text-center">Thank you!</h3> 
+            <p class="p-big text-dark text-center">{{ session()->get('message') }}</p>
+          </div>
+        @endif
+      
+        <div class="pt-5 w-50 mx-auto">
+          <form method="POST" action="{{ route('subscribe.store') }}">
+        
+            <div class="form-group">
+              <div class="">
+              <input name="email" type="text" class="form-control{{$errors->has('email')}}" value="{{old('email')}}" placeholder="Your email address" data-parsley-required-message="Email is required" required autofocus>
+              </div>
+              <div>{{$errors->first('email')}}</div>
+            </div>
+          
+            @csrf
+
+            <div class="text-center pt-4">
+              <button type="submit" class="btn">Subscribe</button>
+            </div>
+        
+          </form>
+        </div>
       </div>
     </div>
   </section>
 
-   <section id="services" class="p-5 text-left bg-grey">
-      <div class="main py-5"> 
-      
-        <div class="d-flex flex-lg-row flex-md-row flex-sm-column flex-column justify-content-center">
+     
 
-          <div class="project">
-            <div class="front bg-light-pink d-flex justify-content-center">
-              <h2 class="pink-text py-4 align-self-center">Coding</h2>
-            </div>
+  <section id="services" class="p-5 text-left bg-grey">
+    <div class="main py-5"> 
+    
+      <div class="d-flex flex-lg-row flex-md-row flex-sm-column flex-column justify-content-center">
 
-            <div class="back bg-light-pink d-flex flex-column justify-content-center">
-              <p class="text-center align-self-center font-italic pb-2"><span class="pink-text">Learn about:</span> front and back end development for the web; markup, style, scripting, and server-side techniques and technologies; creating websites and applications.</p>
-              <div class="text-center">
-                <a href="{{ route('blog.development') }}" class="btn">Read posts</a>
-              </div>
-            </div>
+        <div class="project">
+          <div class="front bg-light-pink d-flex justify-content-center">
+            <h2 class="pink-text py-4 align-self-center">Coding</h2>
           </div>
 
-          <div class="project">
-            <div class="front bg-very-light-pink d-flex justify-content-center">
-              <h2 class="pink-text py-4 align-self-center">Design</h2>
-            </div>
-
-            <div class="back bg-very-light-pink d-flex flex-column justify-content-center">
-              <p class="text-center align-self-center font-italic pb-2"><span class="pink-text">Learn about:</span> visual communication, art direction; web layouts and typography; graphic design, interface design, user experience design, illustration, photography, artwork.</p>
-              <div class="text-center">
-                <a href="{{ route('blog.design') }}" class="btn">Read posts</a>
-              </div>
+          <div class="back bg-light-pink d-flex flex-column justify-content-center">
+            <p class="text-center align-self-center font-italic pb-2"><span class="pink-text">Learn about:</span> front and back end development for the web; markup, style, scripting, and server-side techniques and technologies; creating websites and applications.</p>
+            <div class="text-center">
+              <a href="{{ route('blog.development') }}" class="btn">Read posts</a>
             </div>
           </div>
-
-          <div class="project">
-            <div class="front grey d-flex justify-content-center">
-              <h2 class="pink-text py-4 align-self-center">Inspiration</h2>
-            </div>
-
-            <div class="back grey d-flex flex-column justify-content-center">
-              <p class="text-center align-self-center font-italic pb-2"><span class="pink-text">Learn about:</span> inspirational websites, photography and artwork; web design styles, website types, web design trends, and collections that focus on a particular area of a web page.</p>
-              <div class="text-center">
-                <a href="{{ route('blog.inspiration') }}" class="btn">Read posts</a>
-              </div>
-            </div>
-          </div>
-
         </div>
+
+        <div class="project">
+          <div class="front bg-very-light-pink d-flex justify-content-center">
+            <h2 class="pink-text py-4 align-self-center">Design</h2>
+          </div>
+
+          <div class="back bg-very-light-pink d-flex flex-column justify-content-center">
+            <p class="text-center align-self-center font-italic pb-2"><span class="pink-text">Learn about:</span> visual communication, art direction; web layouts and typography; graphic design, interface design, user experience design, illustration, photography, artwork.</p>
+            <div class="text-center">
+              <a href="{{ route('blog.design') }}" class="btn">Read posts</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="front grey d-flex justify-content-center">
+            <h2 class="pink-text py-4 align-self-center">Inspiration</h2>
+          </div>
+
+          <div class="back grey d-flex flex-column justify-content-center">
+            <p class="text-center align-self-center font-italic pb-2"><span class="pink-text">Learn about:</span> inspirational websites, photography and artwork; web design styles, website types, web design trends, and collections that focus on a particular area of a web page.</p>
+            <div class="text-center">
+              <a href="{{ route('blog.inspiration') }}" class="btn">Read posts</a>
+            </div>
+          </div>
+        </div>
+
       </div>
-    </section>
+    </div>
+  </section>
 
   <section class="bg-light py-5">
     <div class="py-5">
