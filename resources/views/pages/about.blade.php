@@ -105,14 +105,14 @@
               <div class="slide slide_3">
                 <div class="slide-content">
                   <div>
-                    <h2 class="py-2">RELIABILITY IS OUR TOP PRIORITY</h2>
+                    <h3 class="py-2">RELIABILITY IS OUR TOP PRIORITY</h3>
                     <h5>We provide reliable software products and services at competitive prices and deliver them on time.</h5>
                   </div>
                 </div>
               </div>
               <div class="slide slide_4">
                 <div class="slide-content">
-                  <h2 class="py-2">YOUR SUCCESS</h2>
+                  <h3 class="py-2">YOUR SUCCESS</h3>
                   <h5>We believe our success is tied to your success.</h5>
                 </div>
               </div>

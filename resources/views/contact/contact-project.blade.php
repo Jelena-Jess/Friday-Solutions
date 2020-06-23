@@ -22,7 +22,7 @@
 
    
 
-    <section class="contact-form project_plan py-4 text-justify mx-auto">
+    <section class="contact-form project_plan py-1 text-justify mx-auto">
 
     @if(session()->has('message'))
       <div class="alert alert-secondary" role="alert">
@@ -30,7 +30,7 @@
       </div>
     @endif
 
-    <div class="p-3 m-3">
+    <div class="p-5 m-3">
         <form method="POST" action="{{ route('contactproject.store') }}">
     
           <div>

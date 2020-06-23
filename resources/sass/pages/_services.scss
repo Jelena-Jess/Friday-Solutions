@@ -144,6 +144,7 @@
 /***** LOGO *****/
 .logo-text {
   div {
+    width: 70%;
     padding: 3rem 0;
     overflow: hidden;
     position: relative;
@@ -158,11 +159,19 @@
       right: 0;
       z-index: -1;
     }
+    a {
+      color: $strong-pink;
+      text-decoration: none;
+      &:hover {color: $bg-footer;}
+    }
   }
 }
 
 #logo-list {
   width: 60%;
+  div {
+    border: 1px solid $strong-pink;
+  }
   p::before{
     content: '\2911';
     display: inline-block;
@@ -171,7 +180,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     margin: 0 15px 0 -30px;
-    color: #fff;
+    color: $strong-pink;
   }
 }
 
@@ -238,6 +247,11 @@
   }
   #logo-list {
     width: 80%;
+  }
+  .logo-text {
+    div {
+      width: 90%;
+    }
   }
 }
 
@@ -377,6 +391,10 @@
   .logo-text {
     div {
       width: 90%;
+      &::after {
+        font-size: 100px;
+        bottom: 7%;
+      }
     }
   }
   .web-stages {

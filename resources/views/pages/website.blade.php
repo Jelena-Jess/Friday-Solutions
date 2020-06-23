@@ -172,7 +172,7 @@
             <li>Set main goals of the website</li>
             <li>Define target audience</li>
           </ul>
-          <p class="pl-3 pt-2">Estimated time: 1-2 weeks</p>
+          <p class="pl-3 pt-2">Estimated time: 1 week</p>
         </div>
         <div>
           <h4 class="pb-3">Stage 2. Planning</h4>
@@ -181,17 +181,17 @@
             <li>Create a wireframe/mock-up (a visual representation of the user interface which the customer reviews)</li>
             <li>Select technology stack (programming language, frameworks, CMS)</li>
           </ul>
-          <p class="pl-3 pt-2">Estimated time: 2-6 weeks</p>
+          <p class="pl-3 pt-2">Estimated time: 2-4 weeks</p>
         </div>
         <div>
           <h4 class="pb-3">Stage 3. Design</h4>
           <ul>
             <li>Create the website layout</li>
-            <li>Customer reviews the layouts</li>
+            <li>Client reviews the layouts</li>
             <li>Get client's feedback on the layouts</li>
             <li>Change the layout when required</li> 
           </ul>
-          <p class="pl-3 pt-2">Estimated time: 4-12 weeks</p>
+          <p class="pl-3 pt-2">Estimated time: 2-6 weeks</p>
         </div>
         <div>
           <h4 class="pb-3">Stage 4. Content Management</h4>
@@ -199,7 +199,7 @@
             <li>Create new content (creation of catching headlines, text editing, writing new text, compiling the existing text, etc.)</li>
             <li>Get content ready for migration</li>
           </ul>  
-          <p class="pl-3 pt-2">Estimated time: 5-15 weeks</p>
+          <p class="pl-3 pt-2">Estimated time: 2-6 weeks</p>
         </div>
         <div>
           <h4 class="pb-3">Stage 5. Coding</h4>
@@ -208,7 +208,7 @@
             <li>Add special features and interactivity</li>
             <li>SEO for the website (the optimization of website elements)</li> 
           </ul>
-          <p class="pl-3 pt-2">Estimated time: 6-15 weeks</p>
+          <p class="pl-3 pt-2">Estimated time: 4-12 weeks</p>
         </div>
         <div>
           <h4 class="pb-3">Stage 6. Testing, Review and Launch</h4>
@@ -217,7 +217,7 @@
             <li>Upload the website to server</li>
             <li>Final testing and launch</li>
           </ul>
-          <p class="pl-3 pt-2">Estimated time: 2-4 weeks</p>
+          <p class="pl-3 pt-2">Estimated time: 2-3 weeks</p>
         </div>
         <div>
           <h4 class="pb-3">Stage 7. Maintenance and Regular Updating</h4>

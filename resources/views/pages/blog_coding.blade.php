@@ -12,13 +12,11 @@
   </section>
 
   <section class="py-5 text-justify bg-light-pink">
-    <div class="main my-3">
+    <div class="main mt-3 mb-5">
       <div class="d-flex flex-column justify-content-center align-items-center">
         <div class="w-75 mx-auto">
-          <p class="text-center">Front and back end <span class="pink-text">development</span> for the web, mainly using open web standards. Markup, style, scripting, and server-side techniques and technologies. Cross-browser HTML, CSS, and JavaScript. Frameworks and preprocessors. Creating websites and applications. Optimization and performance. Hacks and workarounds.</p>
-          <div class="text-center">
-            <a href="" class="btn">SUBSCRIBE</a>
-          </div>
+          <h4 class="text-center">Read about:</h4>
+          <p class="text-center">Front and back end <span class="pink-text">development</span>. Markup, style, scripting, and server-side techniques and technologies. Cross-browser HTML, CSS, and JavaScript. Frameworks and preprocessors. Creating websites and applications. Optimization and performance. Hacks and workarounds.</p>
         </div>
       </div>
     </div>
@@ -27,7 +25,7 @@
   <section class="bg-light py-5">
     <div class="py-5">
 
-      <div class="pt-4 d-flex flex-wrap justify-content-center">
+      <div class="d-flex flex-wrap justify-content-center">
         @if(count($posts) > 0)
         @foreach($posts as $post)
           <div class="blog">

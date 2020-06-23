@@ -170,6 +170,10 @@ h2.related {
   transform-origin: left top;
 }
 
+.subscribe {
+  width: 50%;
+}
+
 @media screen and (max-width:1350px){
     /******* BLOG POST PAGE ********/
     .blog-post {
@@ -216,6 +220,9 @@ h2.related {
         width: 50%;
       }
     }
+  }
+  .subscribe {
+    width: 80%;
   }
 }
 

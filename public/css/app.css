@@ -12398,6 +12398,10 @@ h2.related {
   transform-origin: left top;
 }
 
+.subscribe {
+  width: 50%;
+}
+
 @media screen and (max-width: 1350px) {
   /******* BLOG POST PAGE ********/
 
@@ -12455,6 +12459,10 @@ h2.related {
   .related-posts .cards > div {
     height: 230px;
     width: 50%;
+  }
+
+  .subscribe {
+    width: 80%;
   }
 }
 
@@ -12797,6 +12805,7 @@ h2.related {
 /***** LOGO *****/
 
 .logo-text div {
+  width: 70%;
   padding: 3rem 0;
   overflow: hidden;
   position: relative;
@@ -12814,8 +12823,21 @@ h2.related {
   z-index: -1;
 }
 
+.logo-text div a {
+  color: #FE4365;
+  text-decoration: none;
+}
+
+.logo-text div a:hover {
+  color: #24282c;
+}
+
 #logo-list {
   width: 60%;
+}
+
+#logo-list div {
+  border: 1px solid #FE4365;
 }
 
 #logo-list p::before {
@@ -12826,7 +12848,7 @@ h2.related {
   background-size: contain;
   background-repeat: no-repeat;
   margin: 0 15px 0 -30px;
-  color: #fff;
+  color: #FE4365;
 }
 
 /***** CONTENT *****/
@@ -12898,6 +12920,10 @@ h2.related {
 
   #logo-list {
     width: 80%;
+  }
+
+  .logo-text div {
+    width: 90%;
   }
 }
 
@@ -13051,6 +13077,11 @@ h2.related {
 
   .logo-text div {
     width: 90%;
+  }
+
+  .logo-text div::after {
+    font-size: 100px;
+    bottom: 7%;
   }
 
   .web-stages {

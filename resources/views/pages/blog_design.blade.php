@@ -12,13 +12,11 @@
   </section>
 
   <section class="py-5 text-justify bg-very-light-pink">
-    <div class="main my-3">
+    <div class="main mt-3 mb-5">
       <div class="d-flex flex-column justify-content-center align-items-center">
         <div class="w-75 mx-auto">
+          <h4 class="text-center">Read about:</h4>
           <p class="text-center"><span class="pink-text">Visual</span> communication, art direction. Web layouts and typography. Graphic design, interface design, user experience design, illustration, photography, artwork. Creative, strategic, and technical approaches to crafting great interfaces. Visual styles, influences, and trends.</p>
-          <div class="text-center">
-            <a href="" class="btn">SUBSCRiBE</a>
-          </div>
         </div>
       </div>
     </div>
@@ -27,7 +25,7 @@
   <section class="bg-light py-5">
     <div class="py-5">
 
-      <div class="pt-4 d-flex flex-wrap justify-content-center">
+      <div class="d-flex flex-wrap justify-content-center">
         @if(count($posts) > 0)
         @foreach($posts as $post)
           <div class="blog">

@@ -13,6 +13,11 @@
         </div>
           <img src="/images/blog.png" alt="" class="animate-right mx-auto">
       </div> 
+    </div>
+  </section>
+
+  <section class="p-5 bg-dark">
+    <div class="main p-5">
       <div class="d-flex flex-column justify-content-center">
         @if(session()->has('message'))
           <div class="alert alert-secondary" role="alert">
@@ -21,7 +26,7 @@
           </div>
         @endif
       
-        <div class="pt-5 w-50 mx-auto">
+        <div class="subscribe mx-auto">
           <form method="POST" action="{{ route('subscribe.store') }}">
         
             <div class="form-group">
@@ -33,22 +38,20 @@
           
             @csrf
 
-            <div class="text-center pt-4">
-              <button type="submit" class="btn">Subscribe</button>
+            <div class="text-center pt-1">
+              <button type="submit" class="btn">Subscribe to our newsletter</button>
             </div>
         
           </form>
         </div>
       </div>
     </div>
-  </section>
-
-     
+  </section>   
 
   <section id="services" class="p-5 text-left bg-grey">
     <div class="main py-5"> 
     
-      <div class="d-flex flex-lg-row flex-md-row flex-sm-column flex-column justify-content-center">
+      <div class="py-5 d-flex flex-lg-row flex-md-row flex-sm-column flex-column justify-content-center">
 
         <div class="project">
           <div class="front bg-light-pink d-flex justify-content-center">
