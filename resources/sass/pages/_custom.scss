@@ -89,6 +89,13 @@ p, li {
   font-family: $font-text;
   font-size: 20px;
 }
+.pink-link {
+  color: $strong-pink;
+  &:hover {
+    text-decoration: none;
+    color: $bg-dark;
+  }
+}
 
 td, th {
   color: $bg-dark;
@@ -121,7 +128,6 @@ td, th {
       background-color: $strong-pink;
       border-color: $strong-pink;
   }
-
 }
 
 

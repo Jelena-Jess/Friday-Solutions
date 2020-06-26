@@ -7,19 +7,79 @@
   border-top: 60px solid $bg-grey;
   margin: 0 auto;
 }
+.contact {
+  width: 60%;
+  > div:nth-child(1) {
+    width: 35%;
+    margin: 0 auto;
+  }
+  > div:nth-child(2) {
+    width: 55%;
+  }
+}
 .contact-form {
   background-color: $bg-grey;
   width: 50%;
 }
+.mapouter {
+  position:relative;
+  text-align:center;
+  height:350px;
+  width: 60%;
+  margin: 0 40px;
+}
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:350px;
+  width: 100%;
+  iframe {
+    height:100%;
+    width:100%;
+  }
+}
+.fa-icon {
+  width: 30px;
+}
 
 @media all and (max-width:1200px){
+  .contact {
+    width: 80%;
+  }
+  .mapouter {
+    width: 80%;
+  }
   .contact-form {
-    width: 70%;
+    width: 80%;
   }
 }
 
+@media all and (max-width:992px){
+  .contact {
+    width: 90%;
+  }
+  .mapouter {
+    width: 90%;
+  }
+}
+
+@media all and (max-width:768px){ 
+  .contact {
+    > div:nth-child(1) {
+      width: 90%;
+    }
+    > div:nth-child(2) {
+      width: 70%;
+    }
+  }
+}
 @media all and (max-width:600px){
   .contact-form {
     width: 90%;
+  }
+  .contact {
+    > div:nth-child(2) {
+      width: 90%;
+    }
   }
 }

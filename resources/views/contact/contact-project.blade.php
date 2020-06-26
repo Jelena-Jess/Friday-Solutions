@@ -20,19 +20,17 @@
       </div>
     </section>
 
-   
+    <section class="contact-form py-1 text-justify mx-auto">
 
-    <section class="contact-form project_plan py-1 text-justify mx-auto">
-
-    @if(session()->has('message'))
-      <div class="alert alert-secondary" role="alert">
-        <h1 class="pink-text">Thank you!</h1> <h4 class="text-dark">{{ session()->get('message') }}</h4>
-      </div>
-    @endif
-
-    <div class="p-5 m-3">
+    <div class="py-5 px-3 m-3">
         <form method="POST" action="{{ route('contactproject.store') }}">
-    
+
+          @if(session()->has('message'))
+            <div class="py-5 alert alert-secondary" role="alert">
+              <h1 class="pink-text">Thank you!</h1> <h4 class="text-dark">{{ session()->get('message') }}</h4>
+            </div>
+          @endif
+
           <div>
             <h3 class="text-center m-3 py-3">Basic information</h3>
               <div class="form-group">
