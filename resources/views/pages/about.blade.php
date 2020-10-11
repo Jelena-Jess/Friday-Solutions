@@ -9,10 +9,10 @@
   <section class="py-5 text-justify bg-light">
     <div class="main">
       <div class="d-flex flex-column justify-content-center">
-        <div class="animate-left w-75 mx-auto">
-          <h5 class="text-center">We're a small web developing studio studio based in Novi Sad, Serbia. You'll always deal with an owner of the company.</h5>
+        <div class="py-5 w-75 mx-auto">
+          <h3 class="text-center">We're a small web developing studio studio based in Novi Sad, Serbia. You'll always deal with an owner of the company.</h3>
         </div>
-          <img src="/images/about.png" alt="" class="animate-right mx-auto">
+          {{-- <img src="/images/about.png" alt="" class="animate-right mx-auto"> --}}
       </div>
     </div>
   </section>

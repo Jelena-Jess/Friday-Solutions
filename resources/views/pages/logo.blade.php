@@ -8,11 +8,11 @@
     <section class="py-5 text-center bg-light">
       <div class="main py-5">
         <div class="d-flex flex-column justify-content-center">
-          <div class="animate-left w-75 mx-auto">
-            <p>A successful logo is simple and representative of the company it stands for. It basically serves as your personal stamp.</p>
-            <p>Designing a small visual representation of an entire company can be a daunting task, but if the process is done correctly, a logo can be a very effective marketing device.</p>
+          <div class="w-75 mx-auto">
+            <p class="text-center p-big">A successful logo is simple and representative of the company it stands for. It basically serves as your personal stamp.</p>
+            <p class="text-center p-big">Designing a small visual representation of an entire company can be a daunting task, but if the process is done correctly, a logo can be a very effective marketing device.</p>
           </div>
-          <img src="/images/logo.png" alt="" class="website-img animate-right mx-auto">
+          {{-- <img src="/images/logo.png" alt="" class="website-img animate-right mx-auto"> --}}
         </div>
       </div>
     </section>

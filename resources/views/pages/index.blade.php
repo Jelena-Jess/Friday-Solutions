@@ -6,11 +6,11 @@
   
     <section id="bio" class="p-5 text-justify bg-dark">
       <div class="main bio p-5 d-flex justify-content-center">
-        <div class="animate-right align-self-center">
+        <div class="align-self-center">
           <div class="text-center">
-            <img src="/images/computer.png" alt="" class="w-50">
+            {{-- <img src="/images/computer.png" alt="" class="w-50"> --}}
           </div>
-          <p class="animate-left p-big text-center">Looking for a super-slick way to present yourself? Would you like to make your business stand out in the crowd? How about a professional-looking website that works on all devices?</p>
+          <h3 class="text-center">Looking for a super-slick way to present yourself? Would you like to make your business stand out in the crowd? How about a professional-looking website that works on all devices?</h3>
         </div>
       </div>
     </section>

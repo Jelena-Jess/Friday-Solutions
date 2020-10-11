@@ -8,10 +8,10 @@
   <section class="p-5 bg-light">
     <div class="main p-5">
       <div class="d-flex flex-column justify-content-center">
-        <div class="animate-left w-75 mx-auto">
-          <h5 class="text-center">We have a collection of articles on coding, web design, and some which are here only to inspire you. Choose from any category or see all the latest articles.</h5>
+        <div class="w-75 mx-auto">
+          <p  class="text-center p-big">We have a collection of articles on coding, web design, and some which are here only to inspire you. Choose from any category or see all the latest articles.</p>
         </div>
-          <img src="/images/blog.png" alt="" class="animate-right mx-auto">
+          {{-- <img src="/images/blog.png" alt="" class="animate-right mx-auto"> --}}
       </div> 
     </div>
   </section>

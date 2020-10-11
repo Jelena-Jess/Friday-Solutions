@@ -10947,7 +10947,7 @@ a.text-dark:focus {
 }
 
 .section-blur {
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.5);
   height: 100%;
   width: 100%;
 }
@@ -12311,6 +12311,14 @@ img {
   width: 50%;
 }
 
+/******* BLOG ADMIN PAGE ********/
+
+.blog-admin .blog {
+  width: 48%;
+  height: 280px;
+  margin: 10px;
+}
+
 /******* BLOG CATEGORIES ********/
 
 .blog-card {
@@ -12421,6 +12429,12 @@ h2.related {
   .related-posts {
     width: 80%;
   }
+
+  /******* BLOG ADMIN PAGE ********/
+
+  .blog-admin .blog {
+    height: 320px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -12436,6 +12450,19 @@ h2.related {
 
   .related-posts h4 {
     font-size: 1.3rem;
+  }
+
+  /******* BLOG ADMIN PAGE ********/
+
+  .blog-admin .blog {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .blog-admin .blog {
+    width: 80%;
+    height: 280px;
   }
 }
 
@@ -12525,6 +12552,10 @@ h2.related {
   .related-posts h4 {
     font-size: 1.3rem;
   }
+
+  .blog-admin .blog {
+    height: 500px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -12576,6 +12607,10 @@ h2.related {
     height: 200px;
     width: 100%;
   }
+
+  .blog-admin .blog {
+    height: 550px;
+  }
 }
 
 @media all and (max-width: 400px) {
@@ -12609,6 +12644,10 @@ h2.related {
 
   .blog-card {
     width: 80%;
+  }
+
+  .blog-admin .blog {
+    height: 650px;
   }
 }
 

@@ -25,7 +25,7 @@
 
     <section class="bg-grey">
         <div class="">
-            <div class="mx-5 py-5">
+            <div class="py-5">
             <h1 class="text-center">YOUR LATEST POSTS</h1>
             
             <div class="separator mb-4">
@@ -35,7 +35,7 @@
             </div>
 
 
-            <div class="pt-4 d-flex flex-wrap text-align-center justify-content-center">
+            <div class="blog-admin pt-4 d-flex flex-wrap text-align-center justify-content-center">
 
             @if(count($posts) > 0)
             @foreach($posts as $post)

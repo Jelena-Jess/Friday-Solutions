@@ -8,10 +8,10 @@
   <section class="py-5 text-center bg-light">
     <div class="main py-5">
       <div class="d-flex flex-column justify-content-center">
-        <div class="animate-left w-75 mx-auto">
-          <h5 class="p-big"> We believe in simplicity. Whether your audience is reading content, watching a video or purchasing an item, every action should be clear throughout the website. Our goal is to create a website that highlights your company’s brand while ensuring ease of use and simplicity for your audience.</h5>
+        <div class="w-75 mx-auto">
+          <p  class="text-center p-big"> We believe in simplicity. Whether your audience is reading content, watching a video or purchasing an item, every action should be clear throughout the website. Our goal is to create a website that highlights your company’s brand while ensuring ease of use and simplicity for your audience.</h3>
         </div>
-        <img src="/images/code.png" alt="" class="website-img animate-right mx-auto">
+        {{-- <img src="/images/code.png" alt="" class="website-img animate-right mx-auto"> --}}
       </div>
     </div>
   </section>

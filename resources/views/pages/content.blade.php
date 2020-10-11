@@ -9,9 +9,9 @@
     <div class="main py-5">
       <div class="d-flex flex-column justify-content-center">
         <div class="animate-left w-75 mx-auto">
-          <h5 class="p-big"><p>To compete in today’s digital world, a business needs to become a content factory, rapidly producing and publishing content that audiences enjoy consuming and that inspires them to take action. But who has the time?</p></h5>
+          <p  class="text-center p-big">To compete in today’s digital world, a business needs to become a content factory, rapidly producing and publishing content that audiences enjoy consuming and that inspires them to take action. But who has the time?</p>
         </div>
-        <img src="/images/content.png" alt="" class="website-img animate-right mx-auto">
+        {{-- <img src="/images/content.png" alt="" class="website-img animate-right mx-auto"> --}}
       </div>
     </div>
   </section>

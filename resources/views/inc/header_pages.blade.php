@@ -1,7 +1,7 @@
 <header class="header">
 
   <section class="section-all bd-highlight">
-    <img src="/images/header.jpg" alt="" class="parallax-all">
+    <img src="/images/header2.jpg" alt="" class="parallax-all">
     <div class="section-blur d-flex flex-column">
       <div class="pt-1">
         <div class="align-items-start">
@@ -33,5 +33,5 @@
 </header>
 
 </div>
-<a class="gotop" href=""><i class="fa fa-arrow-up"></i></a>
+  <a class="gotop" href=""><i class="fa fa-arrow-up"></i></a>
 </div>
