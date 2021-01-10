@@ -7,7 +7,7 @@
 
 @function text-color($color) {
   @if(lightness($color) > 70) {
-    @return #0d0d0d;
+    @return #545454;
   } @else {
     @return #fff;
   }
@@ -50,7 +50,7 @@ html, body {
   //background-color: $bg-light ;
 }
 
-.bg-dark {
+.bg-dark-color {
   @include background-color($bg-dark);
   //background-color: $bg-dark ;
 }

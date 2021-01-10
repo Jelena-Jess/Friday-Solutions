@@ -72,7 +72,7 @@ class PostsController extends Controller
             //Upload image
             $path = $request->file('cover_image')->storeAs('public/cover_images', $fileNameToStore);
         } else {
-            $fileNameToStore = 'noimage.jpg';
+            $fileNameToStore = 'noimg.jpg';
         }
 
         $post = new Post;

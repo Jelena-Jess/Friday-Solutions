@@ -78,3 +78,9 @@
     padding: 0.4rem 1.8rem !important;
   }
 }
+
+@media all and (max-width:600px){
+  .header-subscribe {
+    width: 10rem;
+  }
+}

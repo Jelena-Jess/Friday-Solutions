@@ -13,15 +13,17 @@
         @endif
 
         </div>
-        <div class="position-fixed container-fluid d-lg-none d-xl-none">
-          <div class="row row-content d-flex justify-content-end mt-1"> 
-            <button class="openbtn navbar-toggler p-3" onclick="openNav()" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-            <i class="fas fa-bars fa-lg"></i>
-            </button>
+        <div class="row">
+          <div class="logo-sm-screen align-self-start d-lg-none d-xl-none pt-3 pl-5">
+            <a href="{{ route('home') }}"><img src="/images/logo.png" alt="Logo"></a>
           </div>
-        </div>
-        <div class="logo-sm-screen align-self-start d-lg-none d-xl-none pt-3 pl-5">
-          <a href="{{ route('home') }}">FRIDAY SOLUTIONS</a>
+          <div class="align-self-center position-fixed container-fluid d-lg-none d-xl-none">
+            <div class="row row-content d-flex justify-content-end mt-1"> 
+              <button class="openbtn navbar-toggler p-3" onclick="openNav()" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+              <i class="fas fa-bars fa-lg"></i>
+              </button>
+            </div>
+          </div>
         </div>
          
       </div>

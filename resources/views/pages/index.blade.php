@@ -4,7 +4,7 @@
 
   <main id="main" role="main" class="m-auto">
   
-    <section id="bio" class="p-5 text-justify bg-dark">
+    <section id="bio" class="p-5 text-justify bg-dark-color">
       <div class="main bio p-5 d-flex justify-content-center">
         <div class="align-self-center">
           <div class="text-center">
@@ -15,22 +15,54 @@
       </div>
     </section>
 
-    <section id="" class="p-5 text-justify bg-light">
+    <section id="" class="pt-5 text-justify bg-light">
       <div class="main bio py-5 d-flex flex-column justify-content-center">
         <div class="align-self-center">
-          <h1 class="text-center pb-4">You have to come to the right place!</h1>
+          <h1 class="text-center pb-4">You have come to the right place!</h1>
           <p class="text-center">Imagine the free time you'll have when Friday Solutions takes care of your website, updates and blogging. All this is feasible with a simple monthly fee rather than large upfront design costs.</p>
           <p class="text-center">We build websites from scratch, and provide template websites, as well. We strive to be impeccable in all aspects, from creative design to flawless code.</p>
           <p class="text-center">Our final goal is two things: the <span class="pink-text font-weight-bold">PERFECT PRODUCT</span> and a <span class="pink-text font-weight-bold">HAPPY CUSTOMER</span>.</p> 
         </div>
       </div>
     </section>
+
+    <section class="pb-5 bg-light">
+      <div class="main pb-5">
+        <div class="d-flex flex-column justify-content-center">
+          @if(session()->has('message'))
+            <div class="alert alert-secondary" role="alert">
+              <h3 class="pink-text text-center">Thank you!</h3> 
+              <p class="p-big text-dark text-center">{{ session()->get('message') }}</p>
+            </div>
+          @endif
+        
+          <div class="subscribe mx-auto">
+            <form method="POST" action="{{ route('subscribe.store') }}">
+          
+              <div class="form-group">
+                <div class="">
+                <input name="email" type="text" class="form-control{{$errors->has('email')}}" value="{{old('email')}}" placeholder="Your email address" data-parsley-required-message="Email is required" required autofocus>
+                </div>
+                <div>{{$errors->first('email')}}</div>
+              </div>
+            
+              @csrf
+  
+              <div class="text-center pt-1">
+                <button type="submit" class="btn">Subscribe to our newsletter</button>
+              </div>
+          
+            </form>
+          </div>
+        </div>
+      </div>
+    </section> 
     
     <section id="services" class="split-screen">
       <div class="split left">
         <div class="p-5 align-self-center">
           <p class="text-center"><i class="fas fa-code fa-4x"></i></p>
-          <h2 class="text-center font-weight-bold py-4 border-bottom">Web Design & Development</h2>
+          <h2 class="text-center font-weight-bold py-4 border-bottom">B2 First</h2>
           <div class="d-flex flex-column">
             <p class="p-big text-center font-weight-bold pb-2">User experience is our main guide.</p>
             <p class="text-justify">What we offer is cutting-edge web design and branding solutions. We strive to go an extra mile in order to provide our clients with a perfect digital experience.</p>
@@ -44,7 +76,7 @@
       <div class="split center">
         <div class="p-5 align-self-center">
           <p class="text-center"><i class="fab fa-pied-piper fa-4x"></i></p>
-           <h2 class="text-center font-weight-bold py-4 border-bottom">Logo Design</h2>
+           <h2 class="text-center font-weight-bold py-4 border-bottom">C1 Advanced</h2>
           <div class="d-flex flex-column">
             <p class="p-big text-center font-weight-bold pb-2">We see logo as your personal stamp.</p>
             <p class="text-justify">By using appropriate and effective images, colors and fonts, we define your brand identity and create inspiring narratives which transmit the message and arouse emotions.</p>
@@ -58,7 +90,7 @@
       <div class="split right">
         <div class="p-5 align-self-center">
           <p class="text-center"><i class="fas fa-pencil-alt fa-4x"></i></p>
-          <h2 class="text-center font-weight-bold py-4 border-bottom">SEO & Content</h2>
+          <h2 class="text-center font-weight-bold py-4 border-bottom">C2 Proficiency</h2>
         
           <p class="p-big text-center font-weight-bold pb-2">A good story is the beginning of everything.</p>
           <p class="text-justify">Copywriting goes hand in hand with your website’s SEO, which enables Google to find your website when potential customers search for your products or services.</p>
@@ -72,7 +104,7 @@
     <section id="" class="py-5 bg-light">
       <div class="bio p-5 mx-auto">
         <div class="d-flex flex-column align-items-center justify-content-center">
-          <h1 class="text-center">ABOUT US</h1>
+          <h1 class="text-center">ABOUT ME</h1>
           <h4 class="text-center mt-4 mb-5">Making your business grow online is the driving force behind Friday Solutions. We’re enthusiastic and hard-working, and most of all, eager to help our clients do amazing things.</h4>
           <div class="text-center">
             <a href="{{ route('about') }}" class="btn">Learn more</a>
@@ -81,7 +113,7 @@
       </div>
     </section>
 
-    <section id="" class="p-5 bg-dark">
+    <section id="" class="p-5 bg-dark-color">
       <div class="main py-5">
         <div class="d-flex flex-column justify-content-center">
           <div class="">
@@ -132,7 +164,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> 
 
     <section class="bg-light py-5">
       <div class="py-5">

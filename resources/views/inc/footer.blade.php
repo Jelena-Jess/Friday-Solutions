@@ -1,4 +1,4 @@
-<footer class="footer bg-dark">
+<footer class="footer bg-dark-color">
     <div class="main">
       
       <div class="footer-bottom d-flex flex-wrap justify-content-around pt-5 pb-4 mt-5">

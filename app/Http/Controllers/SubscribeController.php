@@ -20,13 +20,13 @@ class SubscribeController extends Controller
         $subscriber->save();
         
         //Send an email
-        Mail::to('test@test.com')->send(new WelcomeNewSubscriberMail($data));
+        Mail::to('jelenafriday@gmail.com')->send(new WelcomeNewSubscriberMail($data));
 
         // dump('Registered to newsletter');
         // dump('Slack mesage here');
 
         //Display a thank you message
 
-        return redirect('posts')->with('message', 'You have successfully subscribed to our newsletter. Thank you for your interest in Friday Solutions. Enjoy reading and learning!');
+        return redirect('/')->with('message', 'You have successfully subscribed to our newsletter. Thank you for your interest in Friday Solutions. Enjoy reading and learning!');
     }
 }

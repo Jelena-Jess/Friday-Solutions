@@ -1,6 +1,6 @@
 .section {
   width: 100%;
-  height: 100vh;
+  height: 85vh;
 }
 .section-all {
   width: 100%;
@@ -58,6 +58,13 @@
     opacity: 1;
   }
 }
+
+.subtitle {
+  color: $text-color;
+  font-size: 4rem;
+}
+
+
 .title-pages {
   font-family: $font-title;
   color: $grey;
@@ -67,34 +74,31 @@
 }
 
 .header-fix {
-  width: 90vw;
-  padding: 2rem;
-  margin-top: 15%;
+  width: 80% !important;
+  padding-bottom: 2rem;
+  margin-top: 10%;
 }
 
 .logo-sm-screen {
   z-index: 3 !important;
-  a{
-    font-family: $font-logo;
-    font-size: 1.5rem;
-    color: $strong-pink;
-    &:hover {
-      color: $strong-pink;
-      text-decoration: none;
-    }
-  }
+  width: 300px;
+  height: auto;
 }
 
 
 @media screen and (max-width:1200px){
   .header-fix {
+    width: 100% !important;
     padding: 3rem;
-    margin-top: 15%;
+    margin-top: 10%;
     .main {
       margin: 0 1.5rem;
     }
+    h2 {
+      font-size: 4.5rem;
+    };
     h3 {
-      font-size: 1.5rem;
+      font-size: 3.5rem;
     }
   }
 }
@@ -108,9 +112,14 @@
     margin-bottom: -23px !important;
   }
   .header-fix {
-    margin-top: 25%;
+    margin-top: 15%;
     .main {
-      margin: 0;
+      h2 {
+        font-size: 4rem;
+      };
+      h3 {
+        font-size: 3rem;
+      }
     }
   }
 }
@@ -125,7 +134,14 @@
     border-bottom: 4px solid $grey;
   }
   .header-fix {
-    width: 90vw;
+    .main {
+      h2 {
+        font-size: 3.5rem;
+      };
+      h3 {
+        font-size: 2.5rem;
+      }
+    }
   } 
   .header-fix h1 {
     font-size: 4.5rem;
@@ -134,42 +150,67 @@
 
 @media screen and (max-width:600px){
   /***** HEADER *****/
+  .section {
+    height: 65vh;
+  }
   .section_all {
     border-bottom: 3px solid $grey;
   }
   .header-fix {
-    width: 100vw;
+    margin-top: 10%;
     padding-left: 1rem !important;
-    h1 {
-      font-size: 2rem;
-    } 
-    h3 {
-      font-size: 1.3rem;
-    } 
+    .main {
+      h2 {
+        font-size: 2.5rem;
+      };
+      h3 {
+        font-size: 2rem;
+      } 
+    }
   }
-  .logo-sm-screen {
-    padding-left: 1rem !important;
-  }
-
+  
   .title-pages {
     font-size: 3rem;
     margin-bottom: -19px !important;
   }
 }
 
+@media screen and (max-width:550px){
+  /***** HEADER *****/
+  .section {
+    height: 80vh;
+  }
+}
+
 @media all and (max-width:400px){
   /***** HEADER *****/
+  .section {
+    height: 90vh;
+  }
   .section_all {
     border-bottom: 3px solid $grey;
   }
   .header-fix {
-    margin-top: 10%;
-  } 
-  .header-fix h3 {
-    font-size: 1rem;
+    margin-top: 5%;
+
   } 
   .title-pages {
     font-size: 3rem;
     margin-bottom: -20px !important;
+  }
+}
+
+@media all and (max-width:350px){
+  /***** HEADER *****/
+  .header-fix {
+    padding-left: 1rem !important;
+    .main {
+      h2 {
+        font-size: 2rem;
+      };
+      h3 {
+        font-size: 1.5rem;
+      } 
+    }
   }
 }

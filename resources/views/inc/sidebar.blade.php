@@ -7,31 +7,33 @@
             HOME
             </a>
         </li>
+       
         <li class="dropdown show nav-item mt-2 mb-2">
             <a class="nav-link dropdown-toggle" href="" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            SERVICES
+            EXAMS
             </a>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <a class="pb-2 nav-link-small-sidebar hvr-underline-from-center" href="{{ route('website') }}">
-                WEBSITE DESIGN
-                </a> 
-                <a class="pb-2 nav-link-small-sidebar hvr-underline-from-center" href="{{ route('logo') }}">
-                  LOGO DESIGN
-                </a>
-                <a class="pb-2 nav-link-small-sidebar hvr-underline-from-center" href="{{ route('content') }}"> CONTENT MANAGEMENT
-                </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item nav-link-small-sidebar hvr-underline-from-center" href="{{ route('website') }}">B1 FIRST</a>
+              <a class="dropdown-item nav-link-small-sidebar hvr-underline-from-center" href="{{ route('logo') }}">C1 ADVANCED</a>
+              <a class="dropdown-item nav-link-small-sidebar hvr-underline-from-center" href="{{ route('content') }}">C2 PROFICIENCY</a>
             </div>
         </li>
         
-        <li class="nav-item my-3">
-            <a class="nav-link hvr-underline-from-center" href="{{ route('about') }}">
-            ABOUT
-            </a>
-            </li>
+       
         <li class="nav-item my-3">
             <a class="nav-link hvr-underline-from-center" href="{{ route('posts.index') }}">
             BLOG
             </a>
+        </li>
+        {{-- <li class="nav-item my-3">
+          <a class="nav-link hvr-underline-from-center" href="{{ route('posts.index') }}">
+          SHOP
+          </a>
+        </li> --}}
+        <li class="nav-item my-3">
+          <a class="nav-link hvr-underline-from-center" href="{{ route('about') }}">
+          ABOUT ME
+          </a>
         </li>
         <li class="nav-item mt-3">
             <a class="nav-link hvr-underline-from-center" href="{{ route('contact.create') }}">
