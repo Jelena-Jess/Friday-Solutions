@@ -26,9 +26,9 @@ Route::get('/web-design-and-development', 'PagesController@website')->name('webs
 Route::get('/logo-design', 'PagesController@logo')->name('logo');
 Route::get('/about-us', 'PagesController@about')->name('about');
 Route::get('/content-management', 'PagesController@content')->name('content');
-Route::get('/blog-Coding', 'PagesController@blog_coding')->name('blog.development');
-Route::get('/blog-Design', 'PagesController@blog_design')->name('blog.design');
-Route::get('/blog-Inspiration', 'PagesController@blog_inspiration')->name('blog.inspiration');
+Route::get('/blog-Information', 'PagesController@blog_coding')->name('blog.development');
+Route::get('/blog-Preparation', 'PagesController@blog_design')->name('blog.design');
+Route::get('/blog-Miscellaneous', 'PagesController@blog_inspiration')->name('blog.inspiration');
 
 Route::resource('posts', 'PostsController');
 

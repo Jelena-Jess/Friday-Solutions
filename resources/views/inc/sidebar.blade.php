@@ -3,9 +3,9 @@
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="far fa-window-close fa-sm"></i></a>
     <ul class="custom-scrollbar nav flex-column text-center ml-auto mr-auto">
       <li class="nav-item mt-5 mb-3">
-            <a class="mt-3 mt-sm-3 mt-md-5 nav-link hvr-underline-from-center" href="{{ route('home') }}">
-            HOME
-            </a>
+        <div class="logo-sm-screen align-self-start d-lg-none d-xl-none pt-3">
+          <a href="{{ route('home') }}"><img src="/images/logo.png" alt="Logo"></a>
+        </div>
         </li>
        
         <li class="dropdown show nav-item mt-2 mb-2">

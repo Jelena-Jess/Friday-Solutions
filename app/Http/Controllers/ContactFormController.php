@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Mail;
 class ContactFormController extends Controller
 {
     public function create() {
-        $title='Contact us';
+        $title='Contact';
         return view('contact.create')->with('title', $title);
     }
 
@@ -17,7 +17,7 @@ class ContactFormController extends Controller
         $data = request()->validate([
             'name' => 'required|min:3',
             'email' => 'required|email',
-            'phone' => 'required|numeric',
+            //'phone' => 'required|numeric',
             'message' => 'required',
         ]);
         
@@ -26,6 +26,6 @@ class ContactFormController extends Controller
 
         //Display a thank you message
 
-        return redirect('contact')->with('message', 'Your message has been successfully sent. Thank you for your interest in Friday Solutions. Someone will get back to you soon.');
+        return redirect('contact')->with('message', 'Your message has been successfully sent. I will get back to you soon.');
     }
 }

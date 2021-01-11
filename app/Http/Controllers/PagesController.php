@@ -13,37 +13,37 @@ class PagesController extends Controller
         }
     
     public function website(){
-        $title='Web design & dev';
+        $title='B2 First';
         return view('pages.website', compact('title'));
         }
 
     public function logo(){
-        $title='Logo Design';
+        $title='C1 Advanced';
         return view('pages.logo', compact('title'));
         }
 
     public function content(){
-        $title='Content management';
+        $title='C2 Proficiency';
         return view('pages.content', compact('title'));
         }
 
     public function about(){
-        $title='About us';
+        $title='About me';
         return view('pages.about', compact('title'));
         }
 
     public function blog_coding(){
-        $title='Posts on coding';
+        $title='Exams Info';
         $posts = Post::coding()->orderBy('created_at', 'desc')->paginate(12);
         return view('pages.blog_coding', compact('title', 'posts'));
         }
     public function blog_design(){
-        $title='Posts on web design';
+        $title='Exams Prep';
         $posts = Post::design()->orderBy('created_at', 'desc')->paginate(12);
         return view('pages.blog_design', compact('title', 'posts'));
         }
     public function blog_inspiration(){
-        $title='Posts to insire you';
+        $title='Ace-your-exam tips';
         $posts = Post::inspiration()->orderBy('created_at', 'desc')->paginate(12);
         return view('pages.blog_inspiration', compact('title', 'posts'));
         }

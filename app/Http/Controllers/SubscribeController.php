@@ -27,6 +27,6 @@ class SubscribeController extends Controller
 
         //Display a thank you message
 
-        return redirect('/')->with('message', 'You have successfully subscribed to our newsletter. Thank you for your interest in Friday Solutions. Enjoy reading and learning!');
+        return redirect('/')->with('message', 'You have successfully subscribed to my newsletter. Learn, revise and have fun!');
     }
 }

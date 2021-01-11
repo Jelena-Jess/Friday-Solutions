@@ -7,7 +7,7 @@
 
   <section>
     <div class="blog-link text-center bg-very-light-pink pt-4">
-      <a href="/posts" class="text-dark">Blog Home</a> &rarr; Design
+      <a href="/posts" class="text-dark">Blog Home</a> &rarr; Exams Preparation
     </div>
   </section>
 

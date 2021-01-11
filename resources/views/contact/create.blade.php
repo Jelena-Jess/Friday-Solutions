@@ -18,15 +18,15 @@
     <section class="my-4 text-justify">
       <div class="contact py-5 bg-grey d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column mx-auto">
         <div class="py-5 text-center">
-          <h3 class="pb-3">Office location</h3>
+          <h3 class="pb-3">Location</h3>
           <p>21000 Novi Sad, Serbia</p>
           <p class="pb-3">Tel: +381 (0)62 964 5599</p>
-          <p class="pb-3"><a href="" class="pink-link">fridaysolutions@gmail.com</a></p>
-          <h3>Follow us</h3>
+          <p class="pb-3"><a href="" class="pink-link">cambridgeenglish.ellen@gmail.com</a></p>
+          <h3>Follow me</h3>
           <div>
-            <a href=""><img src="https://img.icons8.com/ios-filled/50/000000/facebook-new.png" class="fa-icon"/></a> 
-            <a href=""><img src="https://img.icons8.com/ios-filled/50/000000/linkedin-circled.png" class="fa-icon"/></a>
-            <a href=""><img src="https://img.icons8.com/ios-filled/50/000000/twitter-circled.png" class="fa-icon"/></a>
+            <a href="https://www.facebook.com/cambridgeenglish.ellen"><img src="https://img.icons8.com/ios-filled/50/000000/facebook-new.png" class="fa-icon"/></a> 
+            <a href="https://www.linkedin.com/in/jelena-p-25813a10b/"><img src="https://img.icons8.com/ios-filled/50/000000/linkedin-circled.png" class="fa-icon"/></a>
+            <a href="https://www.instagram.com/cambridgeenglish.ellen/"><img src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png" class="fa-icon"/></a>
           </div>
         </div>
         <div class="py-5 mx-auto">
@@ -52,12 +52,12 @@
               <div>{{$errors->first('email')}}</div>
             </div>
         
-            <div class="form-group">
+            {{-- <div class="form-group">
               <div class="">
               <input name="phone" type="text" class="form-control{{$errors->has('phone')}}" value="{{old('phone')}}" placeholder="Phone number" data-parsley-required-message="Phone number is required" required autofocus>
               </div>
               <div>{{$errors->first('phone')}}</div>
-            </div>
+            </div> --}}
         
             <div class="form-group">
             <div class="">
@@ -67,7 +67,7 @@
             @csrf
 
             <div class="text-center pt-2">
-              <button type="submit" class="btn">Submit</button>
+              <button type="submit" class="btn">Send a message</button>
             </div>
           </form>
         </div>

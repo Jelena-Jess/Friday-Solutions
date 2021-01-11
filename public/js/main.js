@@ -127,7 +127,7 @@ function closeNav() {
 }
 
 
-//FOOTER UPPER SPLIT PAGE
+//SPLIT PAGE
 const left = document.querySelector('.left');
 const right = document.querySelector('.right');
 const center = document.querySelector('.center');

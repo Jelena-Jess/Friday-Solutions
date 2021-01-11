@@ -49,7 +49,7 @@
               @csrf
   
               <div class="text-center pt-1">
-                <button type="submit" class="btn">Subscribe to our newsletter</button>
+                <button type="submit" class="btn">Subscribe to my newsletter</button>
               </div>
           
             </form>
@@ -64,10 +64,10 @@
           <p class="text-center"><i class="fas fa-code fa-4x"></i></p>
           <h2 class="text-center font-weight-bold py-4 border-bottom">B2 First</h2>
           <div class="d-flex flex-column">
-            <p class="p-big text-center font-weight-bold pb-2">User experience is our main guide.</p>
+            <h3 class="text-center font-weight-bold pb-2">A good story is the beginning of everything.</h3>
             <p class="text-justify">What we offer is cutting-edge web design and branding solutions. We strive to go an extra mile in order to provide our clients with a perfect digital experience.</p>
             <div class="text-center pt-3">
-              <a href="{{ route('website') }}" class="btn">FIND OUT MORE</a>
+              <a href="{{ route('website') }}" class="btn">READ MORE</a>
             </div>
           </div>
         </div>
@@ -78,10 +78,10 @@
           <p class="text-center"><i class="fab fa-pied-piper fa-4x"></i></p>
            <h2 class="text-center font-weight-bold py-4 border-bottom">C1 Advanced</h2>
           <div class="d-flex flex-column">
-            <p class="p-big text-center font-weight-bold pb-2">We see logo as your personal stamp.</p>
+            <h3 class="text-center font-weight-bold pb-2">A good story is the beginning of everything.</h3>
             <p class="text-justify">By using appropriate and effective images, colors and fonts, we define your brand identity and create inspiring narratives which transmit the message and arouse emotions.</p>
             <div class="text-center pt-3">
-              <a href="{{ route('logo') }}" class="btn">FIND OUT MORE</a>
+              <a href="{{ route('logo') }}" class="btn">READ MORE</a>
             </div>
           </div>
         </div>
@@ -92,10 +92,10 @@
           <p class="text-center"><i class="fas fa-pencil-alt fa-4x"></i></p>
           <h2 class="text-center font-weight-bold py-4 border-bottom">C2 Proficiency</h2>
         
-          <p class="p-big text-center font-weight-bold pb-2">A good story is the beginning of everything.</p>
+          <h3 class="text-center font-weight-bold pb-2">A good story is the beginning of everything.</h3>
           <p class="text-justify">Copywriting goes hand in hand with your website’s SEO, which enables Google to find your website when potential customers search for your products or services.</p>
           <div class="text-center pt-3">
-            <a href="{{ route('content') }}" class="btn">FIND OUT MORE</a>
+            <a href="{{ route('content') }}" class="btn">READ MORE</a>
           </div>
         </div>
       </div>
@@ -142,9 +142,6 @@
               <p class="text-center">We’ll execute on our strategy and continue to refine and evolve to get more ROI from your website.</p>
             </div>
           </div>
-          <div class="text-center mt-5">
-            <a href="{{ route('contact.create') }}" class="btn">Contact us today</a>
-          </div>
         </div>
       </div>
     </section>
@@ -160,7 +157,7 @@
           </div>
           <h4 class="text-center mt-4 mb-5">Our team is ready to help you. Contact us now and we will answer you today.</h4>
           <div class="text-center">
-            <a href="{{ route('contactproject.create') }}" class="btn">LET'S DISCUSS A PROJECT</a>
+            <a href="{{ route('contact.create') }}" class="btn">Contact me today</a>
           </div>
         </div>
       </div>
@@ -186,14 +183,13 @@
                 </div>
                 <div class="blog-text p-3">
                   <div class="mb-auto">
-                    <p class="small-text-blog"><a href="/blog-{{$post->category->name}}" >{{$post->category->name}}</a></p>
+                    <p class="small-text-blog">Topic: <a href="/blog-{{$post->category->name}}" >{{$post->category->name}}</a></p>
                   </div>
                   <div class="mb-auto">
                     <h4 class="font-weight-bold pt-3"><a href="{{ route('posts.show', ['post' => $post]) }}">{{$post->title}}</a></h4>
                     <p class="blog-description">{{$post->description}}</a></p>
                   </div>
                   <div class="d-flex justify-content-between align-items-end">
-                    <p class="small-text-blog">Author: {{$post->user->name}} </p>
                     <p class="small-text-blog">{{$post->created_at->format('d/m/Y')}}</p>
                   </div>
                 </div>

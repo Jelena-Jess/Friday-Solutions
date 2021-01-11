@@ -7,7 +7,7 @@
 
   <section>
     <div class="blog-link text-center grey pt-4">
-      <a href="/posts" class="text-dark">Blog Home</a> &rarr; Inspiration
+      <a href="/posts" class="text-dark">Blog Home</a> &rarr; Miscellaneous
     </div>
   </section>
 
