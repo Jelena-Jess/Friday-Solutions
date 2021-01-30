@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Web design&dev')
+@section('title', 'Ellen - B2 First')
 
 @section('content')
 <main id="main" role="main" class="m-auto">
@@ -69,7 +69,7 @@
     </div>
 </section>
 
-  <section id="plans" class="py-5 bg-dark">
+  <section id="plans" class="py-5 bg-dark-color">
     <div class="monthly-plans py-5">
       <h2 class="text-center">OUR WEBSITE SERVICES</h2>
       <div class="separator">
@@ -89,7 +89,7 @@
       <div class="plan-boxes p-lg-4 p-md-2 py-5 pb-md-0 pb-sm-0 pb-0 d-flex flex-wrap flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-column justify-content-between">
         <div class="bg bg1 p-4">
           <div class="text-center">
-            <h2 class="text-dark pb-5">TEMPLATE WEBSITES</h2>
+            <h2 class="text-dark pb-5">PAPER 1 - READING & USE OF ENGLISH</h2>
             <p>
               Template websites are best for businesses with a smaller budget and willing to adhere to the limitations of a template. Our platform of choice is WordPress and there are thousands of different WordPress templates available. Our team will select 2-3 templates to present to you based on  your goals, number of pages, etc. and you will then select 1 for us to move forward with.
             </p>
@@ -101,7 +101,7 @@
         </div>
         <div class="bg bg2 p-4">
           <div class="text-center">
-            <h2 class="text-dark pb-5">CUSTOM WEBSITES</h2>
+            <h2 class="text-dark pb-5">PAPER 2 - WRITING</h2>
             <p>
               Custom websites are for medium-large sized businesses that have a sizeable budget for a new website and that want full control over the look/feel. Once a client has been on-boarded, our team meets internally to start planning a sitemap, wireframes, and design direction. We then go through each step, presenting everything from initial concepts to structural planning to the final design. Our team will walk you through each phase until the final project is launched to ensure your 100% satisfaction.
             </p>
@@ -113,7 +113,7 @@
 
         <div class="bg bg3 p-4">
           <div class="text-center">
-            <h2 class="text-dark pb-5">WEBSITE REDESIGNS & ADD-ONS</h2>
+            <h2 class="text-dark pb-5">PAPER 3 - LISTENING</h2>
             <p>
               We love building new websites, but if you come to us with an existing website, we’re willing to work with that, too. We’ll review your existing website design, your code, and your overall goals to make design change recommendations and implement those. Website redesigns vary greatly in pricing and depend on the existing framework.
             </p>
@@ -125,7 +125,7 @@
 
         <div class="bg bg4 p-4">
           <div class="text-center">
-            <h2 class="text-dark pb-5">WEBSITE MAINTENANCE</h2>
+            <h2 class="text-dark pb-5">PAPER 4 - SPEAKING</h2>
             <p>
               We manage websites for our own clients, or others who want to get on with running their business safe in the knowledge their website is up to date and always online.
             </p>

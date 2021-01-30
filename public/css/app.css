@@ -10925,7 +10925,7 @@ a.text-dark:focus {
 
 .section {
   width: 100%;
-  height: 85vh;
+  height: 95vh;
 }
 
 .section-all {
@@ -11835,6 +11835,30 @@ a.text-dark:focus {
   border-radius: 5px;
 }
 
+#mc_embed_signup input {
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+
+#mc_embed_signup .btn {
+  background-color: #f19dac;
+  color: #fff;
+  border: solid #fff 2px;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.5rem 2rem !important;
+  font-size: 1.1rem;
+  font-family: "Cairo", sans-serif;
+}
+
+#mc_embed_signup .btn:hover {
+  color: #fff;
+  border: solid #f19dac 2px;
+  border-radius: 5px;
+}
+
 .contact-form .btn {
   padding: 0.5rem 5rem !important;
 }
@@ -12265,6 +12289,10 @@ img {
     padding: 0 !important;
   }
 
+  h1 {
+    font-size: 1.5rem;
+  }
+
   #services {
     height: auto;
   }
@@ -12303,8 +12331,8 @@ img {
   display: flex;
   flex-direction: row;
   width: 40%;
-  height: 280px;
-  margin: 20px;
+  height: 300px;
+  margin: 40px;
   box-shadow: 0px 2px 16px -4px rgba(0, 0, 0, 0.47);
 }
 
@@ -12327,10 +12355,12 @@ img {
   display: flex;
   flex-direction: column;
   width: 50%;
+  background-color: #fff;
+  color: #545454;
 }
 
 .blog-text:hover {
-  background-color: #f3eff0;
+  background-color: #fff;
   color: #545454;
 }
 
@@ -12350,6 +12380,7 @@ img {
 
 .blog-text h4 > a {
   color: #f19dac;
+  font-size: 2rem;
 }
 
 .blog-text h4 > a:hover {
@@ -12510,6 +12541,10 @@ h2.related {
 @media screen and (max-width: 1350px) {
   /******* BLOG POST PAGE ********/
 
+  .blog {
+    width: 60%;
+  }
+
   .blog-post {
     width: 65%;
   }
@@ -12527,10 +12562,6 @@ h2.related {
 
 @media screen and (max-width: 1200px) {
   /******* BLOG POST PAGE ********/
-
-  .blog {
-    width: 75%;
-  }
 
   .related-posts {
     width: 90%;
@@ -12558,7 +12589,7 @@ h2.related {
   /******* BLOG POST PAGE ********/
 
   .blog {
-    width: 90%;
+    width: 70%;
   }
 
   .blog-post {
@@ -12596,7 +12627,6 @@ h2.related {
   .blog {
     display: flex;
     flex-direction: column;
-    width: 80%;
     height: 500px;
   }
 
@@ -12657,7 +12687,7 @@ h2.related {
   .blog {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 90%;
     height: 520px;
   }
 
@@ -12875,6 +12905,7 @@ h2.related {
 }
 
 .plan-box {
+  background-color: #fff;
   width: 30%;
   border: 2px solid #fff !important;
   position: relative;
@@ -12886,14 +12917,24 @@ h2.related {
   overflow: hidden;
 }
 
-.icon {
-  position: absolute;
-  z-index: 2;
-  top: -12px;
-  right: 45%;
+.plan-box h2 {
+  color: #f19dac;
+}
+
+.plan-box p {
+  color: #545454;
+}
+
+.plan-box:hover {
+  background-color: #f19dac;
+}
+
+.plan-box:hover a:hover {
+  text-decoration: none;
+}
+
+.plan-box:hover h2 {
   color: #fff;
-  background-color: #8d949b;
-  padding: 0 5px;
 }
 
 /******* BALLS  ********/
@@ -12996,15 +13037,15 @@ h2.related {
 .web-stages > div:nth-child(6) {
   grid-row: 3/span 3;
   grid-column: 4/span 1;
-  background-color: #8d949b;
-  color: #fff;
+  background-color: #fff;
+  color: #545454;
 }
 
 .web-stages > div:nth-child(7) {
   grid-row: 4/span 2;
   grid-column: 1/span 2;
-  background-color: #8d949b;
-  color: #fff;
+  background-color: #f1e5e7;
+  color: #545454;
 }
 
 /***** LOGO *****/
@@ -13174,6 +13215,8 @@ h2.related {
   .web-stages > div:nth-child(1) {
     grid-row: 1/span 2;
     grid-column: 1/span 2;
+    background-color: #f1e5e7;
+    color: #545454;
   }
 
   .web-stages > div:nth-child(2) {
@@ -13186,15 +13229,15 @@ h2.related {
   .web-stages > div:nth-child(3) {
     grid-row: 3/span 4;
     grid-column: 1/span 2;
-    background-color: #f1e5e7;
+    background-color: #fff;
     color: #545454;
   }
 
   .web-stages > div:nth-child(4) {
     grid-row: 4/span 3;
     grid-column: 3/span 2;
-    background-color: #8d949b;
-    color: #fff;
+    background-color: #f1e5e7;
+    color: #545454;
   }
 
   .web-stages > div:nth-child(5) {
@@ -13274,6 +13317,10 @@ h2.related {
 
   .bg {
     width: 80%;
+  }
+
+  .plan-box {
+    width: 100%;
   }
 
   .card {

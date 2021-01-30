@@ -8,7 +8,7 @@
   <!-- CSRF Token -->
   <meta name="csrf-token" content="{{ csrf_token() }}">
 
-  <title>@yield('title', 'Friday Solutions')</title>
+  <title>@yield('title', 'Ellen - Ace the Exam with Me')</title>
 
   <!-- Fonts -->
   <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -32,6 +32,11 @@
   <!-- Styles -->
   <link rel="stylesheet" href="https://anijs.github.io/lib/anicollection/anicollection.css">
   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+  <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+  <style type="text/css">
+    #mc_embed_signup{font:18px 'Ubuntu', sans-serif;  width:400px;}
+  </style>
 
 </head>
 
