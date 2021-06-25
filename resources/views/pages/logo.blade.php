@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Logo design')
+@section('title', 'C1 Advanced | English with Ellen')
 
 @section('content')
   <main role="main" class="m-auto">

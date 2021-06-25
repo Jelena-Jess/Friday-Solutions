@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', $post->title.' | Friday Solutions Blog')
+@section('title', $post->title.' | English with Ellen')
 
 @section('content')
 <main role="main">

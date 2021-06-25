@@ -11,16 +11,16 @@
           </div>
           <p class="text-center">There are tons of books, free online material, YouTube videos that can help you pass Cambridge Exams.</p>
           <h1 class="pt-5 text-center">SO, WHY CHOOSE ME?</h1>
-          <div class="separator">
+          {{-- <div class="separator">
             <div class="line line-left"></div>
             <div class="asterisk"><i class="fas fa-circle"></i></div>
             <div class="line line-right"></div>
-          </div>
-          <h1 class="pb-5 text-center">WELL... TRY TO IMAGINE THIS...</h1>
+          </div> --}}
+          <h3 class="py-5 text-center pink-text">WELL... TRY TO IMAGINE THIS...</h3>
           
-          <p class="text-center mt-3 mb-5">Try to imagine the piece of mind you'll have when you everything you need to study lands right in front of you. No need to dig through a ton of websites. No need to dig for materials you are not sure if they will be enough for you to get ready for the exam. All this is feasible with my simple program.</p>
+          <p class="text-center mt-3 mb-5">Try to imagine the peace of mind you'll finally have when everything you need lays right in front of you. No need to dig through a ton of websites. No need to look for materials you are not sure if they will be enough for you to get ready for the exam. All this is feasible with my ultimate one-month Bootcamp course.</p>
           <p class="text-center"></p>
-          <p class="text-center">My final goal is two things: the <span class="pink-text font-weight-bold">HAPPY LEARNER</span> and an <span class="pink-text font-weight-bold">PASSED EXAM</span>.</p> 
+          <p class="text-center">My final goal is two things: <span class="pink-text font-weight-bold">YOUR HAPPINESS</span> and the <span class="pink-text font-weight-bold">CERTIFICATE</span> in your hands.</p> 
         </div>
       </div>
     </section>
@@ -35,27 +35,27 @@
               <div class="asterisk"><i class="fas fa-circle"></i></div>
               <div class="line line-right"></div>
             </div>
-            <p class="p-big text-center mt-3 mb-5">Read about the exam format, etc.</p>
+            <p class="p-big text-center mt-3 mb-5"></p>
           </div>
           <div class="d-flex flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-column justify-content-around">
             
             <div class="reveal plan-box align-self-center border m-3 p-3">
               <a href="{{ route('website') }}">
               <h2 class="text-center mt-4 mb-3">B2 First</h2>
-              <p class="text-center">We’re here to help you expand your business. Talk to us to see how we can help.</p>
+              <p class="text-center">The most popular Cambridge English exam.</p>
               </a>
             </div>
             
             <div class="reveal plan-box align-self-center border m-3 p-3">
               <a href="{{ route('website') }}">
               <h2 class="text-center mt-4 mb-3">C1 Advanced</h2>
-              <p class="text-center">We’ll define your goals together and create a plan to help you get the most of your website.</p>
+              <p class="text-center">The high-level qualification that shows you have the language skills that employers and universities are looking for.</p>
               </a>
             </div>
             <div class="reveal plan-box align-self-center border m-3 p-3">
               <a href="{{ route('website') }}">
               <h2 class="text-center mt-4 mb-3">C2 Proficiency</h2>
-              <p class="text-center">We’ll execute on our strategy and continue to refine and evolve to get more ROI from your website.</p>
+              <p class="text-center">The highest-level qualification – proof that you are a highly competent speaker of English.</p>
               </a>
             </div>
           </div>
@@ -66,13 +66,18 @@
     <section class="py-5 bg-light">
       <div class="main py-5">
         <div class="">
-          <h1 class="text-center">LEARN FOR FREE</h1>
+          <h1 class="text-center">NEWSLETTER</h1>
           <div class="separator">
             <div class="line line-left"></div>
             <div class="asterisk"><i class="fas fa-circle"></i></div>
             <div class="line line-right"></div>
           </div>
-          <p class="p-big text-center mt-3 mb-5">Every Tuesday morning, you'll get a fresh newsletter with explanations, exercises.</p>
+          <p class="p-big text-center mt-3 mb-5">You can expect to receive free
+            lessons on grammar, 
+            vocabulary boost activities, 
+            useful material for perfecting your language skills (i.e. reading, writing, listening, speaking), 
+            effective strategies on how to ace your Cambridge English exam, and 
+            special offers (webinars, workshops, lessons).</p>
         </div>
         <div class="d-flex flex justify-content-center">
 
@@ -193,7 +198,7 @@
             <div class="asterisk"><i class="fas fa-circle"></i></div>
             <div class="line line-right"></div>
           </div>
-          <h4 class="text-center mt-4 mb-5">Our team is ready to help you. Contact us now and we will answer you today.</h4>
+          <h4 class="text-center mt-4 mb-5">Ready to learn? Contact me today. Can't wait to hear from you!</h4>
           <div class="text-center">
             <a href="{{ route('contact.create') }}" class="btn">Contact me today</a>
           </div>

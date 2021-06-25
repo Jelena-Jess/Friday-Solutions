@@ -19,9 +19,12 @@
         <li class="px-xl-2 px-lg-0 nav-item bd-highlight nav">
           <a class="nav-link hvr-underline-from-center" href="{{ route('posts.index') }}">BLOG</a>
         </li>
-        {{-- <li class="px-xl-2 px-lg-0 nav-item bd-highlight nav">
-          <a class="nav-link hvr-underline-from-center" href="{{ route('about') }}">SHOP</a>
-        </li> --}}
+        <li class="px-xl-2 px-lg-0 nav-item bd-highlight nav">
+          <a class="nav-link hvr-underline-from-center" href="{{ route('posts.index') }}">BOOTCAMP</a>
+        </li>
+        <li class="px-xl-2 px-lg-0 nav-item bd-highlight nav">
+          <a class="nav-link hvr-underline-from-center" href="{{ route('posts.index') }}">EBOOKS</a>
+        </li>
         <li class="px-xl-2 px-lg-0 nav-item bd-highlight nav">
           <a class="nav-link hvr-underline-from-center" href="{{ route('about') }}">ABOUT ME</a>
         </li>

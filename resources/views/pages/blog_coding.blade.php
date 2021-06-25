@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Blog-Coding')
+@section('title', 'Exams Information | English with Ellen')
 
 @section('content')
 <main role="main" class="m-auto">

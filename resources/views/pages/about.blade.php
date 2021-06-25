@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'About us')
+@section('title', 'About | English with Ellen')
 
 
 @section('content')
@@ -10,14 +10,16 @@
     <div class="main">
       <div class="d-flex flex-column justify-content-center">
         <div class="py-5 w-75 mx-auto">
-          <h3 class="text-center">We're a small web developing studio studio based in Novi Sad, Serbia. You'll always deal with an owner of the company.</h3>
+          <h3 class="text-center">
+            </h3>
+          <a href="{{ route('home') }}"><img src="/images/about.jpg" alt="Logo"></a>
         </div>
           {{-- <img src="/images/about.png" alt="" class="animate-right mx-auto"> --}}
       </div>
     </div>
   </section>
 
-  <section class="py-5 bg-dark">
+  <section class="py-5 bg-dark-color">
     <div class="main">
       <div class="d-flex flex-column align-items-start justify-content-center px-5 m-auto">
         <div class="d-flex flex-row py-5 border-bottom">
@@ -28,8 +30,10 @@
             </svg>
           </div>
           <div class="ml-4">
-            <h2 class="pink-text">WHO WE ARE</h2>
-            <p class="text-light">Owner-run means every call and email is answered by us. Superior productivity and quality are maintained by doing all work in-house.</p>
+            <h2 class="pink-text">WHO I AM</h2>
+            <p class="text-light">I'm Jelena Petkov. I help people ace Cambridge English exams. For more than a decade
+              I've been an exams trainer, helping more than 150 people pass their Cambridge English.
+              exams.</p>
           </div>
         </div>
         <div class="d-flex flex-row py-5 border-bottom">
@@ -39,8 +43,8 @@
             </svg>
             </div>
           <div class="ml-4">
-            <h2 class="pink-text">WHY WE'RE DIFFERENT</h2>
-            <p class="text-light">We will talk to you in a way so that you understand - no jargon and buzz words thrown around. We use easy to understand language to get our point across.</p>
+            <h2 class="pink-text">WHY I AM DIFFERENT</h2>
+            <p class="text-light"></p>
           </div>
         </div>
         <div class="d-flex flex-row py-5 border-bottom">
@@ -50,8 +54,9 @@
             </svg>
             </div>
           <div class="ml-4">
-            <h2 class="pink-text">HOW YOU'LL BENEFIT</h2>
-            <p class="text-light">Our full-service solutions require minimum time commitments from you, which makes working with us easier and less stressful.</p>
+            <h2 class="pink-text">HOW YOU WILL BENEFIT</h2>
+            <p class="text-light">Many people who have got their  Cambridge English certificate with me have entered their desired universities, some needed the certificate to move
+              abroad, others have built successful international careers.</p>
           </div>
         </div>
         <div class="d-flex flex-row py-5">
@@ -61,8 +66,8 @@
             </svg>
           </div>
           <div class="ml-4">
-            <h2 class="pink-text">WHAT YOU’LL GET</h2>
-            <p>The truth. We don’t make promises we can’t keep and won’t tell you just anything to make the sale but instead, offer the best solution to your problem.</p>
+            <h2 class="pink-text">HOW I CAN HELP YOU</h2>
+            <p class="text-light">Have the world at your feet.</p>
           </div>
         </div>
       </div>
@@ -72,7 +77,7 @@
   
   <section class="py-5 bg-grey">
     <div class="main py-5">
-      <h1 class="text-center">OUR CORE VALUES</h1>
+      <h1 class="text-center">MY CORE VALUES</h1>
       <div class="separator">
         <div class="line line-left"></div>
         <div class="asterisk"><i class="fas fa-circle"></i></div>
@@ -105,7 +110,7 @@
               <div class="slide slide_3">
                 <div class="slide-content">
                   <div>
-                    <h3 class="py-2">RELIABILITY IS OUR TOP PRIORITY</h3>
+                    <h3 class="py-2">RELIABILITY IS MY TOP PRIORITY</h3>
                     <h5>We provide reliable software products and services at competitive prices and deliver them on time.</h5>
                   </div>
                 </div>
@@ -113,7 +118,7 @@
               <div class="slide slide_4">
                 <div class="slide-content">
                   <h3 class="py-2">YOUR SUCCESS</h3>
-                  <h5>We believe our success is tied to your success.</h5>
+                  <h5>My success is tied to Your success.</h5>
                 </div>
               </div>
             </div>
@@ -138,15 +143,15 @@
   <section id="bio" class="p-5 text-justify bg-light">
     <div class="main py-5">
       <div class="d-flex flex-column justify-content-center">
-        <h1 class="text-dark text-center">START YOUR PROJECT WITH US</h1>
+        <h1 class="text-dark text-center">START LEARNING WITH ME</h1>
         <div class="separator">
           <div class="line line-left"></div>
           <div class="asterisk"><i class="fas fa-circle"></i></div>
           <div class="line line-right"></div>
         </div>
-        <p class="p-big text-dark text-center mt-4 mb-5">Our team is ready to help you. Contact us now and we will answer you today.</p>
+        <p class="p-big text-dark text-center mt-4 mb-5">Ready to learn? Contact me today. Can't wait to hear from you!</p>
         <div class="text-center">
-          <a href="{{ route('contact.create') }}" class="btn">CONTACT US</a>
+          <a href="{{ route('contact.create') }}" class="btn">CONTACT ME</a>
         </div>
       </div>
     </div>

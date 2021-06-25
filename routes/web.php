@@ -22,10 +22,10 @@ Auth::routes();
 Route::get('/admin', 'HomeController@index')->name('admin');
 
 Route::get('/', 'PagesController@index')->name('home');
-Route::get('/web-design-and-development', 'PagesController@website')->name('website');
-Route::get('/logo-design', 'PagesController@logo')->name('logo');
-Route::get('/about-us', 'PagesController@about')->name('about');
-Route::get('/content-management', 'PagesController@content')->name('content');
+Route::get('/B2-First', 'PagesController@website')->name('website');
+Route::get('/C1-Advanced', 'PagesController@logo')->name('logo');
+Route::get('/about', 'PagesController@about')->name('about');
+Route::get('/C2-Proficiency', 'PagesController@content')->name('content');
 Route::get('/blog-Information', 'PagesController@blog_coding')->name('blog.development');
 Route::get('/blog-Preparation', 'PagesController@blog_design')->name('blog.design');
 Route::get('/blog-Miscellaneous', 'PagesController@blog_inspiration')->name('blog.inspiration');

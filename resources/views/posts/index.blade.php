@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Blog Home | Friday Solutions Blog')
+@section('title', 'Blog Home | English with Ellen')
 
 @section('content')
 <main role="main" class="m-auto">
@@ -9,14 +9,14 @@
     <div class="main p-5">
       <div class="d-flex flex-column justify-content-center">
         <div class="w-75 mx-auto">
-          <p  class="text-center p-big">We have a collection of articles on coding, web design, and some which are here only to inspire you. Choose from any category or see all the latest articles.</p>
+          <p  class="text-center p-big"></p>
         </div>
           {{-- <img src="/images/blog.png" alt="" class="animate-right mx-auto"> --}}
       </div> 
     </div>
   </section>
 
-  <section class="p-5 bg-dark">
+  <section class="p-5 bg-dark-color">
     <div class="main p-5">
       <div class="d-flex flex-column justify-content-center">
         @if(session()->has('message'))
@@ -39,7 +39,7 @@
             @csrf
 
             <div class="text-center pt-1">
-              <button type="submit" class="btn">Subscribe to our newsletter</button>
+              <button type="submit" class="btn">Subscribe to newsletter</button>
             </div>
         
           </form>
@@ -55,7 +55,7 @@
 
         <div class="project">
           <div class="front bg-light-pink d-flex justify-content-center">
-            <h2 class="pink-text py-4 align-self-center">Grammar</h2>
+            <h2 class="pink-text py-4 align-self-center">Reading <br>&<br> Use of English Skills</h2>
           </div>
 
           <div class="back bg-light-pink d-flex flex-column justify-content-center">
@@ -68,7 +68,7 @@
 
         <div class="project">
           <div class="front bg-very-light-pink d-flex justify-content-center">
-            <h2 class="pink-text py-4 align-self-center">Vocabulary</h2>
+            <h2 class="pink-text py-4 align-self-center">Writing Skills</h2>
           </div>
 
           <div class="back bg-very-light-pink d-flex flex-column justify-content-center">
@@ -81,7 +81,7 @@
 
         <div class="project">
           <div class="front grey d-flex justify-content-center">
-            <h2 class="pink-text py-4 align-self-center">CLIL</h2>
+            <h2 class="pink-text py-4 align-self-center">Listening Skills</h2>
           </div>
 
           <div class="back grey d-flex flex-column justify-content-center">
@@ -98,7 +98,7 @@
 
         <div class="project">
           <div class="front bg-very-light-pink d-flex justify-content-center">
-            <h2 class="pink-text py-4 align-self-center">TPR</h2>
+            <h2 class="pink-text py-4 align-self-center">Speaking Skills</h2>
           </div>
 
           <div class="back bg-very-light-pink d-flex flex-column justify-content-center">
@@ -111,7 +111,7 @@
 
         <div class="project">
           <div class="front grey d-flex justify-content-center">
-            <h2 class="pink-text py-4 align-self-center">Board Games</h2>
+            <h2 class="pink-text py-4 align-self-center">Effective Studying</h2>
           </div>
 
           <div class="back grey d-flex flex-column justify-content-center">
@@ -124,7 +124,7 @@
 
         <div class="project">
           <div class="front bg-light-pink d-flex justify-content-center">
-            <h2 class="pink-text py-4 align-self-center">Projects</h2>
+            <h2 class="pink-text py-4 align-self-center">About the Exams</h2>
           </div>
 
           <div class="back bg-light-pink d-flex flex-column justify-content-center">
